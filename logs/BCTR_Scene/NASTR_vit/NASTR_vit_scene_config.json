@@ -1,0 +1,112 @@
+{
+    "name": "Scene_zh",
+    "run_id": "NASTR_vit",
+    "finetune": false,
+    "distributed": false,
+    "local_world_size": 1,
+    "local_rank": 0,
+    "global_rank": -1,
+    "deterministic": true,
+    "seed": 221294511,
+    "max_seq_len": 120,
+    "model_arch": {
+        "type": "NASTR",
+        "args": {
+            "common_kwargs": {
+                "alphabet": "/path/to/util_files/ch_keys.txt",
+                "in_channels": 3,
+                "img_h": 32,
+                "img_w": 256
+            },
+            "encoder_kwargs": {
+                "type": "vit"
+            },
+            "decoder_kwargs": {
+                "n_head": 8,
+                "dimensions": -1,
+                "dropout": 0.1,
+                "stacks": 4,
+                "ITC": true,
+                "temperature": 0.07,
+                "text_encoder_kwargs": {
+                    "n_head": 8,
+                    "dimensions": -1,
+                    "dropout": 0.1,
+                    "stacks": 2
+                }
+            }
+        }
+    },
+    "train_dataset": {
+        "type": "hierarchy_dataset",
+        "args": {
+            "root": "/path/to/BCTR_dataset/scene/",
+            "select_data": "scene_train",
+            "img_h": 32,
+            "img_w": 256,
+            "max_length": 120
+        }
+    },
+    "train_loader": {
+        "type": "DataLoader",
+        "args": {
+            "shuffle": true,
+            "drop_last": true,
+            "num_workers": 16,
+            "pin_memory": true
+        }
+    },
+    "val_dataset": {
+        "type": "hierarchy_dataset",
+        "args": {
+            "root": "/path/to/BCTR_dataset/scene/",
+            "select_data": "scene_val",
+            "img_h": 32,
+            "img_w": 256
+        }
+    },
+    "val_loader": {
+        "type": "DataLoader",
+        "args": {
+            "shuffle": false,
+            "drop_last": false,
+            "num_workers": 16,
+            "pin_memory": true
+        }
+    },
+    "optimizer": {
+        "type": "AdamW",
+        "args": {
+            "lr": 0.0004,
+            "weight_decay": 0.05
+        }
+    },
+    "lr_scheduler": {
+        "type": "OneCycleLR",
+        "args": {
+            "pct_start": 0.025
+        }
+    },
+    "trainer": {
+        "epochs": 100,
+        "max_len_step": null,
+        "do_validation": true,
+        "validation_start_epoch": 51,
+        "val_epoch_interval": 10,
+        "log_step_interval": 1000,
+        "val_step_interval": 100000,
+        "train_batch_size": 64,
+        "val_batch_size": 64,
+        "train_num_workers": 16,
+        "val_num_workers": 16,
+        "save_dir": "/path/to/save_dir",
+        "save_period": 1,
+        "log_verbosity": 2,
+        "monitor": "max word_acc",
+        "monitor_open": true,
+        "early_stop": -1,
+        "anomaly_detection": false,
+        "tensorboard": false,
+        "sync_batch_norm": true
+    }
+}

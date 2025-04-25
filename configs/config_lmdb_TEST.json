@@ -1,0 +1,67 @@
+{
+  "name": "TEST",
+  "run_id": "run_id",
+  "stage": "test",
+
+  "model_arch": {
+    "type": "NASTR",
+    "args": {
+      "common_kwargs": {
+        "alphabet": "path/to/alphabet.txt",
+        "in_channels": 3,
+        "img_h": 32,
+        "img_w": 256
+      },
+      "encoder_kwargs": {
+        "type": "vit"
+      },
+      "decoder_kwargs": {
+        "n_head": 8,
+        "dimensions": 512,
+        "dropout": 0.1,
+        "stacks": 4,
+        "ITC": true,
+        "text_encoder_kwargs": {
+          "n_head": 8,
+          "dimensions": -1,
+          "dropout": 0.1,
+          "stacks": 2
+        }
+      }
+    }
+  },
+
+  "test_dataset": {
+    "type": "hierarchy_dataset",
+    "args": {
+      "root": "path/to/val_dataset/",
+      "select_data": "scene_test",
+      "img_h": 32,
+      "img_w": 256
+    }
+  },
+  "test_loader": {
+    "type": "DataLoader",
+    "args": {
+      "shuffle": false,
+      "drop_last": false,
+      "num_workers": 16,
+      "pin_memory": true
+    }
+  },
+
+  "tester": {
+    "checkpoint_path": "path/to/model_best.pth",
+    "test_batch_size": 1,
+    "test_num_workers": 16,
+
+    "save_dir": "path/to/save_dir/",
+    "log_verbosity": 2,
+
+    "monitor": "max word_acc",
+    "monitor_open": true,
+    "early_stop": -1,
+
+    "tensorboard": false
+  }
+}

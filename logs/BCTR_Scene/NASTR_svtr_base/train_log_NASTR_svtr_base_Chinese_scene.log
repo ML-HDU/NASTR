@@ -1,0 +1,605 @@
+[2025-02-06 22:04:42,808 - train - INFO] - One GPU or CPU training mode start...
+[2025-02-06 22:04:42,808 - train - WARNING] - You have chosen to deterministic training. This will fix random seed, turn on the CUDNN deterministic setting, turn off the CUDNN benchmark which can slow down your training considerably! 
+[2025-02-06 22:04:43,114 - train - INFO] - Dataloader instances have finished. Train datasets: 509164 Val datasets: 63645 Train_batch_size/gpu: 128 Val_batch_size/gpu: 128.
+[2025-02-06 22:04:43,423 - train - INFO] - Model created, trainable parameters: 45.14393 MB.
+[2025-02-06 22:04:43,424 - train - INFO] - Optimizer and lr_scheduler created.
+[2025-02-06 22:04:43,424 - train - INFO] - Max_epochs: 100 Log_step_interval: 1000 Validation_step_interval: 100000.
+[2025-02-06 22:04:43,424 - train - INFO] - Training start...
+[2025-02-06 22:04:43,601 - trainer - WARNING] - Training is using GPU 0!
+[2025-02-06 22:07:04,452 - trainer - INFO] - [Epoch Start] Epoch:[1/100] LR: 0.00003200
+Validation result at 1 epoch: Word_acc: 0.000000 Word_acc_case_ins: 0.000000 Edit_distance_acc: -22.846304
+[2025-02-06 22:07:04,987 - trainer - INFO] - Train Epoch:[1/100] Step:[1/3977] Loss: 22.217594 Loss_avg: 22.217594 LR: 0.00003200 Loss Fine: 9.098177 Loss Coarse: 7.713863 Loss Length: 4.814495 Loss ITC: 4.924105
+[2025-02-06 22:10:41,427 - trainer - INFO] - Train Epoch:[1/100] Step:[1000/3977] Loss: 15.462013 Loss_avg: 16.557769 LR: 0.00005101 Loss Fine: 5.699385 Loss Coarse: 5.452021 Loss Length: 1.981501 Loss ITC: 4.112457
+[2025-02-06 22:14:18,276 - trainer - INFO] - Train Epoch:[1/100] Step:[2000/3977] Loss: 13.344441 Loss_avg: 15.448362 LR: 0.00010617 Loss Fine: 4.858052 Loss Coarse: 4.983627 Loss Length: 1.376116 Loss ITC: 3.365151
+[2025-02-06 22:17:55,197 - trainer - INFO] - Train Epoch:[1/100] Step:[3000/3977] Loss: 12.709296 Loss_avg: 14.653652 LR: 0.00019202 Loss Fine: 4.844013 Loss Coarse: 4.937538 Loss Length: 1.268190 Loss ITC: 2.800925
+[2025-02-06 22:21:27,262 - trainer - INFO] - [Epoch End] Epoch:[1/100] Loss: 13.946227 LR: 0.00029738
+[2025-02-06 22:21:27,919 - trainer - INFO] - Train Epoch:[2/100] Step:[1/3977] Loss: 10.966160 Loss_avg: 10.966160 LR: 0.00029750 Loss Fine: 4.096457 Loss Coarse: 4.575958 Loss Length: 0.978211 Loss ITC: 2.195924
+[2025-02-06 22:25:04,708 - trainer - INFO] - Train Epoch:[2/100] Step:[1000/3977] Loss: 9.952426 Loss_avg: 10.207552 LR: 0.00041676 Loss Fine: 3.543912 Loss Coarse: 4.555591 Loss Length: 1.090812 Loss ITC: 1.743842
+[2025-02-06 22:28:41,966 - trainer - INFO] - Train Epoch:[2/100] Step:[2000/3977] Loss: 8.469825 Loss_avg: 9.593260 LR: 0.00053606 Loss Fine: 2.853940 Loss Coarse: 4.164738 Loss Length: 0.914608 Loss ITC: 1.359686
+[2025-02-06 22:32:19,002 - trainer - INFO] - Train Epoch:[2/100] Step:[3000/3977] Loss: 7.979096 Loss_avg: 9.092146 LR: 0.00064347 Loss Fine: 2.779673 Loss Coarse: 3.885683 Loss Length: 0.862571 Loss ITC: 1.227484
+[2025-02-06 22:35:50,818 - trainer - INFO] - [Epoch End] Epoch:[2/100] Loss: 8.715580 LR: 0.00072672
+[2025-02-06 22:35:51,510 - trainer - INFO] - Train Epoch:[3/100] Step:[1/3977] Loss: 6.843973 Loss_avg: 6.843973 LR: 0.00072679 Loss Fine: 2.311960 Loss Coarse: 3.610107 Loss Length: 0.627814 Loss ITC: 0.859125
+[2025-02-06 22:39:28,836 - trainer - INFO] - Train Epoch:[3/100] Step:[1000/3977] Loss: 7.597274 Loss_avg: 7.134554 LR: 0.00078145 Loss Fine: 2.801919 Loss Coarse: 3.726839 Loss Length: 0.842613 Loss ITC: 0.984254
+[2025-02-06 22:43:05,819 - trainer - INFO] - Train Epoch:[3/100] Step:[2000/3977] Loss: 7.916254 Loss_avg: 7.144222 LR: 0.00080000 Loss Fine: 2.760996 Loss Coarse: 3.908841 Loss Length: 0.735027 Loss ITC: 1.172914
+[2025-02-06 22:46:42,791 - trainer - INFO] - Train Epoch:[3/100] Step:[3000/3977] Loss: 7.336264 Loss_avg: 7.041348 LR: 0.00079999 Loss Fine: 2.591121 Loss Coarse: 3.715771 Loss Length: 0.770851 Loss ITC: 0.952287
+[2025-02-06 22:50:14,822 - trainer - INFO] - [Epoch End] Epoch:[3/100] Loss: 6.771079 LR: 0.00079995
+[2025-02-06 22:50:15,473 - trainer - INFO] - Train Epoch:[4/100] Step:[1/3977] Loss: 5.573108 Loss_avg: 5.573108 LR: 0.00079995 Loss Fine: 1.737784 Loss Coarse: 2.980125 Loss Length: 0.638574 Loss ITC: 0.791341
+[2025-02-06 22:53:52,161 - trainer - INFO] - Train Epoch:[4/100] Step:[1000/3977] Loss: 5.445056 Loss_avg: 5.568933 LR: 0.00079988 Loss Fine: 2.013842 Loss Coarse: 2.907179 Loss Length: 0.624696 Loss ITC: 0.461565
+[2025-02-06 22:57:29,262 - trainer - INFO] - Train Epoch:[4/100] Step:[2000/3977] Loss: 5.277567 Loss_avg: 5.528165 LR: 0.00079979 Loss Fine: 1.863917 Loss Coarse: 2.897233 Loss Length: 0.507442 Loss ITC: 0.465672
+[2025-02-06 23:01:06,404 - trainer - INFO] - Train Epoch:[4/100] Step:[3000/3977] Loss: 6.511185 Loss_avg: 5.432682 LR: 0.00079967 Loss Fine: 2.335731 Loss Coarse: 3.460181 Loss Length: 0.708237 Loss ITC: 0.644449
+[2025-02-06 23:04:38,549 - trainer - INFO] - [Epoch End] Epoch:[4/100] Loss: 5.389343 LR: 0.00079953
+[2025-02-06 23:04:39,185 - trainer - INFO] - Train Epoch:[5/100] Step:[1/3977] Loss: 5.158201 Loss_avg: 5.158201 LR: 0.00079953 Loss Fine: 1.872073 Loss Coarse: 2.697213 Loss Length: 0.588240 Loss ITC: 0.530091
+[2025-02-06 23:08:15,989 - trainer - INFO] - Train Epoch:[5/100] Step:[1000/3977] Loss: 4.693781 Loss_avg: 4.688960 LR: 0.00079936 Loss Fine: 1.500095 Loss Coarse: 2.752313 Loss Length: 0.474181 Loss ITC: 0.393955
+[2025-02-06 23:11:53,186 - trainer - INFO] - Train Epoch:[5/100] Step:[2000/3977] Loss: 4.192360 Loss_avg: 4.670833 LR: 0.00079917 Loss Fine: 1.329794 Loss Coarse: 2.512802 Loss Length: 0.489896 Loss ITC: 0.300774
+[2025-02-06 23:15:30,274 - trainer - INFO] - Train Epoch:[5/100] Step:[3000/3977] Loss: 3.850974 Loss_avg: 4.647102 LR: 0.00079894 Loss Fine: 1.296816 Loss Coarse: 2.277287 Loss Length: 0.404176 Loss ITC: 0.236453
+[2025-02-06 23:19:02,591 - trainer - INFO] - [Epoch End] Epoch:[5/100] Loss: 4.599338 LR: 0.00079870
+[2025-02-06 23:19:03,232 - trainer - INFO] - Train Epoch:[6/100] Step:[1/3977] Loss: 4.838398 Loss_avg: 4.838398 LR: 0.00079870 Loss Fine: 1.751547 Loss Coarse: 2.559796 Loss Length: 0.439848 Loss ITC: 0.483070
+[2025-02-06 23:22:40,237 - trainer - INFO] - Train Epoch:[6/100] Step:[1000/3977] Loss: 5.065585 Loss_avg: 4.102718 LR: 0.00079843 Loss Fine: 1.847838 Loss Coarse: 2.722195 Loss Length: 0.611177 Loss ITC: 0.434434
+[2025-02-06 23:26:17,282 - trainer - INFO] - Train Epoch:[6/100] Step:[2000/3977] Loss: 4.179136 Loss_avg: 4.094095 LR: 0.00079813 Loss Fine: 1.283872 Loss Coarse: 2.506177 Loss Length: 0.400010 Loss ITC: 0.349086
+[2025-02-06 23:29:53,774 - trainer - INFO] - Train Epoch:[6/100] Step:[3000/3977] Loss: 4.022913 Loss_avg: 4.120474 LR: 0.00079780 Loss Fine: 1.387946 Loss Coarse: 2.236634 Loss Length: 0.512798 Loss ITC: 0.347052
+[2025-02-06 23:33:25,761 - trainer - INFO] - [Epoch End] Epoch:[6/100] Loss: 4.089376 LR: 0.00079746
+[2025-02-06 23:33:26,417 - trainer - INFO] - Train Epoch:[7/100] Step:[1/3977] Loss: 3.622482 Loss_avg: 3.622482 LR: 0.00079746 Loss Fine: 1.186136 Loss Coarse: 2.133518 Loss Length: 0.363328 Loss ITC: 0.266495
+[2025-02-06 23:37:03,420 - trainer - INFO] - Train Epoch:[7/100] Step:[1000/3977] Loss: 3.599170 Loss_avg: 3.711422 LR: 0.00079708 Loss Fine: 1.355626 Loss Coarse: 2.018511 Loss Length: 0.367866 Loss ITC: 0.188246
+[2025-02-06 23:40:40,307 - trainer - INFO] - Train Epoch:[7/100] Step:[2000/3977] Loss: 3.388853 Loss_avg: 3.717166 LR: 0.00079668 Loss Fine: 0.987095 Loss Coarse: 2.081976 Loss Length: 0.322237 Loss ITC: 0.287557
+[2025-02-06 23:44:16,915 - trainer - INFO] - Train Epoch:[7/100] Step:[3000/3977] Loss: 4.035222 Loss_avg: 3.701268 LR: 0.00079625 Loss Fine: 1.296598 Loss Coarse: 2.292386 Loss Length: 0.541550 Loss ITC: 0.392083
+[2025-02-06 23:47:48,672 - trainer - INFO] - [Epoch End] Epoch:[7/100] Loss: 3.687931 LR: 0.00079580
+[2025-02-06 23:47:49,309 - trainer - INFO] - Train Epoch:[8/100] Step:[1/3977] Loss: 3.438613 Loss_avg: 3.438613 LR: 0.00079580 Loss Fine: 0.968254 Loss Coarse: 2.180017 Loss Length: 0.348565 Loss ITC: 0.255485
+[2025-02-06 23:51:26,128 - trainer - INFO] - Train Epoch:[8/100] Step:[1000/3977] Loss: 3.168437 Loss_avg: 3.437591 LR: 0.00079532 Loss Fine: 1.029880 Loss Coarse: 1.922951 Loss Length: 0.469280 Loss ITC: 0.168679
+[2025-02-06 23:55:02,778 - trainer - INFO] - Train Epoch:[8/100] Step:[2000/3977] Loss: 3.371715 Loss_avg: 3.433176 LR: 0.00079481 Loss Fine: 1.096699 Loss Coarse: 1.986815 Loss Length: 0.530587 Loss ITC: 0.235143
+[2025-02-06 23:58:39,390 - trainer - INFO] - Train Epoch:[8/100] Step:[3000/3977] Loss: 3.867779 Loss_avg: 3.418457 LR: 0.00079428 Loss Fine: 1.541094 Loss Coarse: 2.032634 Loss Length: 0.500476 Loss ITC: 0.244005
+[2025-02-07 00:02:11,328 - trainer - INFO] - [Epoch End] Epoch:[8/100] Loss: 3.413175 LR: 0.00079373
+[2025-02-07 00:02:11,968 - trainer - INFO] - Train Epoch:[9/100] Step:[1/3977] Loss: 4.003124 Loss_avg: 4.003124 LR: 0.00079373 Loss Fine: 1.560771 Loss Coarse: 2.026824 Loss Length: 0.637435 Loss ITC: 0.351786
+[2025-02-07 00:05:48,517 - trainer - INFO] - Train Epoch:[9/100] Step:[1000/3977] Loss: 3.100438 Loss_avg: 3.149190 LR: 0.00079315 Loss Fine: 1.063690 Loss Coarse: 1.878727 Loss Length: 0.314339 Loss ITC: 0.126588
+[2025-02-07 00:09:25,331 - trainer - INFO] - Train Epoch:[9/100] Step:[2000/3977] Loss: 3.048414 Loss_avg: 3.168725 LR: 0.00079254 Loss Fine: 1.070610 Loss Coarse: 1.804854 Loss Length: 0.301677 Loss ITC: 0.142783
+[2025-02-07 00:13:02,445 - trainer - INFO] - Train Epoch:[9/100] Step:[3000/3977] Loss: 3.641048 Loss_avg: 3.188817 LR: 0.00079190 Loss Fine: 1.008460 Loss Coarse: 2.282275 Loss Length: 0.500062 Loss ITC: 0.300306
+[2025-02-07 00:16:34,489 - trainer - INFO] - [Epoch End] Epoch:[9/100] Loss: 3.191623 LR: 0.00079126
+[2025-02-07 00:17:16,731 - trainer - INFO] - [Epoch Start] Epoch:[10/100] LR: 0.00079126
+Validation result at 10 epoch: Word_acc: 0.589756 Word_acc_case_ins: 0.589756 Edit_distance_acc: 0.693127
+[2025-02-07 00:17:17,423 - trainer - INFO] - Train Epoch:[10/100] Step:[1/3977] Loss: 3.315882 Loss_avg: 3.315882 LR: 0.00079126 Loss Fine: 1.361014 Loss Coarse: 1.681101 Loss Length: 0.557622 Loss ITC: 0.218005
+[2025-02-07 00:20:54,050 - trainer - INFO] - Train Epoch:[10/100] Step:[1000/3977] Loss: 2.628398 Loss_avg: 2.941660 LR: 0.00079057 Loss Fine: 0.777038 Loss Coarse: 1.700756 Loss Length: 0.274806 Loss ITC: 0.123124
+[2025-02-07 00:24:30,634 - trainer - INFO] - Train Epoch:[10/100] Step:[2000/3977] Loss: 3.056947 Loss_avg: 2.966420 LR: 0.00078986 Loss Fine: 1.199121 Loss Coarse: 1.690347 Loss Length: 0.334660 Loss ITC: 0.134013
+[2025-02-07 00:28:07,602 - trainer - INFO] - Train Epoch:[10/100] Step:[3000/3977] Loss: 3.180573 Loss_avg: 2.989634 LR: 0.00078912 Loss Fine: 1.152343 Loss Coarse: 1.731190 Loss Length: 0.452700 Loss ITC: 0.251770
+[2025-02-07 00:31:39,484 - trainer - INFO] - [Epoch End] Epoch:[10/100] Loss: 3.002793 LR: 0.00078838
+[2025-02-07 00:31:40,141 - trainer - INFO] - Train Epoch:[11/100] Step:[1/3977] Loss: 3.174482 Loss_avg: 3.174482 LR: 0.00078838 Loss Fine: 1.143106 Loss Coarse: 1.818220 Loss Length: 0.385305 Loss ITC: 0.174625
+[2025-02-07 00:35:17,043 - trainer - INFO] - Train Epoch:[11/100] Step:[1000/3977] Loss: 2.709090 Loss_avg: 2.790010 LR: 0.00078759 Loss Fine: 0.885199 Loss Coarse: 1.637536 Loss Length: 0.218033 Loss ITC: 0.164552
+[2025-02-07 00:38:54,249 - trainer - INFO] - Train Epoch:[11/100] Step:[2000/3977] Loss: 2.546747 Loss_avg: 2.828617 LR: 0.00078677 Loss Fine: 0.718624 Loss Coarse: 1.678772 Loss Length: 0.345341 Loss ITC: 0.114817
+[2025-02-07 00:42:31,118 - trainer - INFO] - Train Epoch:[11/100] Step:[3000/3977] Loss: 3.071482 Loss_avg: 2.842681 LR: 0.00078593 Loss Fine: 1.193103 Loss Coarse: 1.633804 Loss Length: 0.656167 Loss ITC: 0.178958
+[2025-02-07 00:46:02,792 - trainer - INFO] - [Epoch End] Epoch:[11/100] Loss: 2.850958 LR: 0.00078509
+[2025-02-07 00:46:03,455 - trainer - INFO] - Train Epoch:[12/100] Step:[1/3977] Loss: 2.268000 Loss_avg: 2.268000 LR: 0.00078509 Loss Fine: 0.588432 Loss Coarse: 1.542045 Loss Length: 0.270141 Loss ITC: 0.110509
+[2025-02-07 00:49:40,320 - trainer - INFO] - Train Epoch:[12/100] Step:[1000/3977] Loss: 2.795257 Loss_avg: 2.630020 LR: 0.00078420 Loss Fine: 0.792187 Loss Coarse: 1.686074 Loss Length: 0.357776 Loss ITC: 0.281219
+[2025-02-07 00:53:17,106 - trainer - INFO] - Train Epoch:[12/100] Step:[2000/3977] Loss: 2.661164 Loss_avg: 2.671491 LR: 0.00078329 Loss Fine: 0.928535 Loss Coarse: 1.497196 Loss Length: 0.441864 Loss ITC: 0.191247
+[2025-02-07 00:56:53,832 - trainer - INFO] - Train Epoch:[12/100] Step:[3000/3977] Loss: 2.699798 Loss_avg: 2.706241 LR: 0.00078235 Loss Fine: 1.038138 Loss Coarse: 1.473038 Loss Length: 0.510858 Loss ITC: 0.137536
+[2025-02-07 01:00:25,986 - trainer - INFO] - [Epoch End] Epoch:[12/100] Loss: 2.725073 LR: 0.00078141
+[2025-02-07 01:00:26,657 - trainer - INFO] - Train Epoch:[13/100] Step:[1/3977] Loss: 2.644782 Loss_avg: 2.644782 LR: 0.00078140 Loss Fine: 0.980339 Loss Coarse: 1.553599 Loss Length: 0.297990 Loss ITC: 0.081045
+[2025-02-07 01:04:03,812 - trainer - INFO] - Train Epoch:[13/100] Step:[1000/3977] Loss: 2.643977 Loss_avg: 2.555596 LR: 0.00078042 Loss Fine: 0.808026 Loss Coarse: 1.615258 Loss Length: 0.232492 Loss ITC: 0.197444
+[2025-02-07 01:07:40,746 - trainer - INFO] - Train Epoch:[13/100] Step:[2000/3977] Loss: 2.671392 Loss_avg: 2.587538 LR: 0.00077940 Loss Fine: 0.994155 Loss Coarse: 1.431443 Loss Length: 0.421770 Loss ITC: 0.203616
+[2025-02-07 01:11:17,646 - trainer - INFO] - Train Epoch:[13/100] Step:[3000/3977] Loss: 2.754158 Loss_avg: 2.607731 LR: 0.00077836 Loss Fine: 1.088881 Loss Coarse: 1.458646 Loss Length: 0.372237 Loss ITC: 0.169407
+[2025-02-07 01:14:49,499 - trainer - INFO] - [Epoch End] Epoch:[13/100] Loss: 2.631014 LR: 0.00077732
+[2025-02-07 01:14:50,178 - trainer - INFO] - Train Epoch:[14/100] Step:[1/3977] Loss: 2.424894 Loss_avg: 2.424894 LR: 0.00077732 Loss Fine: 0.934525 Loss Coarse: 1.384454 Loss Length: 0.303926 Loss ITC: 0.075522
+[2025-02-07 01:18:26,918 - trainer - INFO] - Train Epoch:[14/100] Step:[1000/3977] Loss: 1.921690 Loss_avg: 2.422793 LR: 0.00077624 Loss Fine: 0.508891 Loss Coarse: 1.302763 Loss Length: 0.271600 Loss ITC: 0.082876
+[2025-02-07 01:22:03,886 - trainer - INFO] - Train Epoch:[14/100] Step:[2000/3977] Loss: 2.616518 Loss_avg: 2.481059 LR: 0.00077512 Loss Fine: 1.023826 Loss Coarse: 1.437837 Loss Length: 0.351743 Loss ITC: 0.119682
+[2025-02-07 01:25:40,559 - trainer - INFO] - Train Epoch:[14/100] Step:[3000/3977] Loss: 2.338583 Loss_avg: 2.510460 LR: 0.00077399 Loss Fine: 0.663994 Loss Coarse: 1.448026 Loss Length: 0.385143 Loss ITC: 0.188049
+[2025-02-07 01:29:12,822 - trainer - INFO] - [Epoch End] Epoch:[14/100] Loss: 2.529950 LR: 0.00077285
+[2025-02-07 01:29:13,502 - trainer - INFO] - Train Epoch:[15/100] Step:[1/3977] Loss: 2.397174 Loss_avg: 2.397174 LR: 0.00077285 Loss Fine: 1.101567 Loss Coarse: 1.170525 Loss Length: 0.415416 Loss ITC: 0.083541
+[2025-02-07 01:32:49,836 - trainer - INFO] - Train Epoch:[15/100] Step:[1000/3977] Loss: 2.502014 Loss_avg: 2.376615 LR: 0.00077166 Loss Fine: 0.746555 Loss Coarse: 1.533290 Loss Length: 0.302751 Loss ITC: 0.191895
+[2025-02-07 01:36:26,720 - trainer - INFO] - Train Epoch:[15/100] Step:[2000/3977] Loss: 2.746315 Loss_avg: 2.414660 LR: 0.00077045 Loss Fine: 1.254605 Loss Coarse: 1.352588 Loss Length: 0.346416 Loss ITC: 0.104481
+[2025-02-07 01:40:03,360 - trainer - INFO] - Train Epoch:[15/100] Step:[3000/3977] Loss: 2.277145 Loss_avg: 2.447086 LR: 0.00076922 Loss Fine: 0.869681 Loss Coarse: 1.236802 Loss Length: 0.369913 Loss ITC: 0.133671
+[2025-02-07 01:43:35,024 - trainer - INFO] - [Epoch End] Epoch:[15/100] Loss: 2.458917 LR: 0.00076799
+[2025-02-07 01:43:35,672 - trainer - INFO] - Train Epoch:[16/100] Step:[1/3977] Loss: 1.773307 Loss_avg: 1.773307 LR: 0.00076799 Loss Fine: 0.523202 Loss Coarse: 1.174549 Loss Length: 0.268043 Loss ITC: 0.048751
+[2025-02-07 01:47:12,484 - trainer - INFO] - Train Epoch:[16/100] Step:[1000/3977] Loss: 1.983324 Loss_avg: 2.274321 LR: 0.00076671 Loss Fine: 0.549301 Loss Coarse: 1.309735 Loss Length: 0.217658 Loss ITC: 0.102522
+[2025-02-07 01:50:49,624 - trainer - INFO] - Train Epoch:[16/100] Step:[2000/3977] Loss: 2.187389 Loss_avg: 2.324464 LR: 0.00076540 Loss Fine: 0.656628 Loss Coarse: 1.398425 Loss Length: 0.332263 Loss ITC: 0.099110
+[2025-02-07 01:54:26,451 - trainer - INFO] - Train Epoch:[16/100] Step:[3000/3977] Loss: 2.457235 Loss_avg: 2.355570 LR: 0.00076407 Loss Fine: 0.802270 Loss Coarse: 1.446944 Loss Length: 0.492141 Loss ITC: 0.158808
+[2025-02-07 01:57:58,365 - trainer - INFO] - [Epoch End] Epoch:[16/100] Loss: 2.380819 LR: 0.00076275
+[2025-02-07 01:57:59,027 - trainer - INFO] - Train Epoch:[17/100] Step:[1/3977] Loss: 2.030850 Loss_avg: 2.030850 LR: 0.00076275 Loss Fine: 0.792565 Loss Coarse: 1.126742 Loss Length: 0.275339 Loss ITC: 0.084010
+[2025-02-07 02:01:35,529 - trainer - INFO] - Train Epoch:[17/100] Step:[1000/3977] Loss: 2.071422 Loss_avg: 2.215220 LR: 0.00076137 Loss Fine: 0.606752 Loss Coarse: 1.317258 Loss Length: 0.328144 Loss ITC: 0.114597
+[2025-02-07 02:05:12,765 - trainer - INFO] - Train Epoch:[17/100] Step:[2000/3977] Loss: 2.337802 Loss_avg: 2.262504 LR: 0.00075997 Loss Fine: 0.909923 Loss Coarse: 1.288130 Loss Length: 0.270978 Loss ITC: 0.112651
+[2025-02-07 02:08:49,761 - trainer - INFO] - Train Epoch:[17/100] Step:[3000/3977] Loss: 2.572330 Loss_avg: 2.293161 LR: 0.00075854 Loss Fine: 1.123048 Loss Coarse: 1.270572 Loss Length: 0.355617 Loss ITC: 0.143148
+[2025-02-07 02:12:21,601 - trainer - INFO] - [Epoch End] Epoch:[17/100] Loss: 2.314010 LR: 0.00075713
+[2025-02-07 02:12:22,245 - trainer - INFO] - Train Epoch:[18/100] Step:[1/3977] Loss: 1.915412 Loss_avg: 1.915412 LR: 0.00075713 Loss Fine: 0.618509 Loss Coarse: 1.176667 Loss Length: 0.259133 Loss ITC: 0.094322
+[2025-02-07 02:15:58,870 - trainer - INFO] - Train Epoch:[18/100] Step:[1000/3977] Loss: 2.446205 Loss_avg: 2.156861 LR: 0.00075566 Loss Fine: 0.972896 Loss Coarse: 1.327144 Loss Length: 0.405572 Loss ITC: 0.105607
+[2025-02-07 02:19:36,098 - trainer - INFO] - Train Epoch:[18/100] Step:[2000/3977] Loss: 2.259817 Loss_avg: 2.206699 LR: 0.00075416 Loss Fine: 0.832630 Loss Coarse: 1.249467 Loss Length: 0.239563 Loss ITC: 0.153764
+[2025-02-07 02:23:13,057 - trainer - INFO] - Train Epoch:[18/100] Step:[3000/3977] Loss: 2.574446 Loss_avg: 2.230808 LR: 0.00075265 Loss Fine: 1.101198 Loss Coarse: 1.275315 Loss Length: 0.412758 Loss ITC: 0.156657
+[2025-02-07 02:26:45,188 - trainer - INFO] - [Epoch End] Epoch:[18/100] Loss: 2.260803 LR: 0.00075114
+[2025-02-07 02:26:45,857 - trainer - INFO] - Train Epoch:[19/100] Step:[1/3977] Loss: 2.310405 Loss_avg: 2.310405 LR: 0.00075114 Loss Fine: 1.080468 Loss Coarse: 1.053525 Loss Length: 0.460640 Loss ITC: 0.130347
+[2025-02-07 02:30:22,435 - trainer - INFO] - Train Epoch:[19/100] Step:[1000/3977] Loss: 2.029300 Loss_avg: 2.116857 LR: 0.00074958 Loss Fine: 0.625757 Loss Coarse: 1.180243 Loss Length: 0.400621 Loss ITC: 0.183238
+[2025-02-07 02:33:59,075 - trainer - INFO] - Train Epoch:[19/100] Step:[2000/3977] Loss: 2.586747 Loss_avg: 2.147741 LR: 0.00074799 Loss Fine: 0.895742 Loss Coarse: 1.438007 Loss Length: 0.333227 Loss ITC: 0.219675
+[2025-02-07 02:37:35,713 - trainer - INFO] - Train Epoch:[19/100] Step:[3000/3977] Loss: 2.591446 Loss_avg: 2.180908 LR: 0.00074638 Loss Fine: 0.956766 Loss Coarse: 1.367777 Loss Length: 0.433219 Loss ITC: 0.223581
+[2025-02-07 02:41:07,408 - trainer - INFO] - [Epoch End] Epoch:[19/100] Loss: 2.204393 LR: 0.00074479
+[2025-02-07 02:41:49,419 - trainer - INFO] - [Epoch Start] Epoch:[20/100] LR: 0.00074479
+Validation result at 20 epoch: Word_acc: 0.639547 Word_acc_case_ins: 0.639547 Edit_distance_acc: 0.781010
+[2025-02-07 02:41:50,068 - trainer - INFO] - Train Epoch:[20/100] Step:[1/3977] Loss: 2.078094 Loss_avg: 2.078094 LR: 0.00074478 Loss Fine: 0.842914 Loss Coarse: 1.087661 Loss Length: 0.276331 Loss ITC: 0.119886
+[2025-02-07 02:45:26,664 - trainer - INFO] - Train Epoch:[20/100] Step:[1000/3977] Loss: 2.600165 Loss_avg: 2.061630 LR: 0.00074313 Loss Fine: 1.001311 Loss Coarse: 1.434039 Loss Length: 0.266738 Loss ITC: 0.138142
+[2025-02-07 02:49:03,464 - trainer - INFO] - Train Epoch:[20/100] Step:[2000/3977] Loss: 2.247810 Loss_avg: 2.095699 LR: 0.00074146 Loss Fine: 0.781883 Loss Coarse: 1.317153 Loss Length: 0.256292 Loss ITC: 0.123144
+[2025-02-07 02:52:40,301 - trainer - INFO] - Train Epoch:[20/100] Step:[3000/3977] Loss: 2.098296 Loss_avg: 2.130538 LR: 0.00073976 Loss Fine: 0.691557 Loss Coarse: 1.236776 Loss Length: 0.337238 Loss ITC: 0.136239
+[2025-02-07 02:56:11,997 - trainer - INFO] - [Epoch End] Epoch:[20/100] Loss: 2.145606 LR: 0.00073807
+[2025-02-07 02:56:12,702 - trainer - INFO] - Train Epoch:[21/100] Step:[1/3977] Loss: 2.387024 Loss_avg: 2.387024 LR: 0.00073807 Loss Fine: 0.967081 Loss Coarse: 1.285079 Loss Length: 0.301690 Loss ITC: 0.104695
+[2025-02-07 02:59:49,610 - trainer - INFO] - Train Epoch:[21/100] Step:[1000/3977] Loss: 1.909111 Loss_avg: 2.057520 LR: 0.00073633 Loss Fine: 0.497539 Loss Coarse: 1.286035 Loss Length: 0.166198 Loss ITC: 0.108916
+[2025-02-07 03:03:26,605 - trainer - INFO] - Train Epoch:[21/100] Step:[2000/3977] Loss: 1.789065 Loss_avg: 2.083883 LR: 0.00073457 Loss Fine: 0.525953 Loss Coarse: 1.074034 Loss Length: 0.278857 Loss ITC: 0.161192
+[2025-02-07 03:07:03,546 - trainer - INFO] - Train Epoch:[21/100] Step:[3000/3977] Loss: 2.350213 Loss_avg: 2.099519 LR: 0.00073278 Loss Fine: 0.910342 Loss Coarse: 1.314652 Loss Length: 0.318244 Loss ITC: 0.093395
+[2025-02-07 03:10:35,695 - trainer - INFO] - [Epoch End] Epoch:[21/100] Loss: 2.116891 LR: 0.00073101
+[2025-02-07 03:10:36,358 - trainer - INFO] - Train Epoch:[22/100] Step:[1/3977] Loss: 1.920152 Loss_avg: 1.920152 LR: 0.00073101 Loss Fine: 0.759778 Loss Coarse: 1.046977 Loss Length: 0.360077 Loss ITC: 0.077389
+[2025-02-07 03:14:13,155 - trainer - INFO] - Train Epoch:[22/100] Step:[1000/3977] Loss: 1.894174 Loss_avg: 1.948025 LR: 0.00072918 Loss Fine: 0.582870 Loss Coarse: 1.133168 Loss Length: 0.239079 Loss ITC: 0.154228
+[2025-02-07 03:17:49,826 - trainer - INFO] - Train Epoch:[22/100] Step:[2000/3977] Loss: 2.615269 Loss_avg: 2.012656 LR: 0.00072733 Loss Fine: 0.910311 Loss Coarse: 1.491099 Loss Length: 0.268124 Loss ITC: 0.187047
+[2025-02-07 03:21:26,633 - trainer - INFO] - Train Epoch:[22/100] Step:[3000/3977] Loss: 1.958205 Loss_avg: 2.051762 LR: 0.00072546 Loss Fine: 0.711940 Loss Coarse: 1.129293 Loss Length: 0.254454 Loss ITC: 0.091526
+[2025-02-07 03:24:58,455 - trainer - INFO] - [Epoch End] Epoch:[22/100] Loss: 2.071101 LR: 0.00072361
+[2025-02-07 03:24:59,128 - trainer - INFO] - Train Epoch:[23/100] Step:[1/3977] Loss: 1.799619 Loss_avg: 1.799619 LR: 0.00072360 Loss Fine: 0.598601 Loss Coarse: 1.104554 Loss Length: 0.414900 Loss ITC: 0.054975
+[2025-02-07 03:28:35,905 - trainer - INFO] - Train Epoch:[23/100] Step:[1000/3977] Loss: 1.479130 Loss_avg: 1.918919 LR: 0.00072169 Loss Fine: 0.460267 Loss Coarse: 0.931272 Loss Length: 0.252500 Loss ITC: 0.062341
+[2025-02-07 03:32:12,993 - trainer - INFO] - Train Epoch:[23/100] Step:[2000/3977] Loss: 2.293864 Loss_avg: 1.984670 LR: 0.00071975 Loss Fine: 0.896206 Loss Coarse: 1.210015 Loss Length: 0.253384 Loss ITC: 0.162305
+[2025-02-07 03:35:50,297 - trainer - INFO] - Train Epoch:[23/100] Step:[3000/3977] Loss: 2.242566 Loss_avg: 2.013293 LR: 0.00071780 Loss Fine: 0.905930 Loss Coarse: 1.188110 Loss Length: 0.211769 Loss ITC: 0.127350
+[2025-02-07 03:39:22,306 - trainer - INFO] - [Epoch End] Epoch:[23/100] Loss: 2.032179 LR: 0.00071586
+[2025-02-07 03:39:22,959 - trainer - INFO] - Train Epoch:[24/100] Step:[1/3977] Loss: 1.762763 Loss_avg: 1.762763 LR: 0.00071586 Loss Fine: 0.570750 Loss Coarse: 1.087056 Loss Length: 0.222601 Loss ITC: 0.082697
+[2025-02-07 03:42:59,803 - trainer - INFO] - Train Epoch:[24/100] Step:[1000/3977] Loss: 1.742343 Loss_avg: 1.891808 LR: 0.00071386 Loss Fine: 0.539657 Loss Coarse: 1.074695 Loss Length: 0.243023 Loss ITC: 0.103689
+[2025-02-07 03:46:36,769 - trainer - INFO] - Train Epoch:[24/100] Step:[2000/3977] Loss: 2.243520 Loss_avg: 1.943028 LR: 0.00071184 Loss Fine: 0.912113 Loss Coarse: 1.125617 Loss Length: 0.664834 Loss ITC: 0.139306
+[2025-02-07 03:50:13,880 - trainer - INFO] - Train Epoch:[24/100] Step:[3000/3977] Loss: 1.873982 Loss_avg: 1.973250 LR: 0.00070980 Loss Fine: 0.663570 Loss Coarse: 1.041049 Loss Length: 0.440205 Loss ITC: 0.125343
+[2025-02-07 03:53:45,939 - trainer - INFO] - [Epoch End] Epoch:[24/100] Loss: 1.990240 LR: 0.00070779
+[2025-02-07 03:53:46,595 - trainer - INFO] - Train Epoch:[25/100] Step:[1/3977] Loss: 1.825383 Loss_avg: 1.825383 LR: 0.00070779 Loss Fine: 0.500895 Loss Coarse: 1.201060 Loss Length: 0.293253 Loss ITC: 0.094102
+[2025-02-07 03:57:23,650 - trainer - INFO] - Train Epoch:[25/100] Step:[1000/3977] Loss: 1.922273 Loss_avg: 1.871347 LR: 0.00070571 Loss Fine: 0.693496 Loss Coarse: 1.085949 Loss Length: 0.344445 Loss ITC: 0.108383
+[2025-02-07 04:01:00,167 - trainer - INFO] - Train Epoch:[25/100] Step:[2000/3977] Loss: 2.089268 Loss_avg: 1.906493 LR: 0.00070361 Loss Fine: 0.640369 Loss Coarse: 1.295218 Loss Length: 0.262417 Loss ITC: 0.127439
+[2025-02-07 04:04:37,337 - trainer - INFO] - Train Epoch:[25/100] Step:[3000/3977] Loss: 2.347589 Loss_avg: 1.937477 LR: 0.00070149 Loss Fine: 1.038122 Loss Coarse: 1.119010 Loss Length: 0.486594 Loss ITC: 0.141797
+[2025-02-07 04:08:09,258 - trainer - INFO] - [Epoch End] Epoch:[25/100] Loss: 1.963181 LR: 0.00069940
+[2025-02-07 04:08:09,941 - trainer - INFO] - Train Epoch:[26/100] Step:[1/3977] Loss: 1.319137 Loss_avg: 1.319137 LR: 0.00069940 Loss Fine: 0.411172 Loss Coarse: 0.832845 Loss Length: 0.148779 Loss ITC: 0.060243
+[2025-02-07 04:11:46,977 - trainer - INFO] - Train Epoch:[26/100] Step:[1000/3977] Loss: 1.563793 Loss_avg: 1.808865 LR: 0.00069724 Loss Fine: 0.442006 Loss Coarse: 1.000967 Loss Length: 0.236448 Loss ITC: 0.097176
+[2025-02-07 04:15:23,850 - trainer - INFO] - Train Epoch:[26/100] Step:[2000/3977] Loss: 1.812811 Loss_avg: 1.855469 LR: 0.00069507 Loss Fine: 0.597694 Loss Coarse: 1.032718 Loss Length: 0.471624 Loss ITC: 0.135236
+[2025-02-07 04:19:00,729 - trainer - INFO] - Train Epoch:[26/100] Step:[3000/3977] Loss: 1.718108 Loss_avg: 1.894002 LR: 0.00069287 Loss Fine: 0.572184 Loss Coarse: 1.011624 Loss Length: 0.302630 Loss ITC: 0.104037
+[2025-02-07 04:22:32,618 - trainer - INFO] - [Epoch End] Epoch:[26/100] Loss: 1.917786 LR: 0.00069070
+[2025-02-07 04:22:33,271 - trainer - INFO] - Train Epoch:[27/100] Step:[1/3977] Loss: 1.792617 Loss_avg: 1.792617 LR: 0.00069070 Loss Fine: 0.545079 Loss Coarse: 1.145233 Loss Length: 0.183648 Loss ITC: 0.083940
+[2025-02-07 04:26:09,981 - trainer - INFO] - Train Epoch:[27/100] Step:[1000/3977] Loss: 1.633597 Loss_avg: 1.784538 LR: 0.00068847 Loss Fine: 0.636806 Loss Coarse: 0.887912 Loss Length: 0.321055 Loss ITC: 0.076773
+[2025-02-07 04:29:46,866 - trainer - INFO] - Train Epoch:[27/100] Step:[2000/3977] Loss: 1.911215 Loss_avg: 1.839445 LR: 0.00068621 Loss Fine: 0.785154 Loss Coarse: 1.027700 Loss Length: 0.363750 Loss ITC: 0.061986
+[2025-02-07 04:33:23,954 - trainer - INFO] - Train Epoch:[27/100] Step:[3000/3977] Loss: 2.171260 Loss_avg: 1.869134 LR: 0.00068394 Loss Fine: 0.751265 Loss Coarse: 1.215977 Loss Length: 0.391775 Loss ITC: 0.164841
+[2025-02-07 04:36:56,320 - trainer - INFO] - [Epoch End] Epoch:[27/100] Loss: 1.888713 LR: 0.00068170
+[2025-02-07 04:36:56,983 - trainer - INFO] - Train Epoch:[28/100] Step:[1/3977] Loss: 1.587488 Loss_avg: 1.587488 LR: 0.00068170 Loss Fine: 0.622078 Loss Coarse: 0.860926 Loss Length: 0.271403 Loss ITC: 0.077345
+[2025-02-07 04:40:33,664 - trainer - INFO] - Train Epoch:[28/100] Step:[1000/3977] Loss: 1.787051 Loss_avg: 1.761392 LR: 0.00067939 Loss Fine: 0.577865 Loss Coarse: 1.092350 Loss Length: 0.309174 Loss ITC: 0.085919
+[2025-02-07 04:44:10,421 - trainer - INFO] - Train Epoch:[28/100] Step:[2000/3977] Loss: 2.065167 Loss_avg: 1.802501 LR: 0.00067706 Loss Fine: 0.719022 Loss Coarse: 1.150050 Loss Length: 0.366738 Loss ITC: 0.159421
+[2025-02-07 04:47:47,789 - trainer - INFO] - Train Epoch:[28/100] Step:[3000/3977] Loss: 2.599436 Loss_avg: 1.841710 LR: 0.00067471 Loss Fine: 1.034914 Loss Coarse: 1.327796 Loss Length: 0.444379 Loss ITC: 0.192289
+[2025-02-07 04:51:19,821 - trainer - INFO] - [Epoch End] Epoch:[28/100] Loss: 1.862542 LR: 0.00067240
+[2025-02-07 04:51:20,463 - trainer - INFO] - Train Epoch:[29/100] Step:[1/3977] Loss: 1.542838 Loss_avg: 1.542838 LR: 0.00067240 Loss Fine: 0.429328 Loss Coarse: 0.987928 Loss Length: 0.314406 Loss ITC: 0.094142
+[2025-02-07 04:54:57,028 - trainer - INFO] - Train Epoch:[29/100] Step:[1000/3977] Loss: 2.062381 Loss_avg: 1.721956 LR: 0.00067002 Loss Fine: 0.889356 Loss Coarse: 1.050091 Loss Length: 0.525468 Loss ITC: 0.070387
+[2025-02-07 04:58:34,395 - trainer - INFO] - Train Epoch:[29/100] Step:[2000/3977] Loss: 1.691495 Loss_avg: 1.768752 LR: 0.00066762 Loss Fine: 0.623637 Loss Coarse: 0.926727 Loss Length: 0.287560 Loss ITC: 0.112376
+[2025-02-07 05:02:11,220 - trainer - INFO] - Train Epoch:[29/100] Step:[3000/3977] Loss: 1.650501 Loss_avg: 1.801960 LR: 0.00066521 Loss Fine: 0.554841 Loss Coarse: 0.962793 Loss Length: 0.274926 Loss ITC: 0.105375
+[2025-02-07 05:05:42,992 - trainer - INFO] - [Epoch End] Epoch:[29/100] Loss: 1.826573 LR: 0.00066283
+[2025-02-07 05:06:25,383 - trainer - INFO] - [Epoch Start] Epoch:[30/100] LR: 0.00066283
+Validation result at 30 epoch: Word_acc: 0.687737 Word_acc_case_ins: 0.687737 Edit_distance_acc: 0.734692
+[2025-02-07 05:06:26,030 - trainer - INFO] - Train Epoch:[30/100] Step:[1/3977] Loss: 1.354232 Loss_avg: 1.354232 LR: 0.00066282 Loss Fine: 0.414404 Loss Coarse: 0.843574 Loss Length: 0.208093 Loss ITC: 0.075445
+[2025-02-07 05:10:02,851 - trainer - INFO] - Train Epoch:[30/100] Step:[1000/3977] Loss: 1.478697 Loss_avg: 1.709200 LR: 0.00066038 Loss Fine: 0.582832 Loss Coarse: 0.811939 Loss Length: 0.339646 Loss ITC: 0.049962
+[2025-02-07 05:13:39,816 - trainer - INFO] - Train Epoch:[30/100] Step:[2000/3977] Loss: 1.748372 Loss_avg: 1.741233 LR: 0.00065791 Loss Fine: 0.507047 Loss Coarse: 1.119934 Loss Length: 0.296816 Loss ITC: 0.091710
+[2025-02-07 05:17:16,494 - trainer - INFO] - Train Epoch:[30/100] Step:[3000/3977] Loss: 1.946070 Loss_avg: 1.769064 LR: 0.00065542 Loss Fine: 0.760506 Loss Coarse: 0.995435 Loss Length: 0.298481 Loss ITC: 0.160281
+[2025-02-07 05:20:47,990 - trainer - INFO] - [Epoch End] Epoch:[30/100] Loss: 1.792459 LR: 0.00065298
+[2025-02-07 05:20:48,665 - trainer - INFO] - Train Epoch:[31/100] Step:[1/3977] Loss: 2.092002 Loss_avg: 2.092002 LR: 0.00065297 Loss Fine: 0.913993 Loss Coarse: 1.059140 Loss Length: 0.285744 Loss ITC: 0.090295
+[2025-02-07 05:24:25,111 - trainer - INFO] - Train Epoch:[31/100] Step:[1000/3977] Loss: 1.687283 Loss_avg: 1.648197 LR: 0.00065046 Loss Fine: 0.657430 Loss Coarse: 0.933210 Loss Length: 0.288634 Loss ITC: 0.067779
+[2025-02-07 05:28:02,119 - trainer - INFO] - Train Epoch:[31/100] Step:[2000/3977] Loss: 1.524934 Loss_avg: 1.705457 LR: 0.00064792 Loss Fine: 0.472131 Loss Coarse: 0.966138 Loss Length: 0.219812 Loss ITC: 0.064684
+[2025-02-07 05:31:39,462 - trainer - INFO] - Train Epoch:[31/100] Step:[3000/3977] Loss: 1.937322 Loss_avg: 1.739395 LR: 0.00064537 Loss Fine: 0.840212 Loss Coarse: 0.983543 Loss Length: 0.368661 Loss ITC: 0.076700
+[2025-02-07 05:35:11,378 - trainer - INFO] - [Epoch End] Epoch:[31/100] Loss: 1.758111 LR: 0.00064286
+[2025-02-07 05:35:12,039 - trainer - INFO] - Train Epoch:[32/100] Step:[1/3977] Loss: 1.527445 Loss_avg: 1.527445 LR: 0.00064286 Loss Fine: 0.505374 Loss Coarse: 0.923577 Loss Length: 0.358116 Loss ITC: 0.062682
+[2025-02-07 05:38:48,653 - trainer - INFO] - Train Epoch:[32/100] Step:[1000/3977] Loss: 1.691821 Loss_avg: 1.632753 LR: 0.00064028 Loss Fine: 0.600547 Loss Coarse: 0.961221 Loss Length: 0.326802 Loss ITC: 0.097372
+[2025-02-07 05:42:25,989 - trainer - INFO] - Train Epoch:[32/100] Step:[2000/3977] Loss: 1.313350 Loss_avg: 1.671566 LR: 0.00063768 Loss Fine: 0.411523 Loss Coarse: 0.818628 Loss Length: 0.202520 Loss ITC: 0.062948
+[2025-02-07 05:46:03,091 - trainer - INFO] - Train Epoch:[32/100] Step:[3000/3977] Loss: 1.793550 Loss_avg: 1.706802 LR: 0.00063507 Loss Fine: 0.618500 Loss Coarse: 1.003063 Loss Length: 0.404953 Loss ITC: 0.131491
+[2025-02-07 05:49:35,053 - trainer - INFO] - [Epoch End] Epoch:[32/100] Loss: 1.729663 LR: 0.00063250
+[2025-02-07 05:49:35,727 - trainer - INFO] - Train Epoch:[33/100] Step:[1/3977] Loss: 1.706743 Loss_avg: 1.706743 LR: 0.00063250 Loss Fine: 0.738942 Loss Coarse: 0.875829 Loss Length: 0.484553 Loss ITC: 0.043516
+[2025-02-07 05:53:11,916 - trainer - INFO] - Train Epoch:[33/100] Step:[1000/3977] Loss: 1.346295 Loss_avg: 1.597465 LR: 0.00062985 Loss Fine: 0.402403 Loss Coarse: 0.866502 Loss Length: 0.183830 Loss ITC: 0.059007
+[2025-02-07 05:56:48,637 - trainer - INFO] - Train Epoch:[33/100] Step:[2000/3977] Loss: 1.608162 Loss_avg: 1.642125 LR: 0.00062719 Loss Fine: 0.660605 Loss Coarse: 0.859395 Loss Length: 0.250720 Loss ITC: 0.063090
+[2025-02-07 06:00:25,126 - trainer - INFO] - Train Epoch:[33/100] Step:[3000/3977] Loss: 1.525315 Loss_avg: 1.679216 LR: 0.00062452 Loss Fine: 0.493651 Loss Coarse: 0.874639 Loss Length: 0.289851 Loss ITC: 0.128040
+[2025-02-07 06:03:57,169 - trainer - INFO] - [Epoch End] Epoch:[33/100] Loss: 1.699568 LR: 0.00062189
+[2025-02-07 06:03:57,833 - trainer - INFO] - Train Epoch:[34/100] Step:[1/3977] Loss: 1.719518 Loss_avg: 1.719518 LR: 0.00062189 Loss Fine: 0.580728 Loss Coarse: 1.027482 Loss Length: 0.271339 Loss ITC: 0.084174
+[2025-02-07 06:07:35,179 - trainer - INFO] - Train Epoch:[34/100] Step:[1000/3977] Loss: 1.893529 Loss_avg: 1.552952 LR: 0.00061919 Loss Fine: 0.913845 Loss Coarse: 0.906156 Loss Length: 0.286852 Loss ITC: 0.044842
+[2025-02-07 06:11:12,568 - trainer - INFO] - Train Epoch:[34/100] Step:[2000/3977] Loss: 2.095623 Loss_avg: 1.618778 LR: 0.00061647 Loss Fine: 0.925482 Loss Coarse: 1.031755 Loss Length: 0.368805 Loss ITC: 0.101506
+[2025-02-07 06:14:50,004 - trainer - INFO] - Train Epoch:[34/100] Step:[3000/3977] Loss: 1.603526 Loss_avg: 1.647576 LR: 0.00061374 Loss Fine: 0.550343 Loss Coarse: 0.937386 Loss Length: 0.304520 Loss ITC: 0.085344
+[2025-02-07 06:18:22,319 - trainer - INFO] - [Epoch End] Epoch:[34/100] Loss: 1.674293 LR: 0.00061105
+[2025-02-07 06:18:22,991 - trainer - INFO] - Train Epoch:[35/100] Step:[1/3977] Loss: 1.490091 Loss_avg: 1.490091 LR: 0.00061105 Loss Fine: 0.540927 Loss Coarse: 0.851688 Loss Length: 0.251570 Loss ITC: 0.072320
+[2025-02-07 06:21:59,441 - trainer - INFO] - Train Epoch:[35/100] Step:[1000/3977] Loss: 1.464164 Loss_avg: 1.546566 LR: 0.00060829 Loss Fine: 0.565447 Loss Coarse: 0.783143 Loss Length: 0.321265 Loss ITC: 0.083447
+[2025-02-07 06:25:36,314 - trainer - INFO] - Train Epoch:[35/100] Step:[2000/3977] Loss: 2.180836 Loss_avg: 1.591369 LR: 0.00060552 Loss Fine: 0.858204 Loss Coarse: 1.170068 Loss Length: 0.276525 Loss ITC: 0.124911
+[2025-02-07 06:29:12,969 - trainer - INFO] - Train Epoch:[35/100] Step:[3000/3977] Loss: 1.818334 Loss_avg: 1.623803 LR: 0.00060273 Loss Fine: 0.558460 Loss Coarse: 1.063373 Loss Length: 0.295182 Loss ITC: 0.166984
+[2025-02-07 06:32:45,035 - trainer - INFO] - [Epoch End] Epoch:[35/100] Loss: 1.643962 LR: 0.00060000
+[2025-02-07 06:32:45,680 - trainer - INFO] - Train Epoch:[36/100] Step:[1/3977] Loss: 1.330462 Loss_avg: 1.330462 LR: 0.00060000 Loss Fine: 0.459409 Loss Coarse: 0.758178 Loss Length: 0.222173 Loss ITC: 0.090658
+[2025-02-07 06:36:22,453 - trainer - INFO] - Train Epoch:[36/100] Step:[1000/3977] Loss: 1.479124 Loss_avg: 1.495794 LR: 0.00059718 Loss Fine: 0.470163 Loss Coarse: 0.891853 Loss Length: 0.335336 Loss ITC: 0.083574
+[2025-02-07 06:39:59,666 - trainer - INFO] - Train Epoch:[36/100] Step:[2000/3977] Loss: 1.492148 Loss_avg: 1.551589 LR: 0.00059436 Loss Fine: 0.535015 Loss Coarse: 0.870738 Loss Length: 0.207583 Loss ITC: 0.065637
+[2025-02-07 06:43:36,454 - trainer - INFO] - Train Epoch:[36/100] Step:[3000/3977] Loss: 1.727727 Loss_avg: 1.586665 LR: 0.00059152 Loss Fine: 0.776891 Loss Coarse: 0.831828 Loss Length: 0.311932 Loss ITC: 0.087815
+[2025-02-07 06:47:08,396 - trainer - INFO] - [Epoch End] Epoch:[36/100] Loss: 1.611356 LR: 0.00058873
+[2025-02-07 06:47:09,053 - trainer - INFO] - Train Epoch:[37/100] Step:[1/3977] Loss: 1.464823 Loss_avg: 1.464823 LR: 0.00058873 Loss Fine: 0.473338 Loss Coarse: 0.884983 Loss Length: 0.230925 Loss ITC: 0.083410
+[2025-02-07 06:50:45,424 - trainer - INFO] - Train Epoch:[37/100] Step:[1000/3977] Loss: 1.757075 Loss_avg: 1.480650 LR: 0.00058587 Loss Fine: 0.704325 Loss Coarse: 0.963580 Loss Length: 0.324012 Loss ITC: 0.056769
+[2025-02-07 06:54:22,235 - trainer - INFO] - Train Epoch:[37/100] Step:[2000/3977] Loss: 1.884371 Loss_avg: 1.537053 LR: 0.00058300 Loss Fine: 0.712455 Loss Coarse: 1.014438 Loss Length: 0.273984 Loss ITC: 0.130079
+[2025-02-07 06:57:59,065 - trainer - INFO] - Train Epoch:[37/100] Step:[3000/3977] Loss: 1.662547 Loss_avg: 1.567375 LR: 0.00058011 Loss Fine: 0.594853 Loss Coarse: 0.971964 Loss Length: 0.492122 Loss ITC: 0.046519
+[2025-02-07 07:01:31,077 - trainer - INFO] - [Epoch End] Epoch:[37/100] Loss: 1.589372 LR: 0.00057727
+[2025-02-07 07:01:31,752 - trainer - INFO] - Train Epoch:[38/100] Step:[1/3977] Loss: 1.859265 Loss_avg: 1.859265 LR: 0.00057727 Loss Fine: 0.704763 Loss Coarse: 0.985940 Loss Length: 0.311428 Loss ITC: 0.137419
+[2025-02-07 07:05:08,470 - trainer - INFO] - Train Epoch:[38/100] Step:[1000/3977] Loss: 1.509527 Loss_avg: 1.451251 LR: 0.00057436 Loss Fine: 0.563620 Loss Coarse: 0.832620 Loss Length: 0.322772 Loss ITC: 0.081010
+[2025-02-07 07:08:45,975 - trainer - INFO] - Train Epoch:[38/100] Step:[2000/3977] Loss: 1.301910 Loss_avg: 1.502043 LR: 0.00057144 Loss Fine: 0.368551 Loss Coarse: 0.838877 Loss Length: 0.178967 Loss ITC: 0.076585
+[2025-02-07 07:12:23,140 - trainer - INFO] - Train Epoch:[38/100] Step:[3000/3977] Loss: 1.573788 Loss_avg: 1.540478 LR: 0.00056851 Loss Fine: 0.681780 Loss Coarse: 0.791926 Loss Length: 0.222418 Loss ITC: 0.077841
+[2025-02-07 07:15:55,090 - trainer - INFO] - [Epoch End] Epoch:[38/100] Loss: 1.562019 LR: 0.00056563
+[2025-02-07 07:15:55,766 - trainer - INFO] - Train Epoch:[39/100] Step:[1/3977] Loss: 1.434461 Loss_avg: 1.434461 LR: 0.00056563 Loss Fine: 0.499911 Loss Coarse: 0.867670 Loss Length: 0.300010 Loss ITC: 0.036880
+[2025-02-07 07:19:32,692 - trainer - INFO] - Train Epoch:[39/100] Step:[1000/3977] Loss: 1.608644 Loss_avg: 1.419892 LR: 0.00056268 Loss Fine: 0.705127 Loss Coarse: 0.776315 Loss Length: 0.431208 Loss ITC: 0.084080
+[2025-02-07 07:23:09,901 - trainer - INFO] - Train Epoch:[39/100] Step:[2000/3977] Loss: 1.476333 Loss_avg: 1.476506 LR: 0.00055971 Loss Fine: 0.482222 Loss Coarse: 0.896608 Loss Length: 0.220190 Loss ITC: 0.075485
+[2025-02-07 07:26:46,911 - trainer - INFO] - Train Epoch:[39/100] Step:[3000/3977] Loss: 1.737650 Loss_avg: 1.510761 LR: 0.00055673 Loss Fine: 0.664105 Loss Coarse: 0.932780 Loss Length: 0.256453 Loss ITC: 0.115119
+[2025-02-07 07:30:19,024 - trainer - INFO] - [Epoch End] Epoch:[39/100] Loss: 1.528905 LR: 0.00055382
+[2025-02-07 07:31:01,083 - trainer - INFO] - [Epoch Start] Epoch:[40/100] LR: 0.00055382
+Validation result at 40 epoch: Word_acc: 0.699332 Word_acc_case_ins: 0.699332 Edit_distance_acc: 0.817373
+[2025-02-07 07:31:01,723 - trainer - INFO] - Train Epoch:[40/100] Step:[1/3977] Loss: 1.922867 Loss_avg: 1.922867 LR: 0.00055381 Loss Fine: 0.660227 Loss Coarse: 1.149742 Loss Length: 0.260347 Loss ITC: 0.086863
+[2025-02-07 07:34:38,524 - trainer - INFO] - Train Epoch:[40/100] Step:[1000/3977] Loss: 1.387204 Loss_avg: 1.403343 LR: 0.00055082 Loss Fine: 0.517106 Loss Coarse: 0.765542 Loss Length: 0.294546 Loss ITC: 0.075101
+[2025-02-07 07:38:15,793 - trainer - INFO] - Train Epoch:[40/100] Step:[2000/3977] Loss: 1.784632 Loss_avg: 1.454361 LR: 0.00054781 Loss Fine: 0.662863 Loss Coarse: 1.002686 Loss Length: 0.341212 Loss ITC: 0.084962
+[2025-02-07 07:41:52,718 - trainer - INFO] - Train Epoch:[40/100] Step:[3000/3977] Loss: 1.532755 Loss_avg: 1.482533 LR: 0.00054480 Loss Fine: 0.529614 Loss Coarse: 0.864691 Loss Length: 0.336549 Loss ITC: 0.104795
+[2025-02-07 07:45:24,637 - trainer - INFO] - [Epoch End] Epoch:[40/100] Loss: 1.504737 LR: 0.00054184
+[2025-02-07 07:45:25,291 - trainer - INFO] - Train Epoch:[41/100] Step:[1/3977] Loss: 1.100816 Loss_avg: 1.100816 LR: 0.00054184 Loss Fine: 0.303938 Loss Coarse: 0.708788 Loss Length: 0.117665 Loss ITC: 0.076323
+[2025-02-07 07:49:02,130 - trainer - INFO] - Train Epoch:[41/100] Step:[1000/3977] Loss: 1.178696 Loss_avg: 1.360086 LR: 0.00053881 Loss Fine: 0.285149 Loss Coarse: 0.783422 Loss Length: 0.234125 Loss ITC: 0.086713
+[2025-02-07 07:52:39,048 - trainer - INFO] - Train Epoch:[41/100] Step:[2000/3977] Loss: 1.461408 Loss_avg: 1.411714 LR: 0.00053576 Loss Fine: 0.475834 Loss Coarse: 0.805038 Loss Length: 0.271426 Loss ITC: 0.153393
+[2025-02-07 07:56:15,893 - trainer - INFO] - Train Epoch:[41/100] Step:[3000/3977] Loss: 1.960914 Loss_avg: 1.439525 LR: 0.00053271 Loss Fine: 0.582044 Loss Coarse: 1.267965 Loss Length: 0.294389 Loss ITC: 0.081467
+[2025-02-07 07:59:47,918 - trainer - INFO] - [Epoch End] Epoch:[41/100] Loss: 1.466428 LR: 0.00052972
+[2025-02-07 07:59:48,613 - trainer - INFO] - Train Epoch:[42/100] Step:[1/3977] Loss: 1.255147 Loss_avg: 1.255147 LR: 0.00052971 Loss Fine: 0.383582 Loss Coarse: 0.779106 Loss Length: 0.324573 Loss ITC: 0.060001
+[2025-02-07 08:03:25,315 - trainer - INFO] - Train Epoch:[42/100] Step:[1000/3977] Loss: 1.516401 Loss_avg: 1.334915 LR: 0.00052665 Loss Fine: 0.512827 Loss Coarse: 0.905041 Loss Length: 0.275335 Loss ITC: 0.071000
+[2025-02-07 08:07:02,191 - trainer - INFO] - Train Epoch:[42/100] Step:[2000/3977] Loss: 1.590466 Loss_avg: 1.396533 LR: 0.00052357 Loss Fine: 0.526576 Loss Coarse: 0.947814 Loss Length: 0.275185 Loss ITC: 0.088557
+[2025-02-07 08:10:38,923 - trainer - INFO] - Train Epoch:[42/100] Step:[3000/3977] Loss: 1.629524 Loss_avg: 1.428884 LR: 0.00052048 Loss Fine: 0.623671 Loss Coarse: 0.881589 Loss Length: 0.172430 Loss ITC: 0.107020
+[2025-02-07 08:14:11,129 - trainer - INFO] - [Epoch End] Epoch:[42/100] Loss: 1.447844 LR: 0.00051746
+[2025-02-07 08:14:11,775 - trainer - INFO] - Train Epoch:[43/100] Step:[1/3977] Loss: 1.141346 Loss_avg: 1.141346 LR: 0.00051746 Loss Fine: 0.286794 Loss Coarse: 0.770251 Loss Length: 0.233010 Loss ITC: 0.061000
+[2025-02-07 08:17:48,459 - trainer - INFO] - Train Epoch:[43/100] Step:[1000/3977] Loss: 1.157396 Loss_avg: 1.302504 LR: 0.00051436 Loss Fine: 0.474005 Loss Coarse: 0.620034 Loss Length: 0.266922 Loss ITC: 0.036665
+[2025-02-07 08:21:25,650 - trainer - INFO] - Train Epoch:[43/100] Step:[2000/3977] Loss: 1.293423 Loss_avg: 1.355965 LR: 0.00051125 Loss Fine: 0.382600 Loss Coarse: 0.816369 Loss Length: 0.246389 Loss ITC: 0.069815
+[2025-02-07 08:25:02,994 - trainer - INFO] - Train Epoch:[43/100] Step:[3000/3977] Loss: 1.473443 Loss_avg: 1.390355 LR: 0.00050813 Loss Fine: 0.564830 Loss Coarse: 0.771684 Loss Length: 0.364882 Loss ITC: 0.100440
+[2025-02-07 08:28:34,996 - trainer - INFO] - [Epoch End] Epoch:[43/100] Loss: 1.413984 LR: 0.00050508
+[2025-02-07 08:28:35,648 - trainer - INFO] - Train Epoch:[44/100] Step:[1/3977] Loss: 1.258736 Loss_avg: 1.258736 LR: 0.00050508 Loss Fine: 0.463400 Loss Coarse: 0.696963 Loss Length: 0.210047 Loss ITC: 0.077368
+[2025-02-07 08:32:12,313 - trainer - INFO] - Train Epoch:[44/100] Step:[1000/3977] Loss: 1.267094 Loss_avg: 1.289532 LR: 0.00050195 Loss Fine: 0.337527 Loss Coarse: 0.792816 Loss Length: 0.203537 Loss ITC: 0.116397
+[2025-02-07 08:35:49,378 - trainer - INFO] - Train Epoch:[44/100] Step:[2000/3977] Loss: 1.251325 Loss_avg: 1.328476 LR: 0.00049881 Loss Fine: 0.409662 Loss Coarse: 0.788926 Loss Length: 0.161461 Loss ITC: 0.036590
+[2025-02-07 08:39:26,757 - trainer - INFO] - Train Epoch:[44/100] Step:[3000/3977] Loss: 1.539803 Loss_avg: 1.364689 LR: 0.00049567 Loss Fine: 0.691617 Loss Coarse: 0.723543 Loss Length: 0.295058 Loss ITC: 0.095137
+[2025-02-07 08:42:58,905 - trainer - INFO] - [Epoch End] Epoch:[44/100] Loss: 1.386120 LR: 0.00049259
+[2025-02-07 08:42:59,553 - trainer - INFO] - Train Epoch:[45/100] Step:[1/3977] Loss: 1.465731 Loss_avg: 1.465731 LR: 0.00049259 Loss Fine: 0.549111 Loss Coarse: 0.850735 Loss Length: 0.241941 Loss ITC: 0.041691
+[2025-02-07 08:46:35,663 - trainer - INFO] - Train Epoch:[45/100] Step:[1000/3977] Loss: 1.353259 Loss_avg: 1.267089 LR: 0.00048944 Loss Fine: 0.527372 Loss Coarse: 0.707594 Loss Length: 0.331811 Loss ITC: 0.085112
+[2025-02-07 08:50:12,656 - trainer - INFO] - Train Epoch:[45/100] Step:[2000/3977] Loss: 1.398789 Loss_avg: 1.301877 LR: 0.00048628 Loss Fine: 0.573172 Loss Coarse: 0.754288 Loss Length: 0.349368 Loss ITC: 0.036393
+[2025-02-07 08:53:49,438 - trainer - INFO] - Train Epoch:[45/100] Step:[3000/3977] Loss: 1.561612 Loss_avg: 1.335148 LR: 0.00048311 Loss Fine: 0.572585 Loss Coarse: 0.873170 Loss Length: 0.230660 Loss ITC: 0.092791
+[2025-02-07 08:57:21,504 - trainer - INFO] - [Epoch End] Epoch:[45/100] Loss: 1.359486 LR: 0.00048001
+[2025-02-07 08:57:22,174 - trainer - INFO] - Train Epoch:[46/100] Step:[1/3977] Loss: 1.375684 Loss_avg: 1.375684 LR: 0.00048001 Loss Fine: 0.513106 Loss Coarse: 0.747978 Loss Length: 0.266102 Loss ITC: 0.087990
+[2025-02-07 09:00:58,907 - trainer - INFO] - Train Epoch:[46/100] Step:[1000/3977] Loss: 0.957831 Loss_avg: 1.239732 LR: 0.00047683 Loss Fine: 0.225834 Loss Coarse: 0.651525 Loss Length: 0.157080 Loss ITC: 0.064764
+[2025-02-07 09:04:36,063 - trainer - INFO] - Train Epoch:[46/100] Step:[2000/3977] Loss: 1.088687 Loss_avg: 1.277210 LR: 0.00047365 Loss Fine: 0.299478 Loss Coarse: 0.721129 Loss Length: 0.250658 Loss ITC: 0.043014
+[2025-02-07 09:08:12,793 - trainer - INFO] - Train Epoch:[46/100] Step:[3000/3977] Loss: 1.608607 Loss_avg: 1.306665 LR: 0.00047046 Loss Fine: 0.505969 Loss Coarse: 0.958347 Loss Length: 0.309452 Loss ITC: 0.113346
+[2025-02-07 09:11:44,942 - trainer - INFO] - [Epoch End] Epoch:[46/100] Loss: 1.327832 LR: 0.00046734
+[2025-02-07 09:11:45,588 - trainer - INFO] - Train Epoch:[47/100] Step:[1/3977] Loss: 0.978817 Loss_avg: 0.978817 LR: 0.00046734 Loss Fine: 0.255973 Loss Coarse: 0.650152 Loss Length: 0.186361 Loss ITC: 0.054055
+[2025-02-07 09:15:22,208 - trainer - INFO] - Train Epoch:[47/100] Step:[1000/3977] Loss: 1.315719 Loss_avg: 1.216619 LR: 0.00046414 Loss Fine: 0.373573 Loss Coarse: 0.831184 Loss Length: 0.324873 Loss ITC: 0.078475
+[2025-02-07 09:18:59,171 - trainer - INFO] - Train Epoch:[47/100] Step:[2000/3977] Loss: 1.251141 Loss_avg: 1.256560 LR: 0.00046094 Loss Fine: 0.480408 Loss Coarse: 0.714910 Loss Length: 0.298458 Loss ITC: 0.025977
+[2025-02-07 09:22:36,062 - trainer - INFO] - Train Epoch:[47/100] Step:[3000/3977] Loss: 1.042248 Loss_avg: 1.283086 LR: 0.00045774 Loss Fine: 0.281251 Loss Coarse: 0.683832 Loss Length: 0.156642 Loss ITC: 0.061500
+[2025-02-07 09:26:07,997 - trainer - INFO] - [Epoch End] Epoch:[47/100] Loss: 1.302646 LR: 0.00045460
+[2025-02-07 09:26:08,694 - trainer - INFO] - Train Epoch:[48/100] Step:[1/3977] Loss: 1.267661 Loss_avg: 1.267661 LR: 0.00045460 Loss Fine: 0.405239 Loss Coarse: 0.788819 Loss Length: 0.169371 Loss ITC: 0.056666
+[2025-02-07 09:29:45,602 - trainer - INFO] - Train Epoch:[48/100] Step:[1000/3977] Loss: 1.155621 Loss_avg: 1.187051 LR: 0.00045139 Loss Fine: 0.377368 Loss Coarse: 0.707383 Loss Length: 0.149485 Loss ITC: 0.055921
+[2025-02-07 09:33:22,599 - trainer - INFO] - Train Epoch:[48/100] Step:[2000/3977] Loss: 1.445414 Loss_avg: 1.226341 LR: 0.00044818 Loss Fine: 0.500428 Loss Coarse: 0.841668 Loss Length: 0.384518 Loss ITC: 0.064866
+[2025-02-07 09:36:59,623 - trainer - INFO] - Train Epoch:[48/100] Step:[3000/3977] Loss: 1.387047 Loss_avg: 1.252652 LR: 0.00044496 Loss Fine: 0.559396 Loss Coarse: 0.703024 Loss Length: 0.224096 Loss ITC: 0.102217
+[2025-02-07 09:40:31,163 - trainer - INFO] - [Epoch End] Epoch:[48/100] Loss: 1.271866 LR: 0.00044181
+[2025-02-07 09:40:31,837 - trainer - INFO] - Train Epoch:[49/100] Step:[1/3977] Loss: 0.968253 Loss_avg: 0.968253 LR: 0.00044181 Loss Fine: 0.307437 Loss Coarse: 0.580845 Loss Length: 0.178653 Loss ITC: 0.062105
+[2025-02-07 09:44:08,234 - trainer - INFO] - Train Epoch:[49/100] Step:[1000/3977] Loss: 0.972218 Loss_avg: 1.148930 LR: 0.00043859 Loss Fine: 0.257696 Loss Coarse: 0.640416 Loss Length: 0.179154 Loss ITC: 0.056190
+[2025-02-07 09:47:45,382 - trainer - INFO] - Train Epoch:[49/100] Step:[2000/3977] Loss: 1.891131 Loss_avg: 1.193635 LR: 0.00043536 Loss Fine: 1.062830 Loss Coarse: 0.692454 Loss Length: 0.377002 Loss ITC: 0.098147
+[2025-02-07 09:51:22,289 - trainer - INFO] - Train Epoch:[49/100] Step:[3000/3977] Loss: 1.372195 Loss_avg: 1.222261 LR: 0.00043213 Loss Fine: 0.448117 Loss Coarse: 0.832807 Loss Length: 0.218669 Loss ITC: 0.069403
+[2025-02-07 09:54:54,213 - trainer - INFO] - [Epoch End] Epoch:[49/100] Loss: 1.243910 LR: 0.00042897
+[2025-02-07 09:55:36,254 - trainer - INFO] - [Epoch Start] Epoch:[50/100] LR: 0.00042897
+Validation result at 50 epoch: Word_acc: 0.720104 Word_acc_case_ins: 0.720104 Edit_distance_acc: 0.829764
+[2025-02-07 09:55:36,885 - trainer - INFO] - Train Epoch:[50/100] Step:[1/3977] Loss: 1.222487 Loss_avg: 1.222487 LR: 0.00042897 Loss Fine: 0.507012 Loss Coarse: 0.635197 Loss Length: 0.322434 Loss ITC: 0.048035
+[2025-02-07 09:59:13,349 - trainer - INFO] - Train Epoch:[50/100] Step:[1000/3977] Loss: 1.126399 Loss_avg: 1.129462 LR: 0.00042574 Loss Fine: 0.410576 Loss Coarse: 0.675122 Loss Length: 0.158325 Loss ITC: 0.024868
+[2025-02-07 10:02:50,157 - trainer - INFO] - Train Epoch:[50/100] Step:[2000/3977] Loss: 1.282887 Loss_avg: 1.165869 LR: 0.00042250 Loss Fine: 0.498285 Loss Coarse: 0.703909 Loss Length: 0.221719 Loss ITC: 0.058521
+[2025-02-07 10:06:26,940 - trainer - INFO] - Train Epoch:[50/100] Step:[3000/3977] Loss: 1.337800 Loss_avg: 1.193167 LR: 0.00041927 Loss Fine: 0.514335 Loss Coarse: 0.737083 Loss Length: 0.196167 Loss ITC: 0.066765
+[2025-02-07 10:09:58,691 - trainer - INFO] - [Epoch End] Epoch:[50/100] Loss: 1.214920 LR: 0.00041610
+[2025-02-07 10:09:59,338 - trainer - INFO] - Train Epoch:[51/100] Step:[1/3977] Loss: 1.526647 Loss_avg: 1.526647 LR: 0.00041610 Loss Fine: 0.714311 Loss Coarse: 0.718318 Loss Length: 0.358621 Loss ITC: 0.058156
+[2025-02-07 10:13:36,142 - trainer - INFO] - Train Epoch:[51/100] Step:[1000/3977] Loss: 1.080718 Loss_avg: 1.118045 LR: 0.00041287 Loss Fine: 0.294254 Loss Coarse: 0.718830 Loss Length: 0.177124 Loss ITC: 0.049921
+[2025-02-07 10:17:13,157 - trainer - INFO] - Train Epoch:[51/100] Step:[2000/3977] Loss: 1.039521 Loss_avg: 1.137639 LR: 0.00040963 Loss Fine: 0.254177 Loss Coarse: 0.732430 Loss Length: 0.170221 Loss ITC: 0.035891
+[2025-02-07 10:20:50,193 - trainer - INFO] - Train Epoch:[51/100] Step:[3000/3977] Loss: 0.926583 Loss_avg: 1.164699 LR: 0.00040639 Loss Fine: 0.298019 Loss Coarse: 0.581912 Loss Length: 0.124512 Loss ITC: 0.034202
+[2025-02-07 10:25:04,220 - trainer - INFO] - [Epoch End] Epoch:[51/100] Loss: 1.184754 LR: 0.00040322
+ Validation result after 51 epoch: Word_acc: 0.727598 Word_acc_case_ins: 0.727598 Edit_distance_acc: 0.849030
+[2025-02-07 10:25:04,535 - trainer - INFO] - Saving current best (at 51 epoch): model_best.pth Best word_acc: 0.727598
+[2025-02-07 10:25:05,210 - trainer - INFO] - Train Epoch:[52/100] Step:[1/3977] Loss: 0.848317 Loss_avg: 0.848317 LR: 0.00040322 Loss Fine: 0.307160 Loss Coarse: 0.490128 Loss Length: 0.176991 Loss ITC: 0.033330
+[2025-02-07 10:28:42,222 - trainer - INFO] - Train Epoch:[52/100] Step:[1000/3977] Loss: 1.434250 Loss_avg: 1.067020 LR: 0.00039998 Loss Fine: 0.693231 Loss Coarse: 0.682938 Loss Length: 0.220914 Loss ITC: 0.035989
+[2025-02-07 10:32:19,256 - trainer - INFO] - Train Epoch:[52/100] Step:[2000/3977] Loss: 1.121191 Loss_avg: 1.103196 LR: 0.00039674 Loss Fine: 0.311515 Loss Coarse: 0.709377 Loss Length: 0.197928 Loss ITC: 0.080506
+[2025-02-07 10:35:56,279 - trainer - INFO] - Train Epoch:[52/100] Step:[3000/3977] Loss: 1.425142 Loss_avg: 1.132382 LR: 0.00039350 Loss Fine: 0.611410 Loss Coarse: 0.712241 Loss Length: 0.324728 Loss ITC: 0.069019
+[2025-02-07 10:40:10,159 - trainer - INFO] - [Epoch End] Epoch:[52/100] Loss: 1.151647 LR: 0.00039033
+ Validation result after 52 epoch: Word_acc: 0.722712 Word_acc_case_ins: 0.722712 Edit_distance_acc: 0.829583
+[2025-02-07 10:40:10,821 - trainer - INFO] - Train Epoch:[53/100] Step:[1/3977] Loss: 0.926147 Loss_avg: 0.926147 LR: 0.00039033 Loss Fine: 0.287822 Loss Coarse: 0.600144 Loss Length: 0.166772 Loss ITC: 0.021505
+[2025-02-07 10:43:47,670 - trainer - INFO] - Train Epoch:[53/100] Step:[1000/3977] Loss: 1.106668 Loss_avg: 1.052810 LR: 0.00038709 Loss Fine: 0.420725 Loss Coarse: 0.642434 Loss Length: 0.210801 Loss ITC: 0.022429
+[2025-02-07 10:47:24,730 - trainer - INFO] - Train Epoch:[53/100] Step:[2000/3977] Loss: 1.247402 Loss_avg: 1.087836 LR: 0.00038385 Loss Fine: 0.387374 Loss Coarse: 0.786723 Loss Length: 0.270758 Loss ITC: 0.046230
+[2025-02-07 10:51:02,065 - trainer - INFO] - Train Epoch:[53/100] Step:[3000/3977] Loss: 1.235018 Loss_avg: 1.114730 LR: 0.00038062 Loss Fine: 0.337739 Loss Coarse: 0.808998 Loss Length: 0.167648 Loss ITC: 0.071517
+[2025-02-07 10:55:15,761 - trainer - INFO] - [Epoch End] Epoch:[53/100] Loss: 1.128754 LR: 0.00037746
+ Validation result after 53 epoch: Word_acc: 0.729955 Word_acc_case_ins: 0.729955 Edit_distance_acc: 0.840746
+[2025-02-07 10:55:16,203 - trainer - INFO] - Saving current best (at 53 epoch): model_best.pth Best word_acc: 0.729955
+[2025-02-07 10:55:16,852 - trainer - INFO] - Train Epoch:[54/100] Step:[1/3977] Loss: 0.880573 Loss_avg: 0.880573 LR: 0.00037745 Loss Fine: 0.306943 Loss Coarse: 0.525071 Loss Length: 0.150416 Loss ITC: 0.033517
+[2025-02-07 10:58:53,550 - trainer - INFO] - Train Epoch:[54/100] Step:[1000/3977] Loss: 0.796386 Loss_avg: 1.015778 LR: 0.00037422 Loss Fine: 0.233425 Loss Coarse: 0.507061 Loss Length: 0.223637 Loss ITC: 0.033536
+[2025-02-07 11:02:30,479 - trainer - INFO] - Train Epoch:[54/100] Step:[2000/3977] Loss: 0.942732 Loss_avg: 1.053517 LR: 0.00037099 Loss Fine: 0.352332 Loss Coarse: 0.515477 Loss Length: 0.246936 Loss ITC: 0.050230
+[2025-02-07 11:06:07,503 - trainer - INFO] - Train Epoch:[54/100] Step:[3000/3977] Loss: 1.156913 Loss_avg: 1.079720 LR: 0.00036776 Loss Fine: 0.293603 Loss Coarse: 0.707126 Loss Length: 0.269157 Loss ITC: 0.129268
+[2025-02-07 11:10:21,469 - trainer - INFO] - [Epoch End] Epoch:[54/100] Loss: 1.097923 LR: 0.00036460
+ Validation result after 54 epoch: Word_acc: 0.730615 Word_acc_case_ins: 0.730615 Edit_distance_acc: 0.826010
+[2025-02-07 11:10:21,908 - trainer - INFO] - Saving current best (at 54 epoch): model_best.pth Best word_acc: 0.730615
+[2025-02-07 11:10:22,566 - trainer - INFO] - Train Epoch:[55/100] Step:[1/3977] Loss: 1.030800 Loss_avg: 1.030800 LR: 0.00036460 Loss Fine: 0.571845 Loss Coarse: 0.417055 Loss Length: 0.133166 Loss ITC: 0.028584
+[2025-02-07 11:13:59,135 - trainer - INFO] - Train Epoch:[55/100] Step:[1000/3977] Loss: 0.852757 Loss_avg: 0.986902 LR: 0.00036137 Loss Fine: 0.244351 Loss Coarse: 0.573618 Loss Length: 0.160029 Loss ITC: 0.018785
+[2025-02-07 11:17:36,278 - trainer - INFO] - Train Epoch:[55/100] Step:[2000/3977] Loss: 1.179145 Loss_avg: 1.022366 LR: 0.00035815 Loss Fine: 0.392500 Loss Coarse: 0.704230 Loss Length: 0.308678 Loss ITC: 0.051547
+[2025-02-07 11:21:13,196 - trainer - INFO] - Train Epoch:[55/100] Step:[3000/3977] Loss: 1.124930 Loss_avg: 1.049582 LR: 0.00035493 Loss Fine: 0.411501 Loss Coarse: 0.637109 Loss Length: 0.245481 Loss ITC: 0.051773
+[2025-02-07 11:25:27,459 - trainer - INFO] - [Epoch End] Epoch:[55/100] Loss: 1.068560 LR: 0.00035178
+ Validation result after 55 epoch: Word_acc: 0.732862 Word_acc_case_ins: 0.732862 Edit_distance_acc: 0.831603
+[2025-02-07 11:25:27,909 - trainer - INFO] - Saving current best (at 55 epoch): model_best.pth Best word_acc: 0.732862
+[2025-02-07 11:25:28,569 - trainer - INFO] - Train Epoch:[56/100] Step:[1/3977] Loss: 0.987498 Loss_avg: 0.987498 LR: 0.00035178 Loss Fine: 0.314683 Loss Coarse: 0.587157 Loss Length: 0.186144 Loss ITC: 0.067044
+[2025-02-07 11:29:05,446 - trainer - INFO] - Train Epoch:[56/100] Step:[1000/3977] Loss: 1.005495 Loss_avg: 0.964528 LR: 0.00034857 Loss Fine: 0.299984 Loss Coarse: 0.647113 Loss Length: 0.172379 Loss ITC: 0.041161
+[2025-02-07 11:32:42,684 - trainer - INFO] - Train Epoch:[56/100] Step:[2000/3977] Loss: 1.276016 Loss_avg: 1.002349 LR: 0.00034536 Loss Fine: 0.518803 Loss Coarse: 0.657778 Loss Length: 0.255625 Loss ITC: 0.073873
+[2025-02-07 11:36:19,461 - trainer - INFO] - Train Epoch:[56/100] Step:[3000/3977] Loss: 0.985119 Loss_avg: 1.028986 LR: 0.00034215 Loss Fine: 0.291549 Loss Coarse: 0.628249 Loss Length: 0.153537 Loss ITC: 0.049968
+[2025-02-07 11:40:33,100 - trainer - INFO] - [Epoch End] Epoch:[56/100] Loss: 1.041573 LR: 0.00033902
+ Validation result after 56 epoch: Word_acc: 0.735454 Word_acc_case_ins: 0.735454 Edit_distance_acc: 0.835394
+[2025-02-07 11:40:33,542 - trainer - INFO] - Saving current best (at 56 epoch): model_best.pth Best word_acc: 0.735454
+[2025-02-07 11:40:34,193 - trainer - INFO] - Train Epoch:[57/100] Step:[1/3977] Loss: 1.087336 Loss_avg: 1.087336 LR: 0.00033901 Loss Fine: 0.384316 Loss Coarse: 0.615633 Loss Length: 0.331081 Loss ITC: 0.054279
+[2025-02-07 11:44:10,748 - trainer - INFO] - Train Epoch:[57/100] Step:[1000/3977] Loss: 0.854172 Loss_avg: 0.934607 LR: 0.00033582 Loss Fine: 0.257805 Loss Coarse: 0.520980 Loss Length: 0.171959 Loss ITC: 0.058191
+[2025-02-07 11:47:47,364 - trainer - INFO] - Train Epoch:[57/100] Step:[2000/3977] Loss: 1.147690 Loss_avg: 0.971289 LR: 0.00033262 Loss Fine: 0.264560 Loss Coarse: 0.808202 Loss Length: 0.116281 Loss ITC: 0.063301
+[2025-02-07 11:51:24,259 - trainer - INFO] - Train Epoch:[57/100] Step:[3000/3977] Loss: 0.989401 Loss_avg: 0.990110 LR: 0.00032943 Loss Fine: 0.381757 Loss Coarse: 0.537449 Loss Length: 0.258109 Loss ITC: 0.044384
+[2025-02-07 11:55:38,284 - trainer - INFO] - [Epoch End] Epoch:[57/100] Loss: 1.006801 LR: 0.00032631
+ Validation result after 57 epoch: Word_acc: 0.743295 Word_acc_case_ins: 0.743295 Edit_distance_acc: 0.845246
+[2025-02-07 11:55:38,729 - trainer - INFO] - Saving current best (at 57 epoch): model_best.pth Best word_acc: 0.743295
+[2025-02-07 11:55:39,382 - trainer - INFO] - Train Epoch:[58/100] Step:[1/3977] Loss: 0.892567 Loss_avg: 0.892567 LR: 0.00032631 Loss Fine: 0.271513 Loss Coarse: 0.572225 Loss Length: 0.162454 Loss ITC: 0.032583
+[2025-02-07 11:59:15,818 - trainer - INFO] - Train Epoch:[58/100] Step:[1000/3977] Loss: 0.996095 Loss_avg: 0.915175 LR: 0.00032313 Loss Fine: 0.327266 Loss Coarse: 0.612079 Loss Length: 0.215832 Loss ITC: 0.035167
+[2025-02-07 12:02:52,496 - trainer - INFO] - Train Epoch:[58/100] Step:[2000/3977] Loss: 1.582049 Loss_avg: 0.944340 LR: 0.00031995 Loss Fine: 0.851379 Loss Coarse: 0.666964 Loss Length: 0.209101 Loss ITC: 0.042797
+[2025-02-07 12:06:29,439 - trainer - INFO] - Train Epoch:[58/100] Step:[3000/3977] Loss: 1.009798 Loss_avg: 0.964109 LR: 0.00031678 Loss Fine: 0.330187 Loss Coarse: 0.632274 Loss Length: 0.218454 Loss ITC: 0.025491
+[2025-02-07 12:10:43,374 - trainer - INFO] - [Epoch End] Epoch:[58/100] Loss: 0.981910 LR: 0.00031369
+ Validation result after 58 epoch: Word_acc: 0.734779 Word_acc_case_ins: 0.734779 Edit_distance_acc: 0.834466
+[2025-02-07 12:10:44,019 - trainer - INFO] - Train Epoch:[59/100] Step:[1/3977] Loss: 1.169478 Loss_avg: 1.169478 LR: 0.00031368 Loss Fine: 0.498064 Loss Coarse: 0.609478 Loss Length: 0.287495 Loss ITC: 0.033187
+[2025-02-07 12:14:20,578 - trainer - INFO] - Train Epoch:[59/100] Step:[1000/3977] Loss: 0.856418 Loss_avg: 0.885298 LR: 0.00031052 Loss Fine: 0.188584 Loss Coarse: 0.582172 Loss Length: 0.158272 Loss ITC: 0.069835
+[2025-02-07 12:17:57,448 - trainer - INFO] - Train Epoch:[59/100] Step:[2000/3977] Loss: 1.169732 Loss_avg: 0.914581 LR: 0.00030737 Loss Fine: 0.479194 Loss Coarse: 0.616799 Loss Length: 0.250445 Loss ITC: 0.048695
+[2025-02-07 12:21:34,577 - trainer - INFO] - Train Epoch:[59/100] Step:[3000/3977] Loss: 0.967500 Loss_avg: 0.936299 LR: 0.00030422 Loss Fine: 0.386396 Loss Coarse: 0.520155 Loss Length: 0.256557 Loss ITC: 0.035293
+[2025-02-07 12:25:48,653 - trainer - INFO] - [Epoch End] Epoch:[59/100] Loss: 0.947617 LR: 0.00030115
+ Validation result after 59 epoch: Word_acc: 0.738597 Word_acc_case_ins: 0.738597 Edit_distance_acc: 0.834879
+[2025-02-07 12:25:49,303 - trainer - INFO] - Train Epoch:[60/100] Step:[1/3977] Loss: 0.872109 Loss_avg: 0.872109 LR: 0.00030114 Loss Fine: 0.334548 Loss Coarse: 0.482411 Loss Length: 0.142926 Loss ITC: 0.040857
+[2025-02-07 12:29:26,158 - trainer - INFO] - Train Epoch:[60/100] Step:[1000/3977] Loss: 0.756683 Loss_avg: 0.862561 LR: 0.00029801 Loss Fine: 0.219729 Loss Coarse: 0.482342 Loss Length: 0.170172 Loss ITC: 0.037594
+[2025-02-07 12:33:03,246 - trainer - INFO] - Train Epoch:[60/100] Step:[2000/3977] Loss: 0.932158 Loss_avg: 0.885605 LR: 0.00029488 Loss Fine: 0.263415 Loss Coarse: 0.588102 Loss Length: 0.215556 Loss ITC: 0.059085
+[2025-02-07 12:36:39,825 - trainer - INFO] - Train Epoch:[60/100] Step:[3000/3977] Loss: 0.743275 Loss_avg: 0.907290 LR: 0.00029176 Loss Fine: 0.198817 Loss Coarse: 0.489233 Loss Length: 0.125493 Loss ITC: 0.042675
+[2025-02-07 12:40:53,933 - trainer - INFO] - [Epoch End] Epoch:[60/100] Loss: 0.923316 LR: 0.00028871
+ Validation result after 60 epoch: Word_acc: 0.743075 Word_acc_case_ins: 0.743075 Edit_distance_acc: 0.838407
+[2025-02-07 12:40:54,595 - trainer - INFO] - Train Epoch:[61/100] Step:[1/3977] Loss: 0.644740 Loss_avg: 0.644740 LR: 0.00028871 Loss Fine: 0.189697 Loss Coarse: 0.405509 Loss Length: 0.182370 Loss ITC: 0.031297
+[2025-02-07 12:44:31,852 - trainer - INFO] - Train Epoch:[61/100] Step:[1000/3977] Loss: 0.806536 Loss_avg: 0.833543 LR: 0.00028560 Loss Fine: 0.251500 Loss Coarse: 0.508313 Loss Length: 0.142572 Loss ITC: 0.032467
+[2025-02-07 12:48:08,860 - trainer - INFO] - Train Epoch:[61/100] Step:[2000/3977] Loss: 1.206265 Loss_avg: 0.856971 LR: 0.00028250 Loss Fine: 0.413198 Loss Coarse: 0.715949 Loss Length: 0.264244 Loss ITC: 0.050693
+[2025-02-07 12:51:45,912 - trainer - INFO] - Train Epoch:[61/100] Step:[3000/3977] Loss: 0.842014 Loss_avg: 0.878430 LR: 0.00027941 Loss Fine: 0.262950 Loss Coarse: 0.520643 Loss Length: 0.261531 Loss ITC: 0.032269
+[2025-02-07 12:55:59,955 - trainer - INFO] - [Epoch End] Epoch:[61/100] Loss: 0.889213 LR: 0.00027639
+ Validation result after 61 epoch: Word_acc: 0.745416 Word_acc_case_ins: 0.745416 Edit_distance_acc: 0.854698
+[2025-02-07 12:56:00,404 - trainer - INFO] - Saving current best (at 61 epoch): model_best.pth Best word_acc: 0.745416
+[2025-02-07 12:56:01,069 - trainer - INFO] - Train Epoch:[62/100] Step:[1/3977] Loss: 0.767999 Loss_avg: 0.767999 LR: 0.00027639 Loss Fine: 0.206157 Loss Coarse: 0.492820 Loss Length: 0.160712 Loss ITC: 0.052951
+[2025-02-07 12:59:37,865 - trainer - INFO] - Train Epoch:[62/100] Step:[1000/3977] Loss: 1.018186 Loss_avg: 0.814379 LR: 0.00027331 Loss Fine: 0.431970 Loss Coarse: 0.541637 Loss Length: 0.229139 Loss ITC: 0.021664
+[2025-02-07 13:03:15,030 - trainer - INFO] - Train Epoch:[62/100] Step:[2000/3977] Loss: 0.789266 Loss_avg: 0.839356 LR: 0.00027024 Loss Fine: 0.246424 Loss Coarse: 0.482737 Loss Length: 0.323233 Loss ITC: 0.027782
+[2025-02-07 13:06:51,834 - trainer - INFO] - Train Epoch:[62/100] Step:[3000/3977] Loss: 0.878693 Loss_avg: 0.856606 LR: 0.00026718 Loss Fine: 0.265953 Loss Coarse: 0.568558 Loss Length: 0.196168 Loss ITC: 0.024566
+[2025-02-07 13:11:05,903 - trainer - INFO] - [Epoch End] Epoch:[62/100] Loss: 0.865009 LR: 0.00026420
+ Validation result after 62 epoch: Word_acc: 0.747553 Word_acc_case_ins: 0.747553 Edit_distance_acc: 0.864000
+[2025-02-07 13:11:06,356 - trainer - INFO] - Saving current best (at 62 epoch): model_best.pth Best word_acc: 0.747553
+[2025-02-07 13:11:07,002 - trainer - INFO] - Train Epoch:[63/100] Step:[1/3977] Loss: 0.736944 Loss_avg: 0.736944 LR: 0.00026420 Loss Fine: 0.227715 Loss Coarse: 0.480798 Loss Length: 0.164018 Loss ITC: 0.012029
+[2025-02-07 13:14:43,719 - trainer - INFO] - Train Epoch:[63/100] Step:[1000/3977] Loss: 0.627127 Loss_avg: 0.776491 LR: 0.00026116 Loss Fine: 0.156732 Loss Coarse: 0.444462 Loss Length: 0.100266 Loss ITC: 0.015906
+[2025-02-07 13:18:20,704 - trainer - INFO] - Train Epoch:[63/100] Step:[2000/3977] Loss: 0.633088 Loss_avg: 0.797509 LR: 0.00025812 Loss Fine: 0.135239 Loss Coarse: 0.454417 Loss Length: 0.210512 Loss ITC: 0.022381
+[2025-02-07 13:21:57,740 - trainer - INFO] - Train Epoch:[63/100] Step:[3000/3977] Loss: 0.826445 Loss_avg: 0.820783 LR: 0.00025510 Loss Fine: 0.286940 Loss Coarse: 0.510334 Loss Length: 0.186155 Loss ITC: 0.010556
+[2025-02-07 13:26:11,931 - trainer - INFO] - [Epoch End] Epoch:[63/100] Loss: 0.832720 LR: 0.00025215
+ Validation result after 63 epoch: Word_acc: 0.744913 Word_acc_case_ins: 0.744913 Edit_distance_acc: 0.863497
+[2025-02-07 13:26:12,591 - trainer - INFO] - Train Epoch:[64/100] Step:[1/3977] Loss: 0.962927 Loss_avg: 0.962927 LR: 0.00025215 Loss Fine: 0.394669 Loss Coarse: 0.473176 Loss Length: 0.271107 Loss ITC: 0.067971
+[2025-02-07 13:29:49,374 - trainer - INFO] - Train Epoch:[64/100] Step:[1000/3977] Loss: 1.023518 Loss_avg: 0.767412 LR: 0.00024914 Loss Fine: 0.460190 Loss Coarse: 0.506978 Loss Length: 0.206961 Loss ITC: 0.035655
+[2025-02-07 13:33:26,182 - trainer - INFO] - Train Epoch:[64/100] Step:[2000/3977] Loss: 1.065875 Loss_avg: 0.785846 LR: 0.00024615 Loss Fine: 0.463506 Loss Coarse: 0.533207 Loss Length: 0.336389 Loss ITC: 0.035523
+[2025-02-07 13:37:03,133 - trainer - INFO] - Train Epoch:[64/100] Step:[3000/3977] Loss: 0.841011 Loss_avg: 0.798588 LR: 0.00024316 Loss Fine: 0.281621 Loss Coarse: 0.526694 Loss Length: 0.156991 Loss ITC: 0.016997
+[2025-02-07 13:41:17,154 - trainer - INFO] - [Epoch End] Epoch:[64/100] Loss: 0.807778 LR: 0.00024025
+ Validation result after 64 epoch: Word_acc: 0.748134 Word_acc_case_ins: 0.748134 Edit_distance_acc: 0.862027
+[2025-02-07 13:41:17,610 - trainer - INFO] - Saving current best (at 64 epoch): model_best.pth Best word_acc: 0.748134
+[2025-02-07 13:41:18,279 - trainer - INFO] - Train Epoch:[65/100] Step:[1/3977] Loss: 0.783509 Loss_avg: 0.783509 LR: 0.00024025 Loss Fine: 0.331301 Loss Coarse: 0.420186 Loss Length: 0.210245 Loss ITC: 0.010997
+[2025-02-07 13:44:55,132 - trainer - INFO] - Train Epoch:[65/100] Step:[1000/3977] Loss: 0.604931 Loss_avg: 0.734584 LR: 0.00023729 Loss Fine: 0.175369 Loss Coarse: 0.403203 Loss Length: 0.134664 Loss ITC: 0.012892
+[2025-02-07 13:48:32,323 - trainer - INFO] - Train Epoch:[65/100] Step:[2000/3977] Loss: 0.799436 Loss_avg: 0.756854 LR: 0.00023433 Loss Fine: 0.283629 Loss Coarse: 0.471306 Loss Length: 0.210753 Loss ITC: 0.023426
+[2025-02-07 13:52:08,882 - trainer - INFO] - Train Epoch:[65/100] Step:[3000/3977] Loss: 0.937212 Loss_avg: 0.769833 LR: 0.00023139 Loss Fine: 0.369949 Loss Coarse: 0.533320 Loss Length: 0.182359 Loss ITC: 0.015707
+[2025-02-07 13:56:22,908 - trainer - INFO] - [Epoch End] Epoch:[65/100] Loss: 0.782325 LR: 0.00022852
+ Validation result after 65 epoch: Word_acc: 0.752361 Word_acc_case_ins: 0.752361 Edit_distance_acc: 0.862601
+[2025-02-07 13:56:23,349 - trainer - INFO] - Saving current best (at 65 epoch): model_best.pth Best word_acc: 0.752361
+[2025-02-07 13:56:24,022 - trainer - INFO] - Train Epoch:[66/100] Step:[1/3977] Loss: 0.589855 Loss_avg: 0.589855 LR: 0.00022852 Loss Fine: 0.154872 Loss Coarse: 0.406771 Loss Length: 0.122148 Loss ITC: 0.015998
+[2025-02-07 14:00:00,752 - trainer - INFO] - Train Epoch:[66/100] Step:[1000/3977] Loss: 0.651808 Loss_avg: 0.706872 LR: 0.00022560 Loss Fine: 0.248561 Loss Coarse: 0.366545 Loss Length: 0.154520 Loss ITC: 0.021250
+[2025-02-07 14:03:37,961 - trainer - INFO] - Train Epoch:[66/100] Step:[2000/3977] Loss: 1.082802 Loss_avg: 0.723202 LR: 0.00022269 Loss Fine: 0.481152 Loss Coarse: 0.513493 Loss Length: 0.396024 Loss ITC: 0.048555
+[2025-02-07 14:07:15,203 - trainer - INFO] - Train Epoch:[66/100] Step:[3000/3977] Loss: 0.816833 Loss_avg: 0.737416 LR: 0.00021979 Loss Fine: 0.289085 Loss Coarse: 0.489142 Loss Length: 0.170291 Loss ITC: 0.021576
+[2025-02-07 14:11:29,017 - trainer - INFO] - [Epoch End] Epoch:[66/100] Loss: 0.745431 LR: 0.00021697
+ Validation result after 66 epoch: Word_acc: 0.749077 Word_acc_case_ins: 0.749077 Edit_distance_acc: 0.861805
+[2025-02-07 14:11:29,690 - trainer - INFO] - Train Epoch:[67/100] Step:[1/3977] Loss: 0.808423 Loss_avg: 0.808423 LR: 0.00021697 Loss Fine: 0.410359 Loss Coarse: 0.363972 Loss Length: 0.140755 Loss ITC: 0.020017
+[2025-02-07 14:15:06,401 - trainer - INFO] - Train Epoch:[67/100] Step:[1000/3977] Loss: 0.728151 Loss_avg: 0.695262 LR: 0.00021409 Loss Fine: 0.342344 Loss Coarse: 0.345132 Loss Length: 0.243742 Loss ITC: 0.016300
+[2025-02-07 14:18:43,134 - trainer - INFO] - Train Epoch:[67/100] Step:[2000/3977] Loss: 1.046430 Loss_avg: 0.706225 LR: 0.00021123 Loss Fine: 0.537743 Loss Coarse: 0.472533 Loss Length: 0.228388 Loss ITC: 0.013315
+[2025-02-07 14:22:19,810 - trainer - INFO] - Train Epoch:[67/100] Step:[3000/3977] Loss: 0.614495 Loss_avg: 0.719129 LR: 0.00020838 Loss Fine: 0.124269 Loss Coarse: 0.448767 Loss Length: 0.164773 Loss ITC: 0.024982
+[2025-02-07 14:26:33,415 - trainer - INFO] - [Epoch End] Epoch:[67/100] Loss: 0.725082 LR: 0.00020561
+ Validation result after 67 epoch: Word_acc: 0.751921 Word_acc_case_ins: 0.751921 Edit_distance_acc: 0.863853
+[2025-02-07 14:26:34,095 - trainer - INFO] - Train Epoch:[68/100] Step:[1/3977] Loss: 0.483115 Loss_avg: 0.483115 LR: 0.00020560 Loss Fine: 0.133858 Loss Coarse: 0.336780 Loss Length: 0.042596 Loss ITC: 0.008218
+[2025-02-07 14:30:10,471 - trainer - INFO] - Train Epoch:[68/100] Step:[1000/3977] Loss: 0.589891 Loss_avg: 0.656743 LR: 0.00020278 Loss Fine: 0.140338 Loss Coarse: 0.420195 Loss Length: 0.057231 Loss ITC: 0.023635
+[2025-02-07 14:33:47,327 - trainer - INFO] - Train Epoch:[68/100] Step:[2000/3977] Loss: 0.639509 Loss_avg: 0.681301 LR: 0.00019997 Loss Fine: 0.228388 Loss Coarse: 0.346925 Loss Length: 0.206531 Loss ITC: 0.043542
+[2025-02-07 14:37:24,296 - trainer - INFO] - Train Epoch:[68/100] Step:[3000/3977] Loss: 0.611418 Loss_avg: 0.692663 LR: 0.00019717 Loss Fine: 0.181913 Loss Coarse: 0.387911 Loss Length: 0.110073 Loss ITC: 0.030586
+[2025-02-07 14:41:38,242 - trainer - INFO] - [Epoch End] Epoch:[68/100] Loss: 0.698474 LR: 0.00019444
+ Validation result after 68 epoch: Word_acc: 0.755723 Word_acc_case_ins: 0.755723 Edit_distance_acc: 0.860334
+[2025-02-07 14:41:38,692 - trainer - INFO] - Saving current best (at 68 epoch): model_best.pth Best word_acc: 0.755723
+[2025-02-07 14:41:39,383 - trainer - INFO] - Train Epoch:[69/100] Step:[1/3977] Loss: 0.879031 Loss_avg: 0.879031 LR: 0.00019444 Loss Fine: 0.377485 Loss Coarse: 0.446967 Loss Length: 0.150938 Loss ITC: 0.039485
+[2025-02-07 14:45:16,084 - trainer - INFO] - Train Epoch:[69/100] Step:[1000/3977] Loss: 0.689700 Loss_avg: 0.634597 LR: 0.00019167 Loss Fine: 0.310296 Loss Coarse: 0.346473 Loss Length: 0.162137 Loss ITC: 0.016717
+[2025-02-07 14:48:52,744 - trainer - INFO] - Train Epoch:[69/100] Step:[2000/3977] Loss: 0.561871 Loss_avg: 0.652702 LR: 0.00018891 Loss Fine: 0.186324 Loss Coarse: 0.349606 Loss Length: 0.072497 Loss ITC: 0.018692
+[2025-02-07 14:52:29,957 - trainer - INFO] - Train Epoch:[69/100] Step:[3000/3977] Loss: 0.572489 Loss_avg: 0.667673 LR: 0.00018617 Loss Fine: 0.148222 Loss Coarse: 0.396075 Loss Length: 0.166422 Loss ITC: 0.011550
+[2025-02-07 14:56:44,082 - trainer - INFO] - [Epoch End] Epoch:[69/100] Loss: 0.673348 LR: 0.00018350
+ Validation result after 69 epoch: Word_acc: 0.760735 Word_acc_case_ins: 0.760735 Edit_distance_acc: 0.851644
+[2025-02-07 14:56:44,528 - trainer - INFO] - Saving current best (at 69 epoch): model_best.pth Best word_acc: 0.760735
+[2025-02-07 14:56:45,175 - trainer - INFO] - Train Epoch:[70/100] Step:[1/3977] Loss: 0.593792 Loss_avg: 0.593792 LR: 0.00018349 Loss Fine: 0.188055 Loss Coarse: 0.349666 Loss Length: 0.091760 Loss ITC: 0.046896
+[2025-02-07 15:00:21,785 - trainer - INFO] - Train Epoch:[70/100] Step:[1000/3977] Loss: 0.712790 Loss_avg: 0.603758 LR: 0.00018078 Loss Fine: 0.248718 Loss Coarse: 0.407880 Loss Length: 0.166291 Loss ITC: 0.039564
+[2025-02-07 15:03:58,558 - trainer - INFO] - Train Epoch:[70/100] Step:[2000/3977] Loss: 0.546126 Loss_avg: 0.624461 LR: 0.00017808 Loss Fine: 0.157823 Loss Coarse: 0.345032 Loss Length: 0.122904 Loss ITC: 0.030981
+[2025-02-07 15:07:35,357 - trainer - INFO] - Train Epoch:[70/100] Step:[3000/3977] Loss: 0.753520 Loss_avg: 0.636224 LR: 0.00017539 Loss Fine: 0.308646 Loss Coarse: 0.393541 Loss Length: 0.224496 Loss ITC: 0.028884
+[2025-02-07 15:11:49,199 - trainer - INFO] - [Epoch End] Epoch:[70/100] Loss: 0.644336 LR: 0.00017277
+ Validation result after 70 epoch: Word_acc: 0.756587 Word_acc_case_ins: 0.756587 Edit_distance_acc: 0.853421
+[2025-02-07 15:11:49,883 - trainer - INFO] - Train Epoch:[71/100] Step:[1/3977] Loss: 0.466762 Loss_avg: 0.466762 LR: 0.00017277 Loss Fine: 0.154680 Loss Coarse: 0.292463 Loss Length: 0.121246 Loss ITC: 0.007495
+[2025-02-07 15:15:26,712 - trainer - INFO] - Train Epoch:[71/100] Step:[1000/3977] Loss: 0.755604 Loss_avg: 0.596265 LR: 0.00017011 Loss Fine: 0.308674 Loss Coarse: 0.420493 Loss Length: 0.114220 Loss ITC: 0.015015
+[2025-02-07 15:19:03,588 - trainer - INFO] - Train Epoch:[71/100] Step:[2000/3977] Loss: 0.588588 Loss_avg: 0.606859 LR: 0.00016747 Loss Fine: 0.142641 Loss Coarse: 0.419137 Loss Length: 0.136217 Loss ITC: 0.013188
+[2025-02-07 15:22:40,643 - trainer - INFO] - Train Epoch:[71/100] Step:[3000/3977] Loss: 0.649635 Loss_avg: 0.612792 LR: 0.00016484 Loss Fine: 0.208264 Loss Coarse: 0.417852 Loss Length: 0.155800 Loss ITC: 0.007938
+[2025-02-07 15:26:54,836 - trainer - INFO] - [Epoch End] Epoch:[71/100] Loss: 0.618530 LR: 0.00016229
+ Validation result after 71 epoch: Word_acc: 0.757043 Word_acc_case_ins: 0.757043 Edit_distance_acc: 0.874236
+[2025-02-07 15:26:55,507 - trainer - INFO] - Train Epoch:[72/100] Step:[1/3977] Loss: 0.577695 Loss_avg: 0.577695 LR: 0.00016228 Loss Fine: 0.136121 Loss Coarse: 0.416353 Loss Length: 0.129809 Loss ITC: 0.012241
+[2025-02-07 15:30:32,425 - trainer - INFO] - Train Epoch:[72/100] Step:[1000/3977] Loss: 0.680325 Loss_avg: 0.571833 LR: 0.00015969 Loss Fine: 0.184391 Loss Coarse: 0.470979 Loss Length: 0.123726 Loss ITC: 0.012582
+[2025-02-07 15:34:09,098 - trainer - INFO] - Train Epoch:[72/100] Step:[2000/3977] Loss: 0.754085 Loss_avg: 0.578600 LR: 0.00015711 Loss Fine: 0.174025 Loss Coarse: 0.557491 Loss Length: 0.114157 Loss ITC: 0.011154
+[2025-02-07 15:37:46,213 - trainer - INFO] - Train Epoch:[72/100] Step:[3000/3977] Loss: 0.651317 Loss_avg: 0.587457 LR: 0.00015454 Loss Fine: 0.293343 Loss Coarse: 0.328979 Loss Length: 0.147258 Loss ITC: 0.014269
+[2025-02-07 15:42:00,269 - trainer - INFO] - [Epoch End] Epoch:[72/100] Loss: 0.593367 LR: 0.00015205
+ Validation result after 72 epoch: Word_acc: 0.760672 Word_acc_case_ins: 0.760672 Edit_distance_acc: 0.862926
+[2025-02-07 15:42:00,975 - trainer - INFO] - Train Epoch:[73/100] Step:[1/3977] Loss: 0.501535 Loss_avg: 0.501535 LR: 0.00015204 Loss Fine: 0.126479 Loss Coarse: 0.343199 Loss Length: 0.066679 Loss ITC: 0.025189
+[2025-02-07 15:45:37,854 - trainer - INFO] - Train Epoch:[73/100] Step:[1000/3977] Loss: 0.398590 Loss_avg: 0.548689 LR: 0.00014951 Loss Fine: 0.081959 Loss Coarse: 0.302211 Loss Length: 0.101540 Loss ITC: 0.004266
+[2025-02-07 15:49:14,447 - trainer - INFO] - Train Epoch:[73/100] Step:[2000/3977] Loss: 1.007797 Loss_avg: 0.561612 LR: 0.00014699 Loss Fine: 0.505158 Loss Coarse: 0.446755 Loss Length: 0.252736 Loss ITC: 0.030611
+[2025-02-07 15:52:51,487 - trainer - INFO] - Train Epoch:[73/100] Step:[3000/3977] Loss: 0.618039 Loss_avg: 0.564327 LR: 0.00014449 Loss Fine: 0.207852 Loss Coarse: 0.380848 Loss Length: 0.109009 Loss ITC: 0.018438
+[2025-02-07 15:57:05,268 - trainer - INFO] - [Epoch End] Epoch:[73/100] Loss: 0.570599 LR: 0.00014206
+ Validation result after 73 epoch: Word_acc: 0.764428 Word_acc_case_ins: 0.764428 Edit_distance_acc: 0.874214
+[2025-02-07 15:57:05,711 - trainer - INFO] - Saving current best (at 73 epoch): model_best.pth Best word_acc: 0.764428
+[2025-02-07 15:57:06,400 - trainer - INFO] - Train Epoch:[74/100] Step:[1/3977] Loss: 0.806454 Loss_avg: 0.806454 LR: 0.00014206 Loss Fine: 0.342892 Loss Coarse: 0.431041 Loss Length: 0.190288 Loss ITC: 0.013492
+[2025-02-07 16:00:42,845 - trainer - INFO] - Train Epoch:[74/100] Step:[1000/3977] Loss: 0.517622 Loss_avg: 0.519791 LR: 0.00013959 Loss Fine: 0.132763 Loss Coarse: 0.360083 Loss Length: 0.134175 Loss ITC: 0.011359
+[2025-02-07 16:04:19,616 - trainer - INFO] - Train Epoch:[74/100] Step:[2000/3977] Loss: 0.414804 Loss_avg: 0.537510 LR: 0.00013714 Loss Fine: 0.102657 Loss Coarse: 0.287502 Loss Length: 0.076888 Loss ITC: 0.016956
+[2025-02-07 16:07:56,538 - trainer - INFO] - Train Epoch:[74/100] Step:[3000/3977] Loss: 0.514948 Loss_avg: 0.542332 LR: 0.00013471 Loss Fine: 0.125743 Loss Coarse: 0.355093 Loss Length: 0.096091 Loss ITC: 0.024503
+[2025-02-07 16:12:10,597 - trainer - INFO] - [Epoch End] Epoch:[74/100] Loss: 0.546949 LR: 0.00013235
+ Validation result after 74 epoch: Word_acc: 0.763234 Word_acc_case_ins: 0.763234 Edit_distance_acc: 0.859744
+[2025-02-07 16:12:11,296 - trainer - INFO] - Train Epoch:[75/100] Step:[1/3977] Loss: 0.790992 Loss_avg: 0.790992 LR: 0.00013235 Loss Fine: 0.377894 Loss Coarse: 0.363425 Loss Length: 0.136487 Loss ITC: 0.036024
+[2025-02-07 16:15:48,130 - trainer - INFO] - Train Epoch:[75/100] Step:[1000/3977] Loss: 0.430426 Loss_avg: 0.503591 LR: 0.00012995 Loss Fine: 0.102891 Loss Coarse: 0.275959 Loss Length: 0.058039 Loss ITC: 0.045771
+[2025-02-07 16:19:25,103 - trainer - INFO] - Train Epoch:[75/100] Step:[2000/3977] Loss: 0.495562 Loss_avg: 0.516044 LR: 0.00012757 Loss Fine: 0.183243 Loss Coarse: 0.293891 Loss Length: 0.116121 Loss ITC: 0.006816
+[2025-02-07 16:23:01,773 - trainer - INFO] - Train Epoch:[75/100] Step:[3000/3977] Loss: 0.420320 Loss_avg: 0.521354 LR: 0.00012520 Loss Fine: 0.094844 Loss Coarse: 0.310633 Loss Length: 0.082981 Loss ITC: 0.006545
+[2025-02-07 16:27:15,340 - trainer - INFO] - [Epoch End] Epoch:[75/100] Loss: 0.523544 LR: 0.00012291
+ Validation result after 75 epoch: Word_acc: 0.767476 Word_acc_case_ins: 0.767476 Edit_distance_acc: 0.883857
+[2025-02-07 16:27:15,791 - trainer - INFO] - Saving current best (at 75 epoch): model_best.pth Best word_acc: 0.767476
+[2025-02-07 16:27:16,564 - trainer - INFO] - Train Epoch:[76/100] Step:[1/3977] Loss: 0.499836 Loss_avg: 0.499836 LR: 0.00012291 Loss Fine: 0.127008 Loss Coarse: 0.323341 Loss Length: 0.092733 Loss ITC: 0.040212
+[2025-02-07 16:30:53,219 - trainer - INFO] - Train Epoch:[76/100] Step:[1000/3977] Loss: 0.383828 Loss_avg: 0.482546 LR: 0.00012058 Loss Fine: 0.071587 Loss Coarse: 0.294370 Loss Length: 0.059956 Loss ITC: 0.011876
+[2025-02-07 16:34:30,107 - trainer - INFO] - Train Epoch:[76/100] Step:[2000/3977] Loss: 0.452587 Loss_avg: 0.489802 LR: 0.00011827 Loss Fine: 0.160541 Loss Coarse: 0.280428 Loss Length: 0.069452 Loss ITC: 0.004673
+[2025-02-07 16:38:06,860 - trainer - INFO] - Train Epoch:[76/100] Step:[3000/3977] Loss: 0.593340 Loss_avg: 0.497137 LR: 0.00011598 Loss Fine: 0.164410 Loss Coarse: 0.396790 Loss Length: 0.110391 Loss ITC: 0.021101
+[2025-02-07 16:42:20,742 - trainer - INFO] - [Epoch End] Epoch:[76/100] Loss: 0.500579 LR: 0.00011376
+ Validation result after 76 epoch: Word_acc: 0.769597 Word_acc_case_ins: 0.769597 Edit_distance_acc: 0.877315
+[2025-02-07 16:42:21,183 - trainer - INFO] - Saving current best (at 76 epoch): model_best.pth Best word_acc: 0.769597
+[2025-02-07 16:42:21,872 - trainer - INFO] - Train Epoch:[77/100] Step:[1/3977] Loss: 0.289255 Loss_avg: 0.289255 LR: 0.00011376 Loss Fine: 0.062597 Loss Coarse: 0.214990 Loss Length: 0.061572 Loss ITC: 0.005510
+[2025-02-07 16:45:58,456 - trainer - INFO] - Train Epoch:[77/100] Step:[1000/3977] Loss: 0.349999 Loss_avg: 0.460012 LR: 0.00011151 Loss Fine: 0.063425 Loss Coarse: 0.256417 Loss Length: 0.102649 Loss ITC: 0.019892
+[2025-02-07 16:49:35,438 - trainer - INFO] - Train Epoch:[77/100] Step:[2000/3977] Loss: 0.393031 Loss_avg: 0.469392 LR: 0.00010927 Loss Fine: 0.067543 Loss Coarse: 0.312920 Loss Length: 0.047278 Loss ITC: 0.007840
+[2025-02-07 16:53:12,241 - trainer - INFO] - Train Epoch:[77/100] Step:[3000/3977] Loss: 0.413108 Loss_avg: 0.475800 LR: 0.00010706 Loss Fine: 0.116092 Loss Coarse: 0.254098 Loss Length: 0.128105 Loss ITC: 0.030107
+[2025-02-07 16:57:26,366 - trainer - INFO] - [Epoch End] Epoch:[77/100] Loss: 0.477481 LR: 0.00010491
+ Validation result after 77 epoch: Word_acc: 0.770823 Word_acc_case_ins: 0.770823 Edit_distance_acc: 0.880581
+[2025-02-07 16:57:26,808 - trainer - INFO] - Saving current best (at 77 epoch): model_best.pth Best word_acc: 0.770823
+[2025-02-07 16:57:27,458 - trainer - INFO] - Train Epoch:[78/100] Step:[1/3977] Loss: 0.470508 Loss_avg: 0.470508 LR: 0.00010491 Loss Fine: 0.166235 Loss Coarse: 0.277479 Loss Length: 0.114859 Loss ITC: 0.015308
+[2025-02-07 17:01:04,246 - trainer - INFO] - Train Epoch:[78/100] Step:[1000/3977] Loss: 0.569528 Loss_avg: 0.450589 LR: 0.00010273 Loss Fine: 0.280021 Loss Coarse: 0.266038 Loss Length: 0.142386 Loss ITC: 0.009231
+[2025-02-07 17:04:41,372 - trainer - INFO] - Train Epoch:[78/100] Step:[2000/3977] Loss: 0.430177 Loss_avg: 0.454601 LR: 0.00010057 Loss Fine: 0.111727 Loss Coarse: 0.266454 Loss Length: 0.194168 Loss ITC: 0.032580
+[2025-02-07 17:08:18,181 - trainer - INFO] - Train Epoch:[78/100] Step:[3000/3977] Loss: 0.323911 Loss_avg: 0.455453 LR: 0.00009843 Loss Fine: 0.049394 Loss Coarse: 0.248541 Loss Length: 0.093642 Loss ITC: 0.016612
+[2025-02-07 17:12:32,268 - trainer - INFO] - [Epoch End] Epoch:[78/100] Loss: 0.456698 LR: 0.00009636
+ Validation result after 78 epoch: Word_acc: 0.770398 Word_acc_case_ins: 0.770398 Edit_distance_acc: 0.888997
+[2025-02-07 17:12:32,933 - trainer - INFO] - Train Epoch:[79/100] Step:[1/3977] Loss: 0.625035 Loss_avg: 0.625035 LR: 0.00009636 Loss Fine: 0.249307 Loss Coarse: 0.346758 Loss Length: 0.206505 Loss ITC: 0.008320
+[2025-02-07 17:16:09,642 - trainer - INFO] - Train Epoch:[79/100] Step:[1000/3977] Loss: 0.764126 Loss_avg: 0.432453 LR: 0.00009426 Loss Fine: 0.301373 Loss Coarse: 0.408649 Loss Length: 0.255521 Loss ITC: 0.028552
+[2025-02-07 17:19:46,095 - trainer - INFO] - Train Epoch:[79/100] Step:[2000/3977] Loss: 0.407089 Loss_avg: 0.436272 LR: 0.00009218 Loss Fine: 0.102492 Loss Coarse: 0.289716 Loss Length: 0.095321 Loss ITC: 0.005349
+[2025-02-07 17:23:22,953 - trainer - INFO] - Train Epoch:[79/100] Step:[3000/3977] Loss: 0.549874 Loss_avg: 0.437786 LR: 0.00009012 Loss Fine: 0.242434 Loss Coarse: 0.281393 Loss Length: 0.156939 Loss ITC: 0.010353
+[2025-02-07 17:27:37,310 - trainer - INFO] - [Epoch End] Epoch:[79/100] Loss: 0.439545 LR: 0.00008813
+ Validation result after 79 epoch: Word_acc: 0.770870 Word_acc_case_ins: 0.770870 Edit_distance_acc: 0.887770
+[2025-02-07 17:27:37,753 - trainer - INFO] - Saving current best (at 79 epoch): model_best.pth Best word_acc: 0.770870
+[2025-02-07 17:27:38,433 - trainer - INFO] - Train Epoch:[80/100] Step:[1/3977] Loss: 0.325796 Loss_avg: 0.325796 LR: 0.00008813 Loss Fine: 0.066609 Loss Coarse: 0.246962 Loss Length: 0.065351 Loss ITC: 0.005689
+[2025-02-07 17:31:15,217 - trainer - INFO] - Train Epoch:[80/100] Step:[1000/3977] Loss: 0.483263 Loss_avg: 0.413666 LR: 0.00008611 Loss Fine: 0.183420 Loss Coarse: 0.275861 Loss Length: 0.085152 Loss ITC: 0.015466
+[2025-02-07 17:34:51,866 - trainer - INFO] - Train Epoch:[80/100] Step:[2000/3977] Loss: 0.315610 Loss_avg: 0.415582 LR: 0.00008411 Loss Fine: 0.047951 Loss Coarse: 0.244030 Loss Length: 0.091882 Loss ITC: 0.014440
+[2025-02-07 17:38:28,819 - trainer - INFO] - Train Epoch:[80/100] Step:[3000/3977] Loss: 0.302389 Loss_avg: 0.417976 LR: 0.00008214 Loss Fine: 0.052462 Loss Coarse: 0.227781 Loss Length: 0.040735 Loss ITC: 0.018073
+[2025-02-07 17:42:42,533 - trainer - INFO] - [Epoch End] Epoch:[80/100] Loss: 0.420901 LR: 0.00008022
+ Validation result after 80 epoch: Word_acc: 0.772064 Word_acc_case_ins: 0.772064 Edit_distance_acc: 0.891526
+[2025-02-07 17:42:42,987 - trainer - INFO] - Saving current best (at 80 epoch): model_best.pth Best word_acc: 0.772064
+[2025-02-07 17:42:43,673 - trainer - INFO] - Train Epoch:[81/100] Step:[1/3977] Loss: 0.675738 Loss_avg: 0.675738 LR: 0.00008022 Loss Fine: 0.298656 Loss Coarse: 0.343646 Loss Length: 0.146669 Loss ITC: 0.018769
+[2025-02-07 17:46:20,448 - trainer - INFO] - Train Epoch:[81/100] Step:[1000/3977] Loss: 0.405403 Loss_avg: 0.399024 LR: 0.00007829 Loss Fine: 0.137576 Loss Coarse: 0.246969 Loss Length: 0.110716 Loss ITC: 0.009787
+[2025-02-07 17:49:57,228 - trainer - INFO] - Train Epoch:[81/100] Step:[2000/3977] Loss: 0.257429 Loss_avg: 0.398246 LR: 0.00007637 Loss Fine: 0.045673 Loss Coarse: 0.177042 Loss Length: 0.073472 Loss ITC: 0.027367
+[2025-02-07 17:53:34,193 - trainer - INFO] - Train Epoch:[81/100] Step:[3000/3977] Loss: 0.406700 Loss_avg: 0.400567 LR: 0.00007448 Loss Fine: 0.086947 Loss Coarse: 0.301184 Loss Length: 0.124383 Loss ITC: 0.006131
+[2025-02-07 17:57:48,085 - trainer - INFO] - [Epoch End] Epoch:[81/100] Loss: 0.401065 LR: 0.00007265
+ Validation result after 81 epoch: Word_acc: 0.773886 Word_acc_case_ins: 0.773886 Edit_distance_acc: 0.885115
+[2025-02-07 17:57:48,524 - trainer - INFO] - Saving current best (at 81 epoch): model_best.pth Best word_acc: 0.773886
+[2025-02-07 17:57:49,204 - trainer - INFO] - Train Epoch:[82/100] Step:[1/3977] Loss: 0.279737 Loss_avg: 0.279737 LR: 0.00007265 Loss Fine: 0.073384 Loss Coarse: 0.197976 Loss Length: 0.026076 Loss ITC: 0.005769
+[2025-02-07 18:01:25,736 - trainer - INFO] - Train Epoch:[82/100] Step:[1000/3977] Loss: 0.303062 Loss_avg: 0.379523 LR: 0.00007080 Loss Fine: 0.028712 Loss Coarse: 0.266924 Loss Length: 0.035323 Loss ITC: 0.003894
+[2025-02-07 18:05:02,356 - trainer - INFO] - Train Epoch:[82/100] Step:[2000/3977] Loss: 0.336146 Loss_avg: 0.380050 LR: 0.00006897 Loss Fine: 0.081940 Loss Coarse: 0.220239 Loss Length: 0.098781 Loss ITC: 0.024089
+[2025-02-07 18:08:39,453 - trainer - INFO] - Train Epoch:[82/100] Step:[3000/3977] Loss: 0.516499 Loss_avg: 0.382115 LR: 0.00006716 Loss Fine: 0.240713 Loss Coarse: 0.260387 Loss Length: 0.113105 Loss ITC: 0.004088
+[2025-02-07 18:12:53,354 - trainer - INFO] - [Epoch End] Epoch:[82/100] Loss: 0.383086 LR: 0.00006541
+ Validation result after 82 epoch: Word_acc: 0.775473 Word_acc_case_ins: 0.775473 Edit_distance_acc: 0.892269
+[2025-02-07 18:12:53,798 - trainer - INFO] - Saving current best (at 82 epoch): model_best.pth Best word_acc: 0.775473
+[2025-02-07 18:12:54,459 - trainer - INFO] - Train Epoch:[83/100] Step:[1/3977] Loss: 0.214609 Loss_avg: 0.214609 LR: 0.00006541 Loss Fine: 0.018314 Loss Coarse: 0.188960 Loss Length: 0.037032 Loss ITC: 0.003631
+[2025-02-07 18:16:31,217 - trainer - INFO] - Train Epoch:[83/100] Step:[1000/3977] Loss: 0.304473 Loss_avg: 0.366422 LR: 0.00006365 Loss Fine: 0.103210 Loss Coarse: 0.181567 Loss Length: 0.057586 Loss ITC: 0.013938
+[2025-02-07 18:20:08,029 - trainer - INFO] - Train Epoch:[83/100] Step:[2000/3977] Loss: 0.351291 Loss_avg: 0.366774 LR: 0.00006191 Loss Fine: 0.027203 Loss Coarse: 0.260530 Loss Length: 0.048948 Loss ITC: 0.058663
+[2025-02-07 18:23:44,804 - trainer - INFO] - Train Epoch:[83/100] Step:[3000/3977] Loss: 0.303355 Loss_avg: 0.367024 LR: 0.00006018 Loss Fine: 0.058741 Loss Coarse: 0.224358 Loss Length: 0.049634 Loss ITC: 0.015293
+[2025-02-07 18:27:58,591 - trainer - INFO] - [Epoch End] Epoch:[83/100] Loss: 0.368461 LR: 0.00005853
+ Validation result after 83 epoch: Word_acc: 0.778082 Word_acc_case_ins: 0.778082 Edit_distance_acc: 0.890958
+[2025-02-07 18:27:59,045 - trainer - INFO] - Saving current best (at 83 epoch): model_best.pth Best word_acc: 0.778082
+[2025-02-07 18:27:59,716 - trainer - INFO] - Train Epoch:[84/100] Step:[1/3977] Loss: 0.331210 Loss_avg: 0.331210 LR: 0.00005852 Loss Fine: 0.062981 Loss Coarse: 0.247620 Loss Length: 0.056110 Loss ITC: 0.014998
+[2025-02-07 18:31:35,817 - trainer - INFO] - Train Epoch:[84/100] Step:[1000/3977] Loss: 0.323379 Loss_avg: 0.350153 LR: 0.00005685 Loss Fine: 0.054896 Loss Coarse: 0.256398 Loss Length: 0.054395 Loss ITC: 0.006645
+[2025-02-07 18:35:13,204 - trainer - INFO] - Train Epoch:[84/100] Step:[2000/3977] Loss: 0.394423 Loss_avg: 0.353353 LR: 0.00005519 Loss Fine: 0.081072 Loss Coarse: 0.306793 Loss Length: 0.032756 Loss ITC: 0.003282
+[2025-02-07 18:38:50,089 - trainer - INFO] - Train Epoch:[84/100] Step:[3000/3977] Loss: 0.310945 Loss_avg: 0.352894 LR: 0.00005356 Loss Fine: 0.082841 Loss Coarse: 0.204761 Loss Length: 0.048999 Loss ITC: 0.018442
+[2025-02-07 18:43:03,928 - trainer - INFO] - [Epoch End] Epoch:[84/100] Loss: 0.353560 LR: 0.00005199
+ Validation result after 84 epoch: Word_acc: 0.779857 Word_acc_case_ins: 0.779857 Edit_distance_acc: 0.891795
+[2025-02-07 18:43:04,371 - trainer - INFO] - Saving current best (at 84 epoch): model_best.pth Best word_acc: 0.779857
+[2025-02-07 18:43:05,042 - trainer - INFO] - Train Epoch:[85/100] Step:[1/3977] Loss: 0.298963 Loss_avg: 0.298963 LR: 0.00005199 Loss Fine: 0.061067 Loss Coarse: 0.222083 Loss Length: 0.079715 Loss ITC: 0.007841
+[2025-02-07 18:46:41,689 - trainer - INFO] - Train Epoch:[85/100] Step:[1000/3977] Loss: 0.362907 Loss_avg: 0.335717 LR: 0.00005041 Loss Fine: 0.093741 Loss Coarse: 0.257943 Loss Length: 0.067474 Loss ITC: 0.004475
+[2025-02-07 18:50:18,489 - trainer - INFO] - Train Epoch:[85/100] Step:[2000/3977] Loss: 0.316416 Loss_avg: 0.336323 LR: 0.00004884 Loss Fine: 0.072847 Loss Coarse: 0.220133 Loss Length: 0.062392 Loss ITC: 0.017197
+[2025-02-07 18:53:55,470 - trainer - INFO] - Train Epoch:[85/100] Step:[3000/3977] Loss: 0.336019 Loss_avg: 0.338115 LR: 0.00004730 Loss Fine: 0.048594 Loss Coarse: 0.256754 Loss Length: 0.044276 Loss ITC: 0.026243
+[2025-02-07 18:58:08,973 - trainer - INFO] - [Epoch End] Epoch:[85/100] Loss: 0.338613 LR: 0.00004582
+ Validation result after 85 epoch: Word_acc: 0.779904 Word_acc_case_ins: 0.779904 Edit_distance_acc: 0.898012
+[2025-02-07 18:58:09,414 - trainer - INFO] - Saving current best (at 85 epoch): model_best.pth Best word_acc: 0.779904
+[2025-02-07 18:58:10,072 - trainer - INFO] - Train Epoch:[86/100] Step:[1/3977] Loss: 0.352490 Loss_avg: 0.352490 LR: 0.00004582 Loss Fine: 0.109067 Loss Coarse: 0.227977 Loss Length: 0.115187 Loss ITC: 0.003927
+[2025-02-07 19:01:46,867 - trainer - INFO] - Train Epoch:[86/100] Step:[1000/3977] Loss: 0.347656 Loss_avg: 0.326416 LR: 0.00004432 Loss Fine: 0.054896 Loss Coarse: 0.265791 Loss Length: 0.117441 Loss ITC: 0.015225
+[2025-02-07 19:05:23,896 - trainer - INFO] - Train Epoch:[86/100] Step:[2000/3977] Loss: 0.261108 Loss_avg: 0.327444 LR: 0.00004285 Loss Fine: 0.053053 Loss Coarse: 0.199868 Loss Length: 0.051761 Loss ITC: 0.003011
+[2025-02-07 19:09:01,055 - trainer - INFO] - Train Epoch:[86/100] Step:[3000/3977] Loss: 0.309374 Loss_avg: 0.327557 LR: 0.00004141 Loss Fine: 0.091167 Loss Coarse: 0.191398 Loss Length: 0.082310 Loss ITC: 0.018578
+[2025-02-07 19:13:15,121 - trainer - INFO] - [Epoch End] Epoch:[86/100] Loss: 0.327137 LR: 0.00004001
+ Validation result after 86 epoch: Word_acc: 0.780658 Word_acc_case_ins: 0.780658 Edit_distance_acc: 0.896825
+[2025-02-07 19:13:15,564 - trainer - INFO] - Saving current best (at 86 epoch): model_best.pth Best word_acc: 0.780658
+[2025-02-07 19:13:16,260 - trainer - INFO] - Train Epoch:[87/100] Step:[1/3977] Loss: 0.414663 Loss_avg: 0.414663 LR: 0.00004001 Loss Fine: 0.132961 Loss Coarse: 0.233332 Loss Length: 0.068697 Loss ITC: 0.041501
+[2025-02-07 19:16:52,989 - trainer - INFO] - Train Epoch:[87/100] Step:[1000/3977] Loss: 0.293107 Loss_avg: 0.312816 LR: 0.00003861 Loss Fine: 0.027612 Loss Coarse: 0.236160 Loss Length: 0.060150 Loss ITC: 0.023320
+[2025-02-07 19:20:29,571 - trainer - INFO] - Train Epoch:[87/100] Step:[2000/3977] Loss: 0.335611 Loss_avg: 0.313776 LR: 0.00003724 Loss Fine: 0.062229 Loss Coarse: 0.238889 Loss Length: 0.061802 Loss ITC: 0.028313
+[2025-02-07 19:24:06,575 - trainer - INFO] - Train Epoch:[87/100] Step:[3000/3977] Loss: 0.274868 Loss_avg: 0.313379 LR: 0.00003588 Loss Fine: 0.052272 Loss Coarse: 0.189266 Loss Length: 0.051819 Loss ITC: 0.028149
+[2025-02-07 19:28:20,310 - trainer - INFO] - [Epoch End] Epoch:[87/100] Loss: 0.313272 LR: 0.00003458
+ Validation result after 87 epoch: Word_acc: 0.781271 Word_acc_case_ins: 0.781271 Edit_distance_acc: 0.899426
+[2025-02-07 19:28:20,775 - trainer - INFO] - Saving current best (at 87 epoch): model_best.pth Best word_acc: 0.781271
+[2025-02-07 19:28:21,432 - trainer - INFO] - Train Epoch:[88/100] Step:[1/3977] Loss: 0.245050 Loss_avg: 0.245050 LR: 0.00003458 Loss Fine: 0.047928 Loss Coarse: 0.167293 Loss Length: 0.041611 Loss ITC: 0.025668
+[2025-02-07 19:31:58,328 - trainer - INFO] - Train Epoch:[88/100] Step:[1000/3977] Loss: 0.245801 Loss_avg: 0.307022 LR: 0.00003328 Loss Fine: 0.060936 Loss Coarse: 0.175227 Loss Length: 0.061017 Loss ITC: 0.003536
+[2025-02-07 19:35:35,042 - trainer - INFO] - Train Epoch:[88/100] Step:[2000/3977] Loss: 0.286570 Loss_avg: 0.302632 LR: 0.00003200 Loss Fine: 0.073934 Loss Coarse: 0.176341 Loss Length: 0.188644 Loss ITC: 0.017431
+[2025-02-07 19:39:11,805 - trainer - INFO] - Train Epoch:[88/100] Step:[3000/3977] Loss: 0.223665 Loss_avg: 0.301522 LR: 0.00003074 Loss Fine: 0.052780 Loss Coarse: 0.160574 Loss Length: 0.042669 Loss ITC: 0.006044
+[2025-02-07 19:43:25,872 - trainer - INFO] - [Epoch End] Epoch:[88/100] Loss: 0.301867 LR: 0.00002953
+ Validation result after 88 epoch: Word_acc: 0.783345 Word_acc_case_ins: 0.783345 Edit_distance_acc: 0.900410
+[2025-02-07 19:43:26,317 - trainer - INFO] - Saving current best (at 88 epoch): model_best.pth Best word_acc: 0.783345
+[2025-02-07 19:43:26,990 - trainer - INFO] - Train Epoch:[89/100] Step:[1/3977] Loss: 0.262437 Loss_avg: 0.262437 LR: 0.00002953 Loss Fine: 0.061341 Loss Coarse: 0.179038 Loss Length: 0.081042 Loss ITC: 0.013953
+[2025-02-07 19:47:03,786 - trainer - INFO] - Train Epoch:[89/100] Step:[1000/3977] Loss: 0.194711 Loss_avg: 0.289777 LR: 0.00002832 Loss Fine: 0.016516 Loss Coarse: 0.173369 Loss Length: 0.023162 Loss ITC: 0.002510
+[2025-02-07 19:50:40,975 - trainer - INFO] - Train Epoch:[89/100] Step:[2000/3977] Loss: 0.216264 Loss_avg: 0.292160 LR: 0.00002714 Loss Fine: 0.023334 Loss Coarse: 0.179503 Loss Length: 0.097592 Loss ITC: 0.003668
+[2025-02-07 19:54:18,183 - trainer - INFO] - Train Epoch:[89/100] Step:[3000/3977] Loss: 0.244984 Loss_avg: 0.292190 LR: 0.00002598 Loss Fine: 0.041377 Loss Coarse: 0.198459 Loss Length: 0.013199 Loss ITC: 0.003828
+[2025-02-07 19:58:31,830 - trainer - INFO] - [Epoch End] Epoch:[89/100] Loss: 0.292501 LR: 0.00002487
+ Validation result after 89 epoch: Word_acc: 0.782984 Word_acc_case_ins: 0.782984 Edit_distance_acc: 0.898436
+[2025-02-07 19:58:32,510 - trainer - INFO] - Train Epoch:[90/100] Step:[1/3977] Loss: 0.281302 Loss_avg: 0.281302 LR: 0.00002486 Loss Fine: 0.044542 Loss Coarse: 0.218596 Loss Length: 0.041844 Loss ITC: 0.013980
+[2025-02-07 20:02:09,275 - trainer - INFO] - Train Epoch:[90/100] Step:[1000/3977] Loss: 0.292007 Loss_avg: 0.283512 LR: 0.00002375 Loss Fine: 0.041844 Loss Coarse: 0.231156 Loss Length: 0.024034 Loss ITC: 0.016604
+[2025-02-07 20:05:46,337 - trainer - INFO] - Train Epoch:[90/100] Step:[2000/3977] Loss: 0.292704 Loss_avg: 0.284406 LR: 0.00002266 Loss Fine: 0.081574 Loss Coarse: 0.200472 Loss Length: 0.072666 Loss ITC: 0.003392
+[2025-02-07 20:09:23,223 - trainer - INFO] - Train Epoch:[90/100] Step:[3000/3977] Loss: 0.304177 Loss_avg: 0.283454 LR: 0.00002160 Loss Fine: 0.070836 Loss Coarse: 0.219478 Loss Length: 0.086772 Loss ITC: 0.005186
+[2025-02-07 20:13:37,347 - trainer - INFO] - [Epoch End] Epoch:[90/100] Loss: 0.283053 LR: 0.00002059
+ Validation result after 90 epoch: Word_acc: 0.784084 Word_acc_case_ins: 0.784084 Edit_distance_acc: 0.901790
+[2025-02-07 20:13:37,791 - trainer - INFO] - Saving current best (at 90 epoch): model_best.pth Best word_acc: 0.784084
+[2025-02-07 20:13:38,449 - trainer - INFO] - Train Epoch:[91/100] Step:[1/3977] Loss: 0.281004 Loss_avg: 0.281004 LR: 0.00002059 Loss Fine: 0.055012 Loss Coarse: 0.214513 Loss Length: 0.052901 Loss ITC: 0.006189
+[2025-02-07 20:17:15,537 - trainer - INFO] - Train Epoch:[91/100] Step:[1000/3977] Loss: 0.231729 Loss_avg: 0.277032 LR: 0.00001957 Loss Fine: 0.046487 Loss Coarse: 0.172487 Loss Length: 0.052686 Loss ITC: 0.007486
+[2025-02-07 20:20:52,488 - trainer - INFO] - Train Epoch:[91/100] Step:[2000/3977] Loss: 0.204590 Loss_avg: 0.276904 LR: 0.00001858 Loss Fine: 0.018267 Loss Coarse: 0.167724 Loss Length: 0.013382 Loss ITC: 0.017261
+[2025-02-07 20:24:29,315 - trainer - INFO] - Train Epoch:[91/100] Step:[3000/3977] Loss: 0.376366 Loss_avg: 0.275847 LR: 0.00001762 Loss Fine: 0.124361 Loss Coarse: 0.212581 Loss Length: 0.084884 Loss ITC: 0.030936
+[2025-02-07 20:28:43,469 - trainer - INFO] - [Epoch End] Epoch:[91/100] Loss: 0.275486 LR: 0.00001670
+ Validation result after 91 epoch: Word_acc: 0.784712 Word_acc_case_ins: 0.784712 Edit_distance_acc: 0.902252
+[2025-02-07 20:28:43,920 - trainer - INFO] - Saving current best (at 91 epoch): model_best.pth Best word_acc: 0.784712
+[2025-02-07 20:28:44,611 - trainer - INFO] - Train Epoch:[92/100] Step:[1/3977] Loss: 0.257806 Loss_avg: 0.257806 LR: 0.00001670 Loss Fine: 0.029493 Loss Coarse: 0.219816 Loss Length: 0.044462 Loss ITC: 0.004051
+[2025-02-07 20:32:21,164 - trainer - INFO] - Train Epoch:[92/100] Step:[1000/3977] Loss: 0.212632 Loss_avg: 0.265022 LR: 0.00001579 Loss Fine: 0.076687 Loss Coarse: 0.117894 Loss Length: 0.026781 Loss ITC: 0.015373
+[2025-02-07 20:35:58,473 - trainer - INFO] - Train Epoch:[92/100] Step:[2000/3977] Loss: 0.261465 Loss_avg: 0.268428 LR: 0.00001490 Loss Fine: 0.034529 Loss Coarse: 0.183465 Loss Length: 0.079379 Loss ITC: 0.035533
+[2025-02-07 20:39:35,627 - trainer - INFO] - Train Epoch:[92/100] Step:[3000/3977] Loss: 0.266995 Loss_avg: 0.268309 LR: 0.00001404 Loss Fine: 0.111380 Loss Coarse: 0.143867 Loss Length: 0.080065 Loss ITC: 0.003742
+[2025-02-07 20:43:49,297 - trainer - INFO] - [Epoch End] Epoch:[92/100] Loss: 0.267740 LR: 0.00001322
+ Validation result after 92 epoch: Word_acc: 0.786299 Word_acc_case_ins: 0.786299 Edit_distance_acc: 0.902674
+[2025-02-07 20:43:49,756 - trainer - INFO] - Saving current best (at 92 epoch): model_best.pth Best word_acc: 0.786299
+[2025-02-07 20:43:50,432 - trainer - INFO] - Train Epoch:[93/100] Step:[1/3977] Loss: 0.191476 Loss_avg: 0.191476 LR: 0.00001322 Loss Fine: 0.011806 Loss Coarse: 0.176000 Loss Length: 0.014183 Loss ITC: 0.002252
+[2025-02-07 20:47:27,289 - trainer - INFO] - Train Epoch:[93/100] Step:[1000/3977] Loss: 0.239426 Loss_avg: 0.260106 LR: 0.00001240 Loss Fine: 0.062274 Loss Coarse: 0.161931 Loss Length: 0.013494 Loss ITC: 0.013871
+[2025-02-07 20:51:04,221 - trainer - INFO] - Train Epoch:[93/100] Step:[2000/3977] Loss: 0.284388 Loss_avg: 0.261618 LR: 0.00001162 Loss Fine: 0.026251 Loss Coarse: 0.231607 Loss Length: 0.012744 Loss ITC: 0.025256
+[2025-02-07 20:54:41,160 - trainer - INFO] - Train Epoch:[93/100] Step:[3000/3977] Loss: 0.303371 Loss_avg: 0.260536 LR: 0.00001085 Loss Fine: 0.122225 Loss Coarse: 0.172461 Loss Length: 0.034272 Loss ITC: 0.005257
+[2025-02-07 20:58:54,831 - trainer - INFO] - [Epoch End] Epoch:[93/100] Loss: 0.261248 LR: 0.00001013
+ Validation result after 93 epoch: Word_acc: 0.785796 Word_acc_case_ins: 0.785796 Edit_distance_acc: 0.903539
+[2025-02-07 20:58:55,521 - trainer - INFO] - Train Epoch:[94/100] Step:[1/3977] Loss: 0.172618 Loss_avg: 0.172618 LR: 0.00001013 Loss Fine: 0.031870 Loss Coarse: 0.130561 Loss Length: 0.030766 Loss ITC: 0.007111
+[2025-02-07 21:02:32,724 - trainer - INFO] - Train Epoch:[94/100] Step:[1000/3977] Loss: 0.225033 Loss_avg: 0.258557 LR: 0.00000942 Loss Fine: 0.056639 Loss Coarse: 0.161710 Loss Length: 0.027006 Loss ITC: 0.003984
+[2025-02-07 21:06:10,349 - trainer - INFO] - Train Epoch:[94/100] Step:[2000/3977] Loss: 0.163907 Loss_avg: 0.257648 LR: 0.00000874 Loss Fine: 0.020695 Loss Coarse: 0.137221 Loss Length: 0.041265 Loss ITC: 0.001865
+[2025-02-07 21:09:47,677 - trainer - INFO] - Train Epoch:[94/100] Step:[3000/3977] Loss: 0.362525 Loss_avg: 0.256685 LR: 0.00000808 Loss Fine: 0.131275 Loss Coarse: 0.197371 Loss Length: 0.074469 Loss ITC: 0.026432
+[2025-02-07 21:14:02,005 - trainer - INFO] - [Epoch End] Epoch:[94/100] Loss: 0.256460 LR: 0.00000745
+ Validation result after 94 epoch: Word_acc: 0.785985 Word_acc_case_ins: 0.785985 Edit_distance_acc: 0.904488
+[2025-02-07 21:14:02,661 - trainer - INFO] - Train Epoch:[95/100] Step:[1/3977] Loss: 0.213209 Loss_avg: 0.213209 LR: 0.00000745 Loss Fine: 0.055909 Loss Coarse: 0.130189 Loss Length: 0.017088 Loss ITC: 0.025402
+[2025-02-07 21:17:39,520 - trainer - INFO] - Train Epoch:[95/100] Step:[1000/3977] Loss: 0.214673 Loss_avg: 0.253575 LR: 0.00000684 Loss Fine: 0.031194 Loss Coarse: 0.152720 Loss Length: 0.065888 Loss ITC: 0.024170
+[2025-02-07 21:21:16,653 - trainer - INFO] - Train Epoch:[95/100] Step:[2000/3977] Loss: 0.270012 Loss_avg: 0.252597 LR: 0.00000626 Loss Fine: 0.039387 Loss Coarse: 0.199861 Loss Length: 0.040276 Loss ITC: 0.026737
+[2025-02-07 21:24:53,398 - trainer - INFO] - Train Epoch:[95/100] Step:[3000/3977] Loss: 0.280288 Loss_avg: 0.252003 LR: 0.00000570 Loss Fine: 0.049092 Loss Coarse: 0.201992 Loss Length: 0.050151 Loss ITC: 0.024188
+[2025-02-07 21:29:07,556 - trainer - INFO] - [Epoch End] Epoch:[95/100] Loss: 0.252586 LR: 0.00000518
+ Validation result after 95 epoch: Word_acc: 0.786472 Word_acc_case_ins: 0.786472 Edit_distance_acc: 0.905653
+[2025-02-07 21:29:07,996 - trainer - INFO] - Saving current best (at 95 epoch): model_best.pth Best word_acc: 0.786472
+[2025-02-07 21:29:08,660 - trainer - INFO] - Train Epoch:[96/100] Step:[1/3977] Loss: 0.214454 Loss_avg: 0.214454 LR: 0.00000518 Loss Fine: 0.007391 Loss Coarse: 0.189513 Loss Length: 0.042109 Loss ITC: 0.013340
+[2025-02-07 21:32:45,192 - trainer - INFO] - Train Epoch:[96/100] Step:[1000/3977] Loss: 0.251064 Loss_avg: 0.252372 LR: 0.00000468 Loss Fine: 0.050221 Loss Coarse: 0.193667 Loss Length: 0.035714 Loss ITC: 0.003604
+[2025-02-07 21:36:22,099 - trainer - INFO] - Train Epoch:[96/100] Step:[2000/3977] Loss: 0.257357 Loss_avg: 0.249791 LR: 0.00000419 Loss Fine: 0.045847 Loss Coarse: 0.198552 Loss Length: 0.071866 Loss ITC: 0.005772
+[2025-02-07 21:39:58,962 - trainer - INFO] - Train Epoch:[96/100] Step:[3000/3977] Loss: 0.225584 Loss_avg: 0.249774 LR: 0.00000374 Loss Fine: 0.014513 Loss Coarse: 0.205877 Loss Length: 0.030824 Loss ITC: 0.002111
+[2025-02-07 21:44:12,708 - trainer - INFO] - [Epoch End] Epoch:[96/100] Loss: 0.250065 LR: 0.00000332
+ Validation result after 96 epoch: Word_acc: 0.786566 Word_acc_case_ins: 0.786566 Edit_distance_acc: 0.905553
+[2025-02-07 21:44:13,150 - trainer - INFO] - Saving current best (at 96 epoch): model_best.pth Best word_acc: 0.786566
+[2025-02-07 21:44:13,808 - trainer - INFO] - Train Epoch:[97/100] Step:[1/3977] Loss: 0.210308 Loss_avg: 0.210308 LR: 0.00000332 Loss Fine: 0.013359 Loss Coarse: 0.159529 Loss Length: 0.014987 Loss ITC: 0.035921
+[2025-02-07 21:47:50,155 - trainer - INFO] - Train Epoch:[97/100] Step:[1000/3977] Loss: 0.319868 Loss_avg: 0.244909 LR: 0.00000292 Loss Fine: 0.098848 Loss Coarse: 0.205093 Loss Length: 0.028512 Loss ITC: 0.013076
+[2025-02-07 21:51:27,187 - trainer - INFO] - Train Epoch:[97/100] Step:[2000/3977] Loss: 0.281640 Loss_avg: 0.245319 LR: 0.00000254 Loss Fine: 0.044433 Loss Coarse: 0.209604 Loss Length: 0.073025 Loss ITC: 0.020301
+[2025-02-07 21:55:04,290 - trainer - INFO] - Train Epoch:[97/100] Step:[3000/3977] Loss: 0.306672 Loss_avg: 0.247117 LR: 0.00000219 Loss Fine: 0.023954 Loss Coarse: 0.243815 Loss Length: 0.016161 Loss ITC: 0.037286
+[2025-02-07 21:59:18,183 - trainer - INFO] - [Epoch End] Epoch:[97/100] Loss: 0.247329 LR: 0.00000187
+ Validation result after 97 epoch: Word_acc: 0.786629 Word_acc_case_ins: 0.786629 Edit_distance_acc: 0.906758
+[2025-02-07 21:59:18,633 - trainer - INFO] - Saving current best (at 97 epoch): model_best.pth Best word_acc: 0.786629
+[2025-02-07 21:59:19,287 - trainer - INFO] - Train Epoch:[98/100] Step:[1/3977] Loss: 0.211783 Loss_avg: 0.211783 LR: 0.00000187 Loss Fine: 0.045723 Loss Coarse: 0.133299 Loss Length: 0.089872 Loss ITC: 0.023774
+[2025-02-07 22:02:56,470 - trainer - INFO] - Train Epoch:[98/100] Step:[1000/3977] Loss: 0.186038 Loss_avg: 0.246194 LR: 0.00000157 Loss Fine: 0.016255 Loss Coarse: 0.164089 Loss Length: 0.031477 Loss ITC: 0.002547
+[2025-02-07 22:06:33,514 - trainer - INFO] - Train Epoch:[98/100] Step:[2000/3977] Loss: 0.195535 Loss_avg: 0.245384 LR: 0.00000130 Loss Fine: 0.052824 Loss Coarse: 0.137400 Loss Length: 0.032349 Loss ITC: 0.002076
+[2025-02-07 22:10:10,367 - trainer - INFO] - Train Epoch:[98/100] Step:[3000/3977] Loss: 0.272526 Loss_avg: 0.244460 LR: 0.00000105 Loss Fine: 0.040938 Loss Coarse: 0.222113 Loss Length: 0.073851 Loss ITC: 0.002090
+[2025-02-07 22:14:24,118 - trainer - INFO] - [Epoch End] Epoch:[98/100] Loss: 0.245266 LR: 0.00000083
+ Validation result after 98 epoch: Word_acc: 0.786786 Word_acc_case_ins: 0.786786 Edit_distance_acc: 0.906009
+[2025-02-07 22:14:24,614 - trainer - INFO] - Saving current best (at 98 epoch): model_best.pth Best word_acc: 0.786786
+[2025-02-07 22:14:25,272 - trainer - INFO] - Train Epoch:[99/100] Step:[1/3977] Loss: 0.248873 Loss_avg: 0.248873 LR: 0.00000083 Loss Fine: 0.042964 Loss Coarse: 0.197677 Loss Length: 0.058689 Loss ITC: 0.002364
+[2025-02-07 22:18:02,014 - trainer - INFO] - Train Epoch:[99/100] Step:[1000/3977] Loss: 0.324364 Loss_avg: 0.246592 LR: 0.00000064 Loss Fine: 0.148073 Loss Coarse: 0.157144 Loss Length: 0.047231 Loss ITC: 0.014424
+[2025-02-07 22:21:39,155 - trainer - INFO] - Train Epoch:[99/100] Step:[2000/3977] Loss: 0.205193 Loss_avg: 0.247318 LR: 0.00000047 Loss Fine: 0.008174 Loss Coarse: 0.175191 Loss Length: 0.022904 Loss ITC: 0.019537
+[2025-02-07 22:25:15,980 - trainer - INFO] - Train Epoch:[99/100] Step:[3000/3977] Loss: 0.262941 Loss_avg: 0.245995 LR: 0.00000033 Loss Fine: 0.044929 Loss Coarse: 0.210150 Loss Length: 0.049214 Loss ITC: 0.002940
+[2025-02-07 22:29:30,038 - trainer - INFO] - [Epoch End] Epoch:[99/100] Loss: 0.245622 LR: 0.00000021
+ Validation result after 99 epoch: Word_acc: 0.787305 Word_acc_case_ins: 0.787305 Edit_distance_acc: 0.906484
+[2025-02-07 22:29:30,479 - trainer - INFO] - Saving current best (at 99 epoch): model_best.pth Best word_acc: 0.787305
+[2025-02-07 22:29:31,148 - trainer - INFO] - Train Epoch:[100/100] Step:[1/3977] Loss: 0.232036 Loss_avg: 0.232036 LR: 0.00000021 Loss Fine: 0.051218 Loss Coarse: 0.168768 Loss Length: 0.082599 Loss ITC: 0.003790
+[2025-02-07 22:33:07,802 - trainer - INFO] - Train Epoch:[100/100] Step:[1000/3977] Loss: 0.194461 Loss_avg: 0.245232 LR: 0.00000012 Loss Fine: 0.026210 Loss Coarse: 0.162890 Loss Length: 0.025165 Loss ITC: 0.002844
+[2025-02-07 22:36:44,910 - trainer - INFO] - Train Epoch:[100/100] Step:[2000/3977] Loss: 0.184359 Loss_avg: 0.245252 LR: 0.00000005 Loss Fine: 0.006187 Loss Coarse: 0.157105 Loss Length: 0.055327 Loss ITC: 0.015535
+[2025-02-07 22:40:22,072 - trainer - INFO] - Train Epoch:[100/100] Step:[3000/3977] Loss: 0.255823 Loss_avg: 0.245433 LR: 0.00000002 Loss Fine: 0.077739 Loss Coarse: 0.158986 Loss Length: 0.057561 Loss ITC: 0.013341
+[2025-02-07 22:44:36,036 - trainer - INFO] - [Epoch End] Epoch:[100/100] Loss: 0.244779 LR: 0.00000000
+ Validation result after 100 epoch: Word_acc: 0.787289 Word_acc_case_ins: 0.787289 Edit_distance_acc: 0.906568
+[2025-02-07 22:44:36,036 - train - INFO] - Distributed training end...

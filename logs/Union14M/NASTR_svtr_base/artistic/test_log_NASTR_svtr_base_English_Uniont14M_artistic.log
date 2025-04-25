@@ -1,0 +1,1808 @@
+[2025-03-13 19:01:11,943 - test - INFO] - Dataloader instances have finished. Test datasets: 900 Test_batch_size/gpu: 1
+[2025-03-13 19:01:12,106 - test - INFO] - Model created, trainable parameters: 32.510258 MB.
+[2025-03-13 19:01:12,107 - test - INFO] - Model parameters without any constraint components: 32.132573 MB.
+[2025-03-13 19:01:12,107 - test - INFO] - Loading checkpoint: /path/to/checkpoint ...
+[2025-03-13 19:01:12,384 - test - INFO] - Testing start...
+[2025-03-13 19:01:12,709 - tester - INFO] - [Testing stage] Step: [0 / 900]
+[2025-03-13 19:01:12,841 - tester - INFO] - ID: 0 	 GT: pizza 	 PT: pizza 	 STATE: True 
+
+[2025-03-13 19:01:12,847 - tester - INFO] - ID: 1 	 GT: pizza 	 PT: pizz 	 STATE: False 
+
+[2025-03-13 19:01:12,852 - tester - INFO] - ID: 2 	 GT: cup 	 PT: cud 	 STATE: False 
+
+[2025-03-13 19:01:12,857 - tester - INFO] - ID: 3 	 GT: wine 	 PT: wine 	 STATE: True 
+
+[2025-03-13 19:01:12,862 - tester - INFO] - ID: 4 	 GT: feange 	 PT: blange 	 STATE: False 
+
+[2025-03-13 19:01:12,867 - tester - INFO] - ID: 5 	 GT: hystrung 	 PT: hystrung 	 STATE: True 
+
+[2025-03-13 19:01:12,871 - tester - INFO] - ID: 6 	 GT: city 	 PT: city 	 STATE: True 
+
+[2025-03-13 19:01:12,876 - tester - INFO] - ID: 7 	 GT: catering 	 PT: catering 	 STATE: True 
+
+[2025-03-13 19:01:12,881 - tester - INFO] - ID: 8 	 GT: bigelow 	 PT: biselow 	 STATE: False 
+
+[2025-03-13 19:01:12,886 - tester - INFO] - ID: 9 	 GT: serving 	 PT: serving 	 STATE: True 
+
+[2025-03-13 19:01:12,891 - tester - INFO] - ID: 10 	 GT: sherlock 	 PT: sherlock 	 STATE: True 
+
+[2025-03-13 19:01:12,895 - tester - INFO] - ID: 11 	 GT: opeaopeam 	 PT: breadream 	 STATE: False 
+
+[2025-03-13 19:01:12,900 - tester - INFO] - ID: 12 	 GT: aov 	 PT: aol 	 STATE: False 
+
+[2025-03-13 19:01:12,905 - tester - INFO] - ID: 13 	 GT: palcirca 	 PT: palgrra 	 STATE: False 
+
+[2025-03-13 19:01:12,910 - tester - INFO] - ID: 14 	 GT: meidi 	 PT: msd 	 STATE: False 
+
+[2025-03-13 19:01:12,914 - tester - INFO] - ID: 15 	 GT: miss 	 PT: miss 	 STATE: True 
+
+[2025-03-13 19:01:12,919 - tester - INFO] - ID: 16 	 GT: hitea 	 PT: hitea 	 STATE: True 
+
+[2025-03-13 19:01:12,924 - tester - INFO] - ID: 17 	 GT: carlslerg 	 PT: carlsberg 	 STATE: False 
+
+[2025-03-13 19:01:12,929 - tester - INFO] - ID: 18 	 GT: ugly 	 PT: uggyy 	 STATE: False 
+
+[2025-03-13 19:01:12,933 - tester - INFO] - ID: 19 	 GT: riot 	 PT: riot 	 STATE: True 
+
+[2025-03-13 19:01:12,938 - tester - INFO] - ID: 20 	 GT: tobacco 	 PT: tobacco 	 STATE: True 
+
+[2025-03-13 19:01:12,943 - tester - INFO] - ID: 21 	 GT: boom 	 PT: boom 	 STATE: True 
+
+[2025-03-13 19:01:12,947 - tester - INFO] - ID: 22 	 GT: edelbrock 	 PT: edelbrock 	 STATE: True 
+
+[2025-03-13 19:01:12,952 - tester - INFO] - ID: 23 	 GT: duito 	 PT: dusto 	 STATE: False 
+
+[2025-03-13 19:01:12,957 - tester - INFO] - ID: 24 	 GT: videogame 	 PT: videogame 	 STATE: True 
+
+[2025-03-13 19:01:12,962 - tester - INFO] - ID: 25 	 GT: eolus 	 PT: eolus 	 STATE: True 
+
+[2025-03-13 19:01:12,966 - tester - INFO] - ID: 26 	 GT: stage 	 PT: stage 	 STATE: True 
+
+[2025-03-13 19:01:12,971 - tester - INFO] - ID: 27 	 GT: ilove 	 PT: leve 	 STATE: False 
+
+[2025-03-13 19:01:12,975 - tester - INFO] - ID: 28 	 GT: finert 	 PT: finert 	 STATE: True 
+
+[2025-03-13 19:01:12,980 - tester - INFO] - ID: 29 	 GT: harana 	 PT: haraaa 	 STATE: False 
+
+[2025-03-13 19:01:12,985 - tester - INFO] - ID: 30 	 GT: virgin 	 PT: virgin 	 STATE: True 
+
+[2025-03-13 19:01:12,990 - tester - INFO] - ID: 31 	 GT: solar 	 PT: solar 	 STATE: True 
+
+[2025-03-13 19:01:12,994 - tester - INFO] - ID: 32 	 GT: kbsh 	 PT: kbsh 	 STATE: True 
+
+[2025-03-13 19:01:12,999 - tester - INFO] - ID: 33 	 GT: cruise 	 PT: cruise 	 STATE: True 
+
+[2025-03-13 19:01:13,004 - tester - INFO] - ID: 34 	 GT: bistrobar 	 PT: bistrobar 	 STATE: True 
+
+[2025-03-13 19:01:13,008 - tester - INFO] - ID: 35 	 GT: coco 	 PT: coco 	 STATE: True 
+
+[2025-03-13 19:01:13,013 - tester - INFO] - ID: 36 	 GT: ap 	 PT: op 	 STATE: False 
+
+[2025-03-13 19:01:13,018 - tester - INFO] - ID: 37 	 GT: ilove 	 PT: 1 	 STATE: False 
+
+[2025-03-13 19:01:13,023 - tester - INFO] - ID: 38 	 GT: snielothek 	 PT: spielothek 	 STATE: False 
+
+[2025-03-13 19:01:13,027 - tester - INFO] - ID: 39 	 GT: airwair 	 PT: airwair 	 STATE: True 
+
+[2025-03-13 19:01:13,032 - tester - INFO] - ID: 40 	 GT: pour 	 PT: pour 	 STATE: True 
+
+[2025-03-13 19:01:13,037 - tester - INFO] - ID: 41 	 GT: duoduoyun 	 PT: duoduoyun 	 STATE: True 
+
+[2025-03-13 19:01:13,041 - tester - INFO] - ID: 42 	 GT: sfa 	 PT: sea 	 STATE: False 
+
+[2025-03-13 19:01:13,046 - tester - INFO] - ID: 43 	 GT: soil 	 PT: soil 	 STATE: True 
+
+[2025-03-13 19:01:13,051 - tester - INFO] - ID: 44 	 GT: savers 	 PT: savers 	 STATE: True 
+
+[2025-03-13 19:01:13,056 - tester - INFO] - ID: 45 	 GT: toys 	 PT: toys 	 STATE: True 
+
+[2025-03-13 19:01:13,060 - tester - INFO] - ID: 46 	 GT: its 	 PT: tts 	 STATE: False 
+
+[2025-03-13 19:01:13,065 - tester - INFO] - ID: 47 	 GT: indiana 	 PT: indiana 	 STATE: True 
+
+[2025-03-13 19:01:13,070 - tester - INFO] - ID: 48 	 GT: ogre 	 PT: ogre 	 STATE: True 
+
+[2025-03-13 19:01:13,074 - tester - INFO] - ID: 49 	 GT: grinder 	 PT: grinder 	 STATE: True 
+
+[2025-03-13 19:01:13,079 - tester - INFO] - ID: 50 	 GT: disney 	 PT: disney 	 STATE: True 
+
+[2025-03-13 19:01:13,084 - tester - INFO] - ID: 51 	 GT: new 	 PT: new 	 STATE: True 
+
+[2025-03-13 19:01:13,089 - tester - INFO] - ID: 52 	 GT: cocacola 	 PT: cocacola 	 STATE: True 
+
+[2025-03-13 19:01:13,093 - tester - INFO] - ID: 53 	 GT: picc 	 PT: picc 	 STATE: True 
+
+[2025-03-13 19:01:13,098 - tester - INFO] - ID: 54 	 GT: markets 	 PT: markets 	 STATE: True 
+
+[2025-03-13 19:01:13,103 - tester - INFO] - ID: 55 	 GT: hot 	 PT: hot 	 STATE: True 
+
+[2025-03-13 19:01:13,107 - tester - INFO] - ID: 56 	 GT: 975 	 PT: 975 	 STATE: True 
+
+[2025-03-13 19:01:13,112 - tester - INFO] - ID: 57 	 GT: chevys 	 PT: chevis 	 STATE: False 
+
+[2025-03-13 19:01:13,117 - tester - INFO] - ID: 58 	 GT: dellarte 	 PT: dellarte 	 STATE: True 
+
+[2025-03-13 19:01:13,122 - tester - INFO] - ID: 59 	 GT: gome 	 PT: gome 	 STATE: True 
+
+[2025-03-13 19:01:13,126 - tester - INFO] - ID: 60 	 GT: schlitz 	 PT: schlitg 	 STATE: False 
+
+[2025-03-13 19:01:13,131 - tester - INFO] - ID: 61 	 GT: heroes 	 PT: heroes 	 STATE: True 
+
+[2025-03-13 19:01:13,136 - tester - INFO] - ID: 62 	 GT: proyo 	 PT: proyo 	 STATE: True 
+
+[2025-03-13 19:01:13,141 - tester - INFO] - ID: 63 	 GT: falen 	 PT: falen 	 STATE: True 
+
+[2025-03-13 19:01:13,145 - tester - INFO] - ID: 64 	 GT: cocacola 	 PT: cocacola 	 STATE: True 
+
+[2025-03-13 19:01:13,150 - tester - INFO] - ID: 65 	 GT: cupcake 	 PT: cupcake 	 STATE: True 
+
+[2025-03-13 19:01:13,155 - tester - INFO] - ID: 66 	 GT: 51 	 PT: 51 	 STATE: True 
+
+[2025-03-13 19:01:13,159 - tester - INFO] - ID: 67 	 GT: taficr 	 PT: tatier 	 STATE: False 
+
+[2025-03-13 19:01:13,164 - tester - INFO] - ID: 68 	 GT: caffee 	 PT: coffee 	 STATE: False 
+
+[2025-03-13 19:01:13,169 - tester - INFO] - ID: 69 	 GT: coffee 	 PT: coffee 	 STATE: True 
+
+[2025-03-13 19:01:13,174 - tester - INFO] - ID: 70 	 GT: 80s 	 PT: 80s 	 STATE: True 
+
+[2025-03-13 19:01:13,178 - tester - INFO] - ID: 71 	 GT: belinga 	 PT: belinge 	 STATE: False 
+
+[2025-03-13 19:01:13,183 - tester - INFO] - ID: 72 	 GT: man 	 PT: man 	 STATE: True 
+
+[2025-03-13 19:01:13,188 - tester - INFO] - ID: 73 	 GT: tortillas 	 PT: tortillas 	 STATE: True 
+
+[2025-03-13 19:01:13,193 - tester - INFO] - ID: 74 	 GT: allgemeinen 	 PT: allgemeinen 	 STATE: True 
+
+[2025-03-13 19:01:13,198 - tester - INFO] - ID: 75 	 GT: panda 	 PT: aznoz 	 STATE: False 
+
+[2025-03-13 19:01:13,202 - tester - INFO] - ID: 76 	 GT: continental 	 PT: continental 	 STATE: True 
+
+[2025-03-13 19:01:13,207 - tester - INFO] - ID: 77 	 GT: jammin 	 PT: jammin 	 STATE: True 
+
+[2025-03-13 19:01:13,212 - tester - INFO] - ID: 78 	 GT: passion 	 PT: lanrions 	 STATE: False 
+
+[2025-03-13 19:01:13,217 - tester - INFO] - ID: 79 	 GT: froot 	 PT: froot 	 STATE: True 
+
+[2025-03-13 19:01:13,221 - tester - INFO] - ID: 80 	 GT: swensens 	 PT: swersens 	 STATE: False 
+
+[2025-03-13 19:01:13,226 - tester - INFO] - ID: 81 	 GT: special 	 PT: special 	 STATE: True 
+
+[2025-03-13 19:01:13,231 - tester - INFO] - ID: 82 	 GT: cocacola 	 PT: cocaccol 	 STATE: False 
+
+[2025-03-13 19:01:13,235 - tester - INFO] - ID: 83 	 GT: founders 	 PT: founders 	 STATE: True 
+
+[2025-03-13 19:01:13,240 - tester - INFO] - ID: 84 	 GT: junior 	 PT: junior 	 STATE: True 
+
+[2025-03-13 19:01:13,245 - tester - INFO] - ID: 85 	 GT: paris 	 PT: poris 	 STATE: False 
+
+[2025-03-13 19:01:13,250 - tester - INFO] - ID: 86 	 GT: style 	 PT: ptule 	 STATE: False 
+
+[2025-03-13 19:01:13,255 - tester - INFO] - ID: 87 	 GT: pho 	 PT: pho 	 STATE: True 
+
+[2025-03-13 19:01:13,259 - tester - INFO] - ID: 88 	 GT: land 	 PT: land 	 STATE: True 
+
+[2025-03-13 19:01:13,264 - tester - INFO] - ID: 89 	 GT: gepettos 	 PT: gepettos 	 STATE: True 
+
+[2025-03-13 19:01:13,269 - tester - INFO] - ID: 90 	 GT: per 	 PT: per 	 STATE: True 
+
+[2025-03-13 19:01:13,274 - tester - INFO] - ID: 91 	 GT: 365 	 PT: 365 	 STATE: True 
+
+[2025-03-13 19:01:13,278 - tester - INFO] - ID: 92 	 GT: pm 	 PT: pm 	 STATE: True 
+
+[2025-03-13 19:01:13,283 - tester - INFO] - ID: 93 	 GT: risk 	 PT: risk 	 STATE: True 
+
+[2025-03-13 19:01:13,288 - tester - INFO] - ID: 94 	 GT: 1903 	 PT: 1903 	 STATE: True 
+
+[2025-03-13 19:01:13,293 - tester - INFO] - ID: 95 	 GT: mirios 	 PT: mirios 	 STATE: True 
+
+[2025-03-13 19:01:13,297 - tester - INFO] - ID: 96 	 GT: arrow 	 PT: anrow 	 STATE: False 
+
+[2025-03-13 19:01:13,302 - tester - INFO] - ID: 97 	 GT: blue 	 PT: bluc 	 STATE: False 
+
+[2025-03-13 19:01:13,307 - tester - INFO] - ID: 98 	 GT: chaoshifo 	 PT: chacshifa 	 STATE: False 
+
+[2025-03-13 19:01:13,312 - tester - INFO] - ID: 99 	 GT: lakers 	 PT: lakers 	 STATE: True 
+
+[2025-03-13 19:01:13,316 - tester - INFO] - ID: 100 	 GT: cool 	 PT: cool 	 STATE: True 
+
+[2025-03-13 19:01:13,321 - tester - INFO] - ID: 101 	 GT: asweco 	 PT: asweco 	 STATE: True 
+
+[2025-03-13 19:01:13,326 - tester - INFO] - ID: 102 	 GT: royal 	 PT: royal 	 STATE: True 
+
+[2025-03-13 19:01:13,330 - tester - INFO] - ID: 103 	 GT: curry 	 PT: curry 	 STATE: True 
+
+[2025-03-13 19:01:13,335 - tester - INFO] - ID: 104 	 GT: the 	 PT: the 	 STATE: True 
+
+[2025-03-13 19:01:13,340 - tester - INFO] - ID: 105 	 GT: jos 	 PT: jos 	 STATE: True 
+
+[2025-03-13 19:01:13,344 - tester - INFO] - ID: 106 	 GT: christm 	 PT: christm 	 STATE: True 
+
+[2025-03-13 19:01:13,349 - tester - INFO] - ID: 107 	 GT: cola 	 PT: cola 	 STATE: True 
+
+[2025-03-13 19:01:13,354 - tester - INFO] - ID: 108 	 GT: turtles 	 PT: turtles 	 STATE: True 
+
+[2025-03-13 19:01:13,358 - tester - INFO] - ID: 109 	 GT: partea 	 PT: partea 	 STATE: True 
+
+[2025-03-13 19:01:13,363 - tester - INFO] - ID: 110 	 GT: and 	 PT: tee 	 STATE: False 
+
+[2025-03-13 19:01:13,368 - tester - INFO] - ID: 111 	 GT: kidzania 	 PT: kidzna 	 STATE: False 
+
+[2025-03-13 19:01:13,372 - tester - INFO] - ID: 112 	 GT: esterfield 	 PT: esterfield 	 STATE: True 
+
+[2025-03-13 19:01:13,377 - tester - INFO] - ID: 113 	 GT: stuzzichiml 	 PT: stozzichiml 	 STATE: False 
+
+[2025-03-13 19:01:13,382 - tester - INFO] - ID: 114 	 GT: orm 	 PT: orm 	 STATE: True 
+
+[2025-03-13 19:01:13,386 - tester - INFO] - ID: 115 	 GT: goon 	 PT: goon 	 STATE: True 
+
+[2025-03-13 19:01:13,391 - tester - INFO] - ID: 116 	 GT: furniture 	 PT: furniture 	 STATE: True 
+
+[2025-03-13 19:01:13,396 - tester - INFO] - ID: 117 	 GT: romantische 	 PT: romantische 	 STATE: True 
+
+[2025-03-13 19:01:13,401 - tester - INFO] - ID: 118 	 GT: imagine 	 PT: maine 	 STATE: False 
+
+[2025-03-13 19:01:13,405 - tester - INFO] - ID: 119 	 GT: spring 	 PT: sprince 	 STATE: False 
+
+[2025-03-13 19:01:13,410 - tester - INFO] - ID: 120 	 GT: ximaj 	 PT: ximay 	 STATE: False 
+
+[2025-03-13 19:01:13,415 - tester - INFO] - ID: 121 	 GT: amberbock 	 PT: amberbock 	 STATE: True 
+
+[2025-03-13 19:01:13,419 - tester - INFO] - ID: 122 	 GT: royale 	 PT: royale 	 STATE: True 
+
+[2025-03-13 19:01:13,424 - tester - INFO] - ID: 123 	 GT: bible 	 PT: bible 	 STATE: True 
+
+[2025-03-13 19:01:13,429 - tester - INFO] - ID: 124 	 GT: bagel 	 PT: bagel 	 STATE: True 
+
+[2025-03-13 19:01:13,433 - tester - INFO] - ID: 125 	 GT: flower 	 PT: flower 	 STATE: True 
+
+[2025-03-13 19:01:13,438 - tester - INFO] - ID: 126 	 GT: hy 	 PT: hep 	 STATE: False 
+
+[2025-03-13 19:01:13,443 - tester - INFO] - ID: 127 	 GT: huiehan 	 PT: huishan 	 STATE: False 
+
+[2025-03-13 19:01:13,448 - tester - INFO] - ID: 128 	 GT: howardjohnson 	 PT: howardjohnson 	 STATE: True 
+
+[2025-03-13 19:01:13,452 - tester - INFO] - ID: 129 	 GT: toreador 	 PT: toreador 	 STATE: True 
+
+[2025-03-13 19:01:13,457 - tester - INFO] - ID: 130 	 GT: stardust 	 PT: stardust 	 STATE: True 
+
+[2025-03-13 19:01:13,462 - tester - INFO] - ID: 131 	 GT: cheese 	 PT: cheese 	 STATE: True 
+
+[2025-03-13 19:01:13,467 - tester - INFO] - ID: 132 	 GT: greetinqs 	 PT: greetings 	 STATE: False 
+
+[2025-03-13 19:01:13,472 - tester - INFO] - ID: 133 	 GT: continental 	 PT: continental 	 STATE: True 
+
+[2025-03-13 19:01:13,476 - tester - INFO] - ID: 134 	 GT: times 	 PT: thoee 	 STATE: False 
+
+[2025-03-13 19:01:13,481 - tester - INFO] - ID: 135 	 GT: eggenberg 	 PT: eggenberg 	 STATE: True 
+
+[2025-03-13 19:01:13,486 - tester - INFO] - ID: 136 	 GT: wieder 	 PT: wiener 	 STATE: False 
+
+[2025-03-13 19:01:13,491 - tester - INFO] - ID: 137 	 GT: popeyes 	 PT: popeyes 	 STATE: True 
+
+[2025-03-13 19:01:13,495 - tester - INFO] - ID: 138 	 GT: rosis 	 PT: rosis 	 STATE: True 
+
+[2025-03-13 19:01:13,500 - tester - INFO] - ID: 139 	 GT: yitea 	 PT: yitea 	 STATE: True 
+
+[2025-03-13 19:01:13,505 - tester - INFO] - ID: 140 	 GT: fish 	 PT: fish 	 STATE: True 
+
+[2025-03-13 19:01:13,509 - tester - INFO] - ID: 141 	 GT: town 	 PT: town 	 STATE: True 
+
+[2025-03-13 19:01:13,514 - tester - INFO] - ID: 142 	 GT: s 	 PT: s 	 STATE: True 
+
+[2025-03-13 19:01:13,519 - tester - INFO] - ID: 143 	 GT: geimy 	 PT: germy 	 STATE: False 
+
+[2025-03-13 19:01:13,523 - tester - INFO] - ID: 144 	 GT: locline 	 PT: lodine 	 STATE: False 
+
+[2025-03-13 19:01:13,528 - tester - INFO] - ID: 145 	 GT: noodle 	 PT: noodle 	 STATE: True 
+
+[2025-03-13 19:01:13,533 - tester - INFO] - ID: 146 	 GT: branches 	 PT: branches 	 STATE: True 
+
+[2025-03-13 19:01:13,538 - tester - INFO] - ID: 147 	 GT: kids 	 PT: kids 	 STATE: True 
+
+[2025-03-13 19:01:13,542 - tester - INFO] - ID: 148 	 GT: tfboys 	 PT: tfboys 	 STATE: True 
+
+[2025-03-13 19:01:13,547 - tester - INFO] - ID: 149 	 GT: b 	 PT: b 	 STATE: True 
+
+[2025-03-13 19:01:13,551 - tester - INFO] - ID: 150 	 GT: sullys 	 PT: sullys 	 STATE: True 
+
+[2025-03-13 19:01:13,556 - tester - INFO] - ID: 151 	 GT: app 	 PT: app 	 STATE: True 
+
+[2025-03-13 19:01:13,561 - tester - INFO] - ID: 152 	 GT: love 	 PT: love 	 STATE: True 
+
+[2025-03-13 19:01:13,565 - tester - INFO] - ID: 153 	 GT: enxia 	 PT: enxia 	 STATE: True 
+
+[2025-03-13 19:01:13,570 - tester - INFO] - ID: 154 	 GT: yaso 	 PT: yaso 	 STATE: True 
+
+[2025-03-13 19:01:13,575 - tester - INFO] - ID: 155 	 GT: happy 	 PT: happy 	 STATE: True 
+
+[2025-03-13 19:01:13,580 - tester - INFO] - ID: 156 	 GT: age 	 PT: age 	 STATE: True 
+
+[2025-03-13 19:01:13,585 - tester - INFO] - ID: 157 	 GT: baskets 	 PT: baskets 	 STATE: True 
+
+[2025-03-13 19:01:13,589 - tester - INFO] - ID: 158 	 GT: beer 	 PT: beer 	 STATE: True 
+
+[2025-03-13 19:01:13,594 - tester - INFO] - ID: 159 	 GT: mckee 	 PT: mckee 	 STATE: True 
+
+[2025-03-13 19:01:13,599 - tester - INFO] - ID: 160 	 GT: stevie 	 PT: stevie 	 STATE: True 
+
+[2025-03-13 19:01:13,604 - tester - INFO] - ID: 161 	 GT: sheffield 	 PT: sheffield 	 STATE: True 
+
+[2025-03-13 19:01:13,608 - tester - INFO] - ID: 162 	 GT: mr 	 PT: my 	 STATE: False 
+
+[2025-03-13 19:01:13,613 - tester - INFO] - ID: 163 	 GT: jea 	 PT: jea 	 STATE: True 
+
+[2025-03-13 19:01:13,618 - tester - INFO] - ID: 164 	 GT: hamms 	 PT: hamms 	 STATE: True 
+
+[2025-03-13 19:01:13,623 - tester - INFO] - ID: 165 	 GT: diarburger 	 PT: marburger 	 STATE: False 
+
+[2025-03-13 19:01:13,628 - tester - INFO] - ID: 166 	 GT: nausea 	 PT: nauser 	 STATE: False 
+
+[2025-03-13 19:01:13,632 - tester - INFO] - ID: 167 	 GT: clearwipe 	 PT: clearwipe 	 STATE: True 
+
+[2025-03-13 19:01:13,637 - tester - INFO] - ID: 168 	 GT: hairspray 	 PT: halsspray 	 STATE: False 
+
+[2025-03-13 19:01:13,642 - tester - INFO] - ID: 169 	 GT: hanoart 	 PT: hausart 	 STATE: False 
+
+[2025-03-13 19:01:13,647 - tester - INFO] - ID: 170 	 GT: eggstra 	 PT: eggstra 	 STATE: True 
+
+[2025-03-13 19:01:13,651 - tester - INFO] - ID: 171 	 GT: aoble 	 PT: hoble 	 STATE: False 
+
+[2025-03-13 19:01:13,656 - tester - INFO] - ID: 172 	 GT: trico 	 PT: trico 	 STATE: True 
+
+[2025-03-13 19:01:13,661 - tester - INFO] - ID: 173 	 GT: gelati 	 PT: gelati 	 STATE: True 
+
+[2025-03-13 19:01:13,666 - tester - INFO] - ID: 174 	 GT: spirits 	 PT: spirits 	 STATE: True 
+
+[2025-03-13 19:01:13,671 - tester - INFO] - ID: 175 	 GT: caffe 	 PT: caffe 	 STATE: True 
+
+[2025-03-13 19:01:13,675 - tester - INFO] - ID: 176 	 GT: shi 	 PT: sha 	 STATE: False 
+
+[2025-03-13 19:01:13,680 - tester - INFO] - ID: 177 	 GT: chadaofu 	 PT: chadgafu 	 STATE: False 
+
+[2025-03-13 19:01:13,685 - tester - INFO] - ID: 178 	 GT: kama 	 PT: kamalappgy 	 STATE: False 
+
+[2025-03-13 19:01:13,690 - tester - INFO] - ID: 179 	 GT: worldwide 	 PT: worldwide 	 STATE: True 
+
+[2025-03-13 19:01:13,695 - tester - INFO] - ID: 180 	 GT: nonna 	 PT: henyotel 	 STATE: False 
+
+[2025-03-13 19:01:13,700 - tester - INFO] - ID: 181 	 GT: squeezed 	 PT: squeezeo 	 STATE: False 
+
+[2025-03-13 19:01:13,704 - tester - INFO] - ID: 182 	 GT: caberreyes 	 PT: caberreyes 	 STATE: True 
+
+[2025-03-13 19:01:13,709 - tester - INFO] - ID: 183 	 GT: wildn 	 PT: willn 	 STATE: False 
+
+[2025-03-13 19:01:13,714 - tester - INFO] - ID: 184 	 GT: surfer 	 PT: surfer 	 STATE: True 
+
+[2025-03-13 19:01:13,719 - tester - INFO] - ID: 185 	 GT: company 	 PT: company 	 STATE: True 
+
+[2025-03-13 19:01:13,724 - tester - INFO] - ID: 186 	 GT: eisorotte 	 PT: essorotte 	 STATE: False 
+
+[2025-03-13 19:01:13,729 - tester - INFO] - ID: 187 	 GT: panjisalun 	 PT: panjisalun 	 STATE: True 
+
+[2025-03-13 19:01:13,733 - tester - INFO] - ID: 188 	 GT: mre 	 PT: mrri 	 STATE: False 
+
+[2025-03-13 19:01:13,738 - tester - INFO] - ID: 189 	 GT: mystery 	 PT: mystery 	 STATE: True 
+
+[2025-03-13 19:01:13,743 - tester - INFO] - ID: 190 	 GT: mon 	 PT: rmon 	 STATE: False 
+
+[2025-03-13 19:01:13,748 - tester - INFO] - ID: 191 	 GT: le 	 PT: le 	 STATE: True 
+
+[2025-03-13 19:01:13,752 - tester - INFO] - ID: 192 	 GT: pizza 	 PT: pizza 	 STATE: True 
+
+[2025-03-13 19:01:13,757 - tester - INFO] - ID: 193 	 GT: lazy 	 PT: lazy 	 STATE: True 
+
+[2025-03-13 19:01:13,762 - tester - INFO] - ID: 194 	 GT: spielplatz 	 PT: spiaplaz 	 STATE: False 
+
+[2025-03-13 19:01:13,767 - tester - INFO] - ID: 195 	 GT: pepper 	 PT: pepper 	 STATE: True 
+
+[2025-03-13 19:01:13,771 - tester - INFO] - ID: 196 	 GT: kaffa 	 PT: kaffa 	 STATE: True 
+
+[2025-03-13 19:01:13,776 - tester - INFO] - ID: 197 	 GT: birthday 	 PT: birthday 	 STATE: True 
+
+[2025-03-13 19:01:13,781 - tester - INFO] - ID: 198 	 GT: nancy 	 PT: dancy 	 STATE: False 
+
+[2025-03-13 19:01:13,785 - tester - INFO] - ID: 199 	 GT: remastered 	 PT: remastered 	 STATE: True 
+
+[2025-03-13 19:01:13,790 - tester - INFO] - ID: 200 	 GT: hawaiianp 	 PT: hawailan 	 STATE: False 
+
+[2025-03-13 19:01:13,795 - tester - INFO] - ID: 201 	 GT: county 	 PT: county 	 STATE: True 
+
+[2025-03-13 19:01:13,800 - tester - INFO] - ID: 202 	 GT: die 	 PT: die 	 STATE: True 
+
+[2025-03-13 19:01:13,804 - tester - INFO] - ID: 203 	 GT: cherry 	 PT: girle 	 STATE: False 
+
+[2025-03-13 19:01:13,809 - tester - INFO] - ID: 204 	 GT: air 	 PT: air 	 STATE: True 
+
+[2025-03-13 19:01:13,814 - tester - INFO] - ID: 205 	 GT: arch 	 PT: archi 	 STATE: False 
+
+[2025-03-13 19:01:13,818 - tester - INFO] - ID: 206 	 GT: jini 	 PT: sini 	 STATE: False 
+
+[2025-03-13 19:01:13,823 - tester - INFO] - ID: 207 	 GT: gambrinus 	 PT: gambriaus 	 STATE: False 
+
+[2025-03-13 19:01:13,828 - tester - INFO] - ID: 208 	 GT: party 	 PT: party 	 STATE: True 
+
+[2025-03-13 19:01:13,832 - tester - INFO] - ID: 209 	 GT: trs 	 PT: trs 	 STATE: True 
+
+[2025-03-13 19:01:13,837 - tester - INFO] - ID: 210 	 GT: elves 	 PT: elves 	 STATE: True 
+
+[2025-03-13 19:01:13,842 - tester - INFO] - ID: 211 	 GT: feten 	 PT: keten 	 STATE: False 
+
+[2025-03-13 19:01:13,846 - tester - INFO] - ID: 212 	 GT: kitabal 	 PT: ktabal 	 STATE: False 
+
+[2025-03-13 19:01:13,851 - tester - INFO] - ID: 213 	 GT: gulfpride 	 PT: gulforide 	 STATE: False 
+
+[2025-03-13 19:01:13,856 - tester - INFO] - ID: 214 	 GT: moons 	 PT: snoos 	 STATE: False 
+
+[2025-03-13 19:01:13,861 - tester - INFO] - ID: 215 	 GT: whigs 	 PT: whigs 	 STATE: True 
+
+[2025-03-13 19:01:13,865 - tester - INFO] - ID: 216 	 GT: lijilongxia 	 PT: injidenggiia 	 STATE: False 
+
+[2025-03-13 19:01:13,870 - tester - INFO] - ID: 217 	 GT: convertible 	 PT: carnertible 	 STATE: False 
+
+[2025-03-13 19:01:13,875 - tester - INFO] - ID: 218 	 GT: bean 	 PT: bean 	 STATE: True 
+
+[2025-03-13 19:01:13,879 - tester - INFO] - ID: 219 	 GT: sabato 	 PT: sabato 	 STATE: True 
+
+[2025-03-13 19:01:13,884 - tester - INFO] - ID: 220 	 GT: bakery 	 PT: banery 	 STATE: False 
+
+[2025-03-13 19:01:13,889 - tester - INFO] - ID: 221 	 GT: basso 	 PT: basso 	 STATE: True 
+
+[2025-03-13 19:01:13,894 - tester - INFO] - ID: 222 	 GT: engaged 	 PT: engaged 	 STATE: True 
+
+[2025-03-13 19:01:13,898 - tester - INFO] - ID: 223 	 GT: medium 	 PT: mediom 	 STATE: False 
+
+[2025-03-13 19:01:13,903 - tester - INFO] - ID: 224 	 GT: welcome 	 PT: welcome 	 STATE: True 
+
+[2025-03-13 19:01:13,908 - tester - INFO] - ID: 225 	 GT: hey 	 PT: hey 	 STATE: True 
+
+[2025-03-13 19:01:13,913 - tester - INFO] - ID: 226 	 GT: hamleys 	 PT: kamleys 	 STATE: False 
+
+[2025-03-13 19:01:13,917 - tester - INFO] - ID: 227 	 GT: tenway 	 PT: tenway 	 STATE: True 
+
+[2025-03-13 19:01:13,922 - tester - INFO] - ID: 228 	 GT: saratoga 	 PT: saratoga 	 STATE: True 
+
+[2025-03-13 19:01:13,927 - tester - INFO] - ID: 229 	 GT: bread 	 PT: bread 	 STATE: True 
+
+[2025-03-13 19:01:13,931 - tester - INFO] - ID: 230 	 GT: ankylosaurus 	 PT: ankylogaurue 	 STATE: False 
+
+[2025-03-13 19:01:13,936 - tester - INFO] - ID: 231 	 GT: point 	 PT: peint 	 STATE: False 
+
+[2025-03-13 19:01:13,941 - tester - INFO] - ID: 232 	 GT: crush 	 PT: crush 	 STATE: True 
+
+[2025-03-13 19:01:13,946 - tester - INFO] - ID: 233 	 GT: jeresa 	 PT: feresa 	 STATE: False 
+
+[2025-03-13 19:01:13,950 - tester - INFO] - ID: 234 	 GT: mio 	 PT: nis 	 STATE: False 
+
+[2025-03-13 19:01:13,955 - tester - INFO] - ID: 235 	 GT: kg 	 PT: kg 	 STATE: True 
+
+[2025-03-13 19:01:13,960 - tester - INFO] - ID: 236 	 GT: cheese 	 PT: cheese 	 STATE: True 
+
+[2025-03-13 19:01:13,965 - tester - INFO] - ID: 237 	 GT: pub 	 PT: pub 	 STATE: True 
+
+[2025-03-13 19:01:13,969 - tester - INFO] - ID: 238 	 GT: christ 	 PT: christ 	 STATE: True 
+
+[2025-03-13 19:01:13,974 - tester - INFO] - ID: 239 	 GT: dvart 	 PT: dvart 	 STATE: True 
+
+[2025-03-13 19:01:13,979 - tester - INFO] - ID: 240 	 GT: hot 	 PT: hot 	 STATE: True 
+
+[2025-03-13 19:01:13,984 - tester - INFO] - ID: 241 	 GT: chemical 	 PT: chemical 	 STATE: True 
+
+[2025-03-13 19:01:13,988 - tester - INFO] - ID: 242 	 GT: 50599698 	 PT: 50599698 	 STATE: True 
+
+[2025-03-13 19:01:13,993 - tester - INFO] - ID: 243 	 GT: disney 	 PT: disney 	 STATE: True 
+
+[2025-03-13 19:01:13,998 - tester - INFO] - ID: 244 	 GT: tienda 	 PT: tiendr 	 STATE: False 
+
+[2025-03-13 19:01:14,002 - tester - INFO] - ID: 245 	 GT: wheelers 	 PT: wheelers 	 STATE: True 
+
+[2025-03-13 19:01:14,007 - tester - INFO] - ID: 246 	 GT: ilove 	 PT: llve 	 STATE: False 
+
+[2025-03-13 19:01:14,012 - tester - INFO] - ID: 247 	 GT: super 	 PT: super 	 STATE: True 
+
+[2025-03-13 19:01:14,017 - tester - INFO] - ID: 248 	 GT: firetly 	 PT: finefly 	 STATE: False 
+
+[2025-03-13 19:01:14,021 - tester - INFO] - ID: 249 	 GT: cool 	 PT: cool 	 STATE: True 
+
+[2025-03-13 19:01:14,026 - tester - INFO] - ID: 250 	 GT: madagascar 	 PT: madagascar 	 STATE: True 
+
+[2025-03-13 19:01:14,031 - tester - INFO] - ID: 251 	 GT: caroinals 	 PT: cardinalss 	 STATE: False 
+
+[2025-03-13 19:01:14,036 - tester - INFO] - ID: 252 	 GT: vitos 	 PT: vitos 	 STATE: True 
+
+[2025-03-13 19:01:14,040 - tester - INFO] - ID: 253 	 GT: jiang 	 PT: jiang 	 STATE: True 
+
+[2025-03-13 19:01:14,045 - tester - INFO] - ID: 254 	 GT: m 	 PT: m 	 STATE: True 
+
+[2025-03-13 19:01:14,050 - tester - INFO] - ID: 255 	 GT:  	 PT:  	 STATE: True 
+
+[2025-03-13 19:01:14,054 - tester - INFO] - ID: 256 	 GT: gdmabel 	 PT: gdmabel 	 STATE: True 
+
+[2025-03-13 19:01:14,059 - tester - INFO] - ID: 257 	 GT: fantauy 	 PT: fantary 	 STATE: False 
+
+[2025-03-13 19:01:14,064 - tester - INFO] - ID: 258 	 GT: less 	 PT: less 	 STATE: True 
+
+[2025-03-13 19:01:14,068 - tester - INFO] - ID: 259 	 GT: africa 	 PT: africa 	 STATE: True 
+
+[2025-03-13 19:01:14,073 - tester - INFO] - ID: 260 	 GT: hard 	 PT: haller 	 STATE: False 
+
+[2025-03-13 19:01:14,078 - tester - INFO] - ID: 261 	 GT: taffe 	 PT: caffe 	 STATE: False 
+
+[2025-03-13 19:01:14,082 - tester - INFO] - ID: 262 	 GT: mesuca 	 PT: mesuca 	 STATE: True 
+
+[2025-03-13 19:01:14,087 - tester - INFO] - ID: 263 	 GT: castle 	 PT: castle 	 STATE: True 
+
+[2025-03-13 19:01:14,092 - tester - INFO] - ID: 264 	 GT: sendi 	 PT: sendi 	 STATE: True 
+
+[2025-03-13 19:01:14,096 - tester - INFO] - ID: 265 	 GT: nalleiie 	 PT: noblesse 	 STATE: False 
+
+[2025-03-13 19:01:14,101 - tester - INFO] - ID: 266 	 GT: doris 	 PT: doris 	 STATE: True 
+
+[2025-03-13 19:01:14,106 - tester - INFO] - ID: 267 	 GT: rivers 	 PT: rivers 	 STATE: True 
+
+[2025-03-13 19:01:14,111 - tester - INFO] - ID: 268 	 GT: whale 	 PT: whale 	 STATE: True 
+
+[2025-03-13 19:01:14,115 - tester - INFO] - ID: 269 	 GT: gestalte 	 PT: gestalre 	 STATE: False 
+
+[2025-03-13 19:01:14,120 - tester - INFO] - ID: 270 	 GT: laitei 	 PT: barter 	 STATE: False 
+
+[2025-03-13 19:01:14,125 - tester - INFO] - ID: 271 	 GT: wight 	 PT: wight 	 STATE: True 
+
+[2025-03-13 19:01:14,129 - tester - INFO] - ID: 272 	 GT: auu 	 PT: avv 	 STATE: False 
+
+[2025-03-13 19:01:14,134 - tester - INFO] - ID: 273 	 GT: roast 	 PT: roast 	 STATE: True 
+
+[2025-03-13 19:01:14,139 - tester - INFO] - ID: 274 	 GT: entertainin 	 PT: entertainin 	 STATE: True 
+
+[2025-03-13 19:01:14,143 - tester - INFO] - ID: 275 	 GT: pick 	 PT: pick 	 STATE: True 
+
+[2025-03-13 19:01:14,148 - tester - INFO] - ID: 276 	 GT: mean 	 PT: mean 	 STATE: True 
+
+[2025-03-13 19:01:14,153 - tester - INFO] - ID: 277 	 GT: phillies 	 PT: phillies 	 STATE: True 
+
+[2025-03-13 19:01:14,158 - tester - INFO] - ID: 278 	 GT: minipin 	 PT: minipppnn 	 STATE: False 
+
+[2025-03-13 19:01:14,162 - tester - INFO] - ID: 279 	 GT: beioti 	 PT: beroti 	 STATE: False 
+
+[2025-03-13 19:01:14,167 - tester - INFO] - ID: 280 	 GT: scentlele 	 PT: scentbele 	 STATE: False 
+
+[2025-03-13 19:01:14,172 - tester - INFO] - ID: 281 	 GT: coffee 	 PT: coffee 	 STATE: True 
+
+[2025-03-13 19:01:14,176 - tester - INFO] - ID: 282 	 GT: texas 	 PT: texis 	 STATE: False 
+
+[2025-03-13 19:01:14,181 - tester - INFO] - ID: 283 	 GT: qipinda 	 PT: qipinda 	 STATE: True 
+
+[2025-03-13 19:01:14,186 - tester - INFO] - ID: 284 	 GT: year 	 PT: year 	 STATE: True 
+
+[2025-03-13 19:01:14,191 - tester - INFO] - ID: 285 	 GT: barber 	 PT: barber 	 STATE: True 
+
+[2025-03-13 19:01:14,196 - tester - INFO] - ID: 286 	 GT: jncasso 	 PT: incasso 	 STATE: False 
+
+[2025-03-13 19:01:14,201 - tester - INFO] - ID: 287 	 GT: farwestfungi 	 PT: biwastfungi 	 STATE: False 
+
+[2025-03-13 19:01:14,206 - tester - INFO] - ID: 288 	 GT: caribana 	 PT: carlbana 	 STATE: False 
+
+[2025-03-13 19:01:14,211 - tester - INFO] - ID: 289 	 GT: illustrated 	 PT: illustrated 	 STATE: True 
+
+[2025-03-13 19:01:14,215 - tester - INFO] - ID: 290 	 GT: gold 	 PT: gold 	 STATE: True 
+
+[2025-03-13 19:01:14,220 - tester - INFO] - ID: 291 	 GT: omliya 	 PT: omitya 	 STATE: False 
+
+[2025-03-13 19:01:14,225 - tester - INFO] - ID: 292 	 GT: kelloggs 	 PT: kelloggs 	 STATE: True 
+
+[2025-03-13 19:01:14,230 - tester - INFO] - ID: 293 	 GT: rhine 	 PT: phine 	 STATE: False 
+
+[2025-03-13 19:01:14,234 - tester - INFO] - ID: 294 	 GT: man 	 PT: man 	 STATE: True 
+
+[2025-03-13 19:01:14,239 - tester - INFO] - ID: 295 	 GT: yq 	 PT: cyq 	 STATE: False 
+
+[2025-03-13 19:01:14,244 - tester - INFO] - ID: 296 	 GT: lampbelli 	 PT: campbells 	 STATE: False 
+
+[2025-03-13 19:01:14,248 - tester - INFO] - ID: 297 	 GT: deepak 	 PT: deepak 	 STATE: True 
+
+[2025-03-13 19:01:14,253 - tester - INFO] - ID: 298 	 GT: pizzathut 	 PT: pizzahut 	 STATE: False 
+
+[2025-03-13 19:01:14,258 - tester - INFO] - ID: 299 	 GT: 2 	 PT: 2 	 STATE: True 
+
+[2025-03-13 19:01:14,262 - tester - INFO] - ID: 300 	 GT: merry 	 PT: merry 	 STATE: True 
+
+[2025-03-13 19:01:14,267 - tester - INFO] - ID: 301 	 GT: mrs 	 PT: ors 	 STATE: False 
+
+[2025-03-13 19:01:14,272 - tester - INFO] - ID: 302 	 GT: cook 	 PT: cook 	 STATE: True 
+
+[2025-03-13 19:01:14,277 - tester - INFO] - ID: 303 	 GT: gilgamesh 	 PT: gilgamest 	 STATE: False 
+
+[2025-03-13 19:01:14,282 - tester - INFO] - ID: 304 	 GT: romunijo 	 PT: rimunjjo 	 STATE: False 
+
+[2025-03-13 19:01:14,286 - tester - INFO] - ID: 305 	 GT: elife 	 PT: elife 	 STATE: True 
+
+[2025-03-13 19:01:14,291 - tester - INFO] - ID: 306 	 GT: steif 	 PT: steif 	 STATE: True 
+
+[2025-03-13 19:01:14,296 - tester - INFO] - ID: 307 	 GT: jede 	 PT: jede 	 STATE: True 
+
+[2025-03-13 19:01:14,300 - tester - INFO] - ID: 308 	 GT: musica 	 PT: masica 	 STATE: False 
+
+[2025-03-13 19:01:14,305 - tester - INFO] - ID: 309 	 GT: boxercise 	 PT: boxercise 	 STATE: True 
+
+[2025-03-13 19:01:14,310 - tester - INFO] - ID: 310 	 GT: tama 	 PT: tama 	 STATE: True 
+
+[2025-03-13 19:01:14,315 - tester - INFO] - ID: 311 	 GT: magical 	 PT: magical 	 STATE: True 
+
+[2025-03-13 19:01:14,319 - tester - INFO] - ID: 312 	 GT: tea 	 PT: rea 	 STATE: False 
+
+[2025-03-13 19:01:14,324 - tester - INFO] - ID: 313 	 GT: albergue 	 PT: albergue 	 STATE: True 
+
+[2025-03-13 19:01:14,329 - tester - INFO] - ID: 314 	 GT: for 	 PT: for 	 STATE: True 
+
+[2025-03-13 19:01:14,334 - tester - INFO] - ID: 315 	 GT: vikings 	 PT: vikings 	 STATE: True 
+
+[2025-03-13 19:01:14,338 - tester - INFO] - ID: 316 	 GT: consejos 	 PT: consejos 	 STATE: True 
+
+[2025-03-13 19:01:14,343 - tester - INFO] - ID: 317 	 GT: eudecom 	 PT: eydecom 	 STATE: False 
+
+[2025-03-13 19:01:14,348 - tester - INFO] - ID: 318 	 GT: bakery 	 PT: bakery 	 STATE: True 
+
+[2025-03-13 19:01:14,353 - tester - INFO] - ID: 319 	 GT: pokemon 	 PT: pokemon 	 STATE: True 
+
+[2025-03-13 19:01:14,357 - tester - INFO] - ID: 320 	 GT: sud 	 PT: sud 	 STATE: True 
+
+[2025-03-13 19:01:14,362 - tester - INFO] - ID: 321 	 GT: girlbot 	 PT: girlbot 	 STATE: True 
+
+[2025-03-13 19:01:14,367 - tester - INFO] - ID: 322 	 GT: spiritce 	 PT: seereet 	 STATE: False 
+
+[2025-03-13 19:01:14,371 - tester - INFO] - ID: 323 	 GT: ashbury 	 PT: ashourh 	 STATE: False 
+
+[2025-03-13 19:01:14,376 - tester - INFO] - ID: 324 	 GT: patterns 	 PT: potterns 	 STATE: False 
+
+[2025-03-13 19:01:14,381 - tester - INFO] - ID: 325 	 GT: vans 	 PT: vans 	 STATE: True 
+
+[2025-03-13 19:01:14,386 - tester - INFO] - ID: 326 	 GT: free 	 PT: free 	 STATE: True 
+
+[2025-03-13 19:01:14,390 - tester - INFO] - ID: 327 	 GT: joes 	 PT: joes 	 STATE: True 
+
+[2025-03-13 19:01:14,395 - tester - INFO] - ID: 328 	 GT: single 	 PT: single 	 STATE: True 
+
+[2025-03-13 19:01:14,400 - tester - INFO] - ID: 329 	 GT: fried 	 PT: fried 	 STATE: True 
+
+[2025-03-13 19:01:14,405 - tester - INFO] - ID: 330 	 GT: k 	 PT: k 	 STATE: True 
+
+[2025-03-13 19:01:14,410 - tester - INFO] - ID: 331 	 GT: mia 	 PT: mia 	 STATE: True 
+
+[2025-03-13 19:01:14,415 - tester - INFO] - ID: 332 	 GT: ma 	 PT: ma 	 STATE: True 
+
+[2025-03-13 19:01:14,420 - tester - INFO] - ID: 333 	 GT: forjazz 	 PT: borjaxx 	 STATE: False 
+
+[2025-03-13 19:01:14,425 - tester - INFO] - ID: 334 	 GT: songbird 	 PT: songbird 	 STATE: True 
+
+[2025-03-13 19:01:14,430 - tester - INFO] - ID: 335 	 GT: jndian 	 PT: indian 	 STATE: False 
+
+[2025-03-13 19:01:14,434 - tester - INFO] - ID: 336 	 GT: eazy 	 PT: eeazy 	 STATE: False 
+
+[2025-03-13 19:01:14,439 - tester - INFO] - ID: 337 	 GT: easy 	 PT: easy 	 STATE: True 
+
+[2025-03-13 19:01:14,445 - tester - INFO] - ID: 338 	 GT: wow 	 PT: wow 	 STATE: True 
+
+[2025-03-13 19:01:14,450 - tester - INFO] - ID: 339 	 GT: loveliness 	 PT: loveliness 	 STATE: True 
+
+[2025-03-13 19:01:14,454 - tester - INFO] - ID: 340 	 GT: curl 	 PT: cuil 	 STATE: False 
+
+[2025-03-13 19:01:14,459 - tester - INFO] - ID: 341 	 GT: happy 	 PT: happy 	 STATE: True 
+
+[2025-03-13 19:01:14,464 - tester - INFO] - ID: 342 	 GT: isle 	 PT: isle 	 STATE: True 
+
+[2025-03-13 19:01:14,469 - tester - INFO] - ID: 343 	 GT: yijian 	 PT: vijan 	 STATE: False 
+
+[2025-03-13 19:01:14,474 - tester - INFO] - ID: 344 	 GT: session 	 PT: session 	 STATE: True 
+
+[2025-03-13 19:01:14,479 - tester - INFO] - ID: 345 	 GT: duito 	 PT: dusto 	 STATE: False 
+
+[2025-03-13 19:01:14,483 - tester - INFO] - ID: 346 	 GT: pampers 	 PT: pampers 	 STATE: True 
+
+[2025-03-13 19:01:14,488 - tester - INFO] - ID: 347 	 GT: w 	 PT: w 	 STATE: True 
+
+[2025-03-13 19:01:14,493 - tester - INFO] - ID: 348 	 GT: risky 	 PT: risky 	 STATE: True 
+
+[2025-03-13 19:01:14,498 - tester - INFO] - ID: 349 	 GT: taranis 	 PT: taranis 	 STATE: True 
+
+[2025-03-13 19:01:14,503 - tester - INFO] - ID: 350 	 GT: blance 	 PT: blance 	 STATE: True 
+
+[2025-03-13 19:01:14,507 - tester - INFO] - ID: 351 	 GT: time 	 PT: time 	 STATE: True 
+
+[2025-03-13 19:01:14,512 - tester - INFO] - ID: 352 	 GT: trump 	 PT: trump 	 STATE: True 
+
+[2025-03-13 19:01:14,517 - tester - INFO] - ID: 353 	 GT: warzone 	 PT: warzone 	 STATE: True 
+
+[2025-03-13 19:01:14,522 - tester - INFO] - ID: 354 	 GT: love 	 PT: love 	 STATE: True 
+
+[2025-03-13 19:01:14,526 - tester - INFO] - ID: 355 	 GT: seven 	 PT: seven 	 STATE: True 
+
+[2025-03-13 19:01:14,531 - tester - INFO] - ID: 356 	 GT: sweet 	 PT: sweet 	 STATE: True 
+
+[2025-03-13 19:01:14,535 - tester - INFO] - ID: 357 	 GT: night 	 PT: night 	 STATE: True 
+
+[2025-03-13 19:01:14,540 - tester - INFO] - ID: 358 	 GT: zapato 	 PT: zapato 	 STATE: True 
+
+[2025-03-13 19:01:14,545 - tester - INFO] - ID: 359 	 GT: reinhold 	 PT: reinhold 	 STATE: True 
+
+[2025-03-13 19:01:14,549 - tester - INFO] - ID: 360 	 GT: usw 	 PT: usw 	 STATE: True 
+
+[2025-03-13 19:01:14,554 - tester - INFO] - ID: 361 	 GT: breakfast 	 PT: breakfant 	 STATE: False 
+
+[2025-03-13 19:01:14,559 - tester - INFO] - ID: 362 	 GT: diehe 	 PT: drehe 	 STATE: False 
+
+[2025-03-13 19:01:14,564 - tester - INFO] - ID: 363 	 GT: merciers 	 PT: merciers 	 STATE: True 
+
+[2025-03-13 19:01:14,568 - tester - INFO] - ID: 364 	 GT: marin 	 PT: marin 	 STATE: True 
+
+[2025-03-13 19:01:14,573 - tester - INFO] - ID: 365 	 GT: twinpeaks 	 PT: twinpears 	 STATE: False 
+
+[2025-03-13 19:01:14,577 - tester - INFO] - ID: 366 	 GT: tecnocasa 	 PT: tecnocasa 	 STATE: True 
+
+[2025-03-13 19:01:14,582 - tester - INFO] - ID: 367 	 GT: tenway 	 PT: tenway 	 STATE: True 
+
+[2025-03-13 19:01:14,587 - tester - INFO] - ID: 368 	 GT: queen 	 PT: queen 	 STATE: True 
+
+[2025-03-13 19:01:14,591 - tester - INFO] - ID: 369 	 GT: chat 	 PT: chat 	 STATE: True 
+
+[2025-03-13 19:01:14,596 - tester - INFO] - ID: 370 	 GT: reeses 	 PT: reeses 	 STATE: True 
+
+[2025-03-13 19:01:14,601 - tester - INFO] - ID: 371 	 GT: bohemian 	 PT: bohemian 	 STATE: True 
+
+[2025-03-13 19:01:14,605 - tester - INFO] - ID: 372 	 GT: barnstormers 	 PT: barnstormers 	 STATE: True 
+
+[2025-03-13 19:01:14,610 - tester - INFO] - ID: 373 	 GT: pacmans 	 PT: ragmanto 	 STATE: False 
+
+[2025-03-13 19:01:14,615 - tester - INFO] - ID: 374 	 GT: marshall 	 PT: marshall 	 STATE: True 
+
+[2025-03-13 19:01:14,619 - tester - INFO] - ID: 375 	 GT: amigos 	 PT: amigos 	 STATE: True 
+
+[2025-03-13 19:01:14,624 - tester - INFO] - ID: 376 	 GT: yogurt 	 PT: yogurt 	 STATE: True 
+
+[2025-03-13 19:01:14,629 - tester - INFO] - ID: 377 	 GT: qqhotdot 	 PT: ochotoot 	 STATE: False 
+
+[2025-03-13 19:01:14,633 - tester - INFO] - ID: 378 	 GT: marakas 	 PT: marokas 	 STATE: False 
+
+[2025-03-13 19:01:14,638 - tester - INFO] - ID: 379 	 GT: loveforever 	 PT: loveforever 	 STATE: True 
+
+[2025-03-13 19:01:14,642 - tester - INFO] - ID: 380 	 GT: or 	 PT: or 	 STATE: True 
+
+[2025-03-13 19:01:14,647 - tester - INFO] - ID: 381 	 GT: cua 	 PT: cua 	 STATE: True 
+
+[2025-03-13 19:01:14,652 - tester - INFO] - ID: 382 	 GT: pair 	 PT: pair 	 STATE: True 
+
+[2025-03-13 19:01:14,656 - tester - INFO] - ID: 383 	 GT: favorite 	 PT: favorite 	 STATE: True 
+
+[2025-03-13 19:01:14,661 - tester - INFO] - ID: 384 	 GT: freixenet 	 PT: freixenek 	 STATE: False 
+
+[2025-03-13 19:01:14,666 - tester - INFO] - ID: 385 	 GT: ricoquinn 	 PT: bicouin 	 STATE: False 
+
+[2025-03-13 19:01:14,670 - tester - INFO] - ID: 386 	 GT: chili 	 PT: chili 	 STATE: True 
+
+[2025-03-13 19:01:14,675 - tester - INFO] - ID: 387 	 GT: 24h 	 PT: 24h 	 STATE: True 
+
+[2025-03-13 19:01:14,679 - tester - INFO] - ID: 388 	 GT: painting 	 PT: painting 	 STATE: True 
+
+[2025-03-13 19:01:14,684 - tester - INFO] - ID: 389 	 GT: nikitas 	 PT: nikitas 	 STATE: True 
+
+[2025-03-13 19:01:14,689 - tester - INFO] - ID: 390 	 GT: sloppy 	 PT: sloppy 	 STATE: True 
+
+[2025-03-13 19:01:14,693 - tester - INFO] - ID: 391 	 GT: cocaco 	 PT: coaaco 	 STATE: False 
+
+[2025-03-13 19:01:14,698 - tester - INFO] - ID: 392 	 GT: tobacco 	 PT: tobacco 	 STATE: True 
+
+[2025-03-13 19:01:14,703 - tester - INFO] - ID: 393 	 GT: white 	 PT: white 	 STATE: True 
+
+[2025-03-13 19:01:14,707 - tester - INFO] - ID: 394 	 GT: cupait 	 PT: cupart 	 STATE: False 
+
+[2025-03-13 19:01:14,712 - tester - INFO] - ID: 395 	 GT: usefulness 	 PT: usefulness 	 STATE: True 
+
+[2025-03-13 19:01:14,717 - tester - INFO] - ID: 396 	 GT: abc 	 PT: abc 	 STATE: True 
+
+[2025-03-13 19:01:14,721 - tester - INFO] - ID: 397 	 GT: for 	 PT: for 	 STATE: True 
+
+[2025-03-13 19:01:14,726 - tester - INFO] - ID: 398 	 GT: fresh 	 PT: fresh 	 STATE: True 
+
+[2025-03-13 19:01:14,730 - tester - INFO] - ID: 399 	 GT: phils 	 PT: phils 	 STATE: True 
+
+[2025-03-13 19:01:14,735 - tester - INFO] - ID: 400 	 GT: tropics 	 PT: tropics 	 STATE: True 
+
+[2025-03-13 19:01:14,740 - tester - INFO] - ID: 401 	 GT: dart 	 PT: dart 	 STATE: True 
+
+[2025-03-13 19:01:14,744 - tester - INFO] - ID: 402 	 GT: coffee 	 PT: coffee 	 STATE: True 
+
+[2025-03-13 19:01:14,749 - tester - INFO] - ID: 403 	 GT: gesuchtl 	 PT: gesuchtl 	 STATE: True 
+
+[2025-03-13 19:01:14,754 - tester - INFO] - ID: 404 	 GT: coffee 	 PT: coffee 	 STATE: True 
+
+[2025-03-13 19:01:14,758 - tester - INFO] - ID: 405 	 GT: blue 	 PT: bue 	 STATE: False 
+
+[2025-03-13 19:01:14,763 - tester - INFO] - ID: 406 	 GT: gardan 	 PT: gordon 	 STATE: False 
+
+[2025-03-13 19:01:14,767 - tester - INFO] - ID: 407 	 GT: party 	 PT: party 	 STATE: True 
+
+[2025-03-13 19:01:14,772 - tester - INFO] - ID: 408 	 GT: dnf 	 PT: dne 	 STATE: False 
+
+[2025-03-13 19:01:14,777 - tester - INFO] - ID: 409 	 GT: shop 	 PT: shop 	 STATE: True 
+
+[2025-03-13 19:01:14,781 - tester - INFO] - ID: 410 	 GT: century 	 PT: conturg 	 STATE: False 
+
+[2025-03-13 19:01:14,787 - tester - INFO] - ID: 411 	 GT: cloudiyacoffee 	 PT: clondigucofee 	 STATE: False 
+
+[2025-03-13 19:01:14,791 - tester - INFO] - ID: 412 	 GT: house 	 PT: heuse 	 STATE: False 
+
+[2025-03-13 19:01:14,797 - tester - INFO] - ID: 413 	 GT: 25 	 PT: 25 	 STATE: True 
+
+[2025-03-13 19:01:14,802 - tester - INFO] - ID: 414 	 GT: m 	 PT: m 	 STATE: True 
+
+[2025-03-13 19:01:14,807 - tester - INFO] - ID: 415 	 GT: stmartin 	 PT: stmaatinn 	 STATE: False 
+
+[2025-03-13 19:01:14,811 - tester - INFO] - ID: 416 	 GT: merry 	 PT: merry 	 STATE: True 
+
+[2025-03-13 19:01:14,816 - tester - INFO] - ID: 417 	 GT: vita 	 PT: vita 	 STATE: True 
+
+[2025-03-13 19:01:14,821 - tester - INFO] - ID: 418 	 GT: guenching 	 PT: quenching 	 STATE: False 
+
+[2025-03-13 19:01:14,826 - tester - INFO] - ID: 419 	 GT: mystyle 	 PT: myseyle 	 STATE: False 
+
+[2025-03-13 19:01:14,831 - tester - INFO] - ID: 420 	 GT: launrdry 	 PT: laundry 	 STATE: False 
+
+[2025-03-13 19:01:14,836 - tester - INFO] - ID: 421 	 GT: grace 	 PT: grace 	 STATE: True 
+
+[2025-03-13 19:01:14,840 - tester - INFO] - ID: 422 	 GT: lilt 	 PT: lilt 	 STATE: True 
+
+[2025-03-13 19:01:14,845 - tester - INFO] - ID: 423 	 GT: cosa 	 PT: cosa 	 STATE: True 
+
+[2025-03-13 19:01:14,850 - tester - INFO] - ID: 424 	 GT: difference 	 PT: difference 	 STATE: True 
+
+[2025-03-13 19:01:14,855 - tester - INFO] - ID: 425 	 GT: povidone 	 PT: povidone 	 STATE: True 
+
+[2025-03-13 19:01:14,860 - tester - INFO] - ID: 426 	 GT: hotlinks 	 PT: hotlinks 	 STATE: True 
+
+[2025-03-13 19:01:14,865 - tester - INFO] - ID: 427 	 GT: fair 	 PT: fair 	 STATE: True 
+
+[2025-03-13 19:01:14,870 - tester - INFO] - ID: 428 	 GT: he 	 PT: he 	 STATE: True 
+
+[2025-03-13 19:01:14,874 - tester - INFO] - ID: 429 	 GT: globalls 	 PT: globalls 	 STATE: True 
+
+[2025-03-13 19:01:14,879 - tester - INFO] - ID: 430 	 GT: welcome 	 PT: welcome 	 STATE: True 
+
+[2025-03-13 19:01:14,884 - tester - INFO] - ID: 431 	 GT: quiz 	 PT: quiz 	 STATE: True 
+
+[2025-03-13 19:01:14,889 - tester - INFO] - ID: 432 	 GT: fiori 	 PT: fiori 	 STATE: True 
+
+[2025-03-13 19:01:14,893 - tester - INFO] - ID: 433 	 GT: zapatas 	 PT: zapatas 	 STATE: True 
+
+[2025-03-13 19:01:14,898 - tester - INFO] - ID: 434 	 GT: anf 	 PT: anf 	 STATE: True 
+
+[2025-03-13 19:01:14,904 - tester - INFO] - ID: 435 	 GT: cocacola 	 PT: cocacol 	 STATE: False 
+
+[2025-03-13 19:01:14,909 - tester - INFO] - ID: 436 	 GT: tom 	 PT: tom 	 STATE: True 
+
+[2025-03-13 19:01:14,913 - tester - INFO] - ID: 437 	 GT: somos 	 PT: domgs 	 STATE: False 
+
+[2025-03-13 19:01:14,918 - tester - INFO] - ID: 438 	 GT: chattanooga 	 PT: chattanooga 	 STATE: True 
+
+[2025-03-13 19:01:14,923 - tester - INFO] - ID: 439 	 GT: beautyland 	 PT: beautyland 	 STATE: True 
+
+[2025-03-13 19:01:14,928 - tester - INFO] - ID: 440 	 GT: bakery 	 PT: bakery 	 STATE: True 
+
+[2025-03-13 19:01:14,933 - tester - INFO] - ID: 441 	 GT: douglas 	 PT: douglar 	 STATE: False 
+
+[2025-03-13 19:01:14,938 - tester - INFO] - ID: 442 	 GT: spielwaren 	 PT: spielharen 	 STATE: False 
+
+[2025-03-13 19:01:14,942 - tester - INFO] - ID: 443 	 GT: chadaefu 	 PT: chadoake 	 STATE: False 
+
+[2025-03-13 19:01:14,947 - tester - INFO] - ID: 444 	 GT: wawel 	 PT: wawel 	 STATE: True 
+
+[2025-03-13 19:01:14,952 - tester - INFO] - ID: 445 	 GT: hot 	 PT: hat 	 STATE: False 
+
+[2025-03-13 19:01:14,957 - tester - INFO] - ID: 446 	 GT: night 	 PT: night 	 STATE: True 
+
+[2025-03-13 19:01:14,962 - tester - INFO] - ID: 447 	 GT: foundation 	 PT: forddaioon 	 STATE: False 
+
+[2025-03-13 19:01:14,967 - tester - INFO] - ID: 448 	 GT: marry 	 PT: marry 	 STATE: True 
+
+[2025-03-13 19:01:14,972 - tester - INFO] - ID: 449 	 GT: coin 	 PT: coin 	 STATE: True 
+
+[2025-03-13 19:01:14,977 - tester - INFO] - ID: 450 	 GT: larry 	 PT: larry 	 STATE: True 
+
+[2025-03-13 19:01:14,982 - tester - INFO] - ID: 451 	 GT: kona 	 PT: kona 	 STATE: True 
+
+[2025-03-13 19:01:14,986 - tester - INFO] - ID: 452 	 GT: aite 	 PT: arte 	 STATE: False 
+
+[2025-03-13 19:01:14,991 - tester - INFO] - ID: 453 	 GT: itsbike 	 PT: itsbike 	 STATE: True 
+
+[2025-03-13 19:01:14,996 - tester - INFO] - ID: 454 	 GT: secret 	 PT: secret 	 STATE: True 
+
+[2025-03-13 19:01:15,001 - tester - INFO] - ID: 455 	 GT: classmate 	 PT: classmate 	 STATE: True 
+
+[2025-03-13 19:01:15,006 - tester - INFO] - ID: 456 	 GT: safety 	 PT: salety 	 STATE: False 
+
+[2025-03-13 19:01:15,011 - tester - INFO] - ID: 457 	 GT: bh 	 PT: bh 	 STATE: True 
+
+[2025-03-13 19:01:15,016 - tester - INFO] - ID: 458 	 GT: perfct 	 PT: perect 	 STATE: False 
+
+[2025-03-13 19:01:15,021 - tester - INFO] - ID: 459 	 GT: yoohoo 	 PT: yochco 	 STATE: False 
+
+[2025-03-13 19:01:15,026 - tester - INFO] - ID: 460 	 GT: egypt 	 PT: ecypt 	 STATE: False 
+
+[2025-03-13 19:01:15,031 - tester - INFO] - ID: 461 	 GT: ulike 	 PT: ulike 	 STATE: True 
+
+[2025-03-13 19:01:15,035 - tester - INFO] - ID: 462 	 GT: noho 	 PT: noho 	 STATE: True 
+
+[2025-03-13 19:01:15,040 - tester - INFO] - ID: 463 	 GT: mynago 	 PT: mynago 	 STATE: True 
+
+[2025-03-13 19:01:15,045 - tester - INFO] - ID: 464 	 GT: an 	 PT: an 	 STATE: True 
+
+[2025-03-13 19:01:15,050 - tester - INFO] - ID: 465 	 GT: healthy 	 PT: healehix 	 STATE: False 
+
+[2025-03-13 19:01:15,055 - tester - INFO] - ID: 466 	 GT: hardrock 	 PT: hardrock 	 STATE: True 
+
+[2025-03-13 19:01:15,059 - tester - INFO] - ID: 467 	 GT: less 	 PT: less 	 STATE: True 
+
+[2025-03-13 19:01:15,064 - tester - INFO] - ID: 468 	 GT: of 	 PT: of 	 STATE: True 
+
+[2025-03-13 19:01:15,069 - tester - INFO] - ID: 469 	 GT: bank 	 PT: bank 	 STATE: True 
+
+[2025-03-13 19:01:15,074 - tester - INFO] - ID: 470 	 GT: fruit 	 PT: fruit 	 STATE: True 
+
+[2025-03-13 19:01:15,079 - tester - INFO] - ID: 471 	 GT: amadeus 	 PT: amadeus 	 STATE: True 
+
+[2025-03-13 19:01:15,084 - tester - INFO] - ID: 472 	 GT: first 	 PT: first 	 STATE: True 
+
+[2025-03-13 19:01:15,088 - tester - INFO] - ID: 473 	 GT: tulsa 	 PT: tilsa 	 STATE: False 
+
+[2025-03-13 19:01:15,093 - tester - INFO] - ID: 474 	 GT: com 	 PT: com 	 STATE: True 
+
+[2025-03-13 19:01:15,098 - tester - INFO] - ID: 475 	 GT: panns 	 PT: pents 	 STATE: False 
+
+[2025-03-13 19:01:15,103 - tester - INFO] - ID: 476 	 GT: engineers 	 PT: engineers 	 STATE: True 
+
+[2025-03-13 19:01:15,108 - tester - INFO] - ID: 477 	 GT: street 	 PT: street 	 STATE: True 
+
+[2025-03-13 19:01:15,113 - tester - INFO] - ID: 478 	 GT: wiedei 	 PT: wieder 	 STATE: False 
+
+[2025-03-13 19:01:15,117 - tester - INFO] - ID: 479 	 GT: torino 	 PT: torino 	 STATE: True 
+
+[2025-03-13 19:01:15,122 - tester - INFO] - ID: 480 	 GT: first 	 PT: first 	 STATE: True 
+
+[2025-03-13 19:01:15,127 - tester - INFO] - ID: 481 	 GT: quarts 	 PT: quart 	 STATE: False 
+
+[2025-03-13 19:01:15,132 - tester - INFO] - ID: 482 	 GT: zto 	 PT: zto 	 STATE: True 
+
+[2025-03-13 19:01:15,137 - tester - INFO] - ID: 483 	 GT: 89 	 PT: 89 	 STATE: True 
+
+[2025-03-13 19:01:15,142 - tester - INFO] - ID: 484 	 GT: crosley 	 PT: croskey 	 STATE: False 
+
+[2025-03-13 19:01:15,146 - tester - INFO] - ID: 485 	 GT: sproutlifestyle 	 PT: sprouthragll 	 STATE: False 
+
+[2025-03-13 19:01:15,151 - tester - INFO] - ID: 486 	 GT: coopers 	 PT: coopers 	 STATE: True 
+
+[2025-03-13 19:01:15,156 - tester - INFO] - ID: 487 	 GT: love 	 PT: lowe 	 STATE: False 
+
+[2025-03-13 19:01:15,161 - tester - INFO] - ID: 488 	 GT: whitespace 	 PT: whitespace 	 STATE: True 
+
+[2025-03-13 19:01:15,166 - tester - INFO] - ID: 489 	 GT: mets 	 PT: mets 	 STATE: True 
+
+[2025-03-13 19:01:15,171 - tester - INFO] - ID: 490 	 GT: jrberesford 	 PT: jrberestord 	 STATE: False 
+
+[2025-03-13 19:01:15,176 - tester - INFO] - ID: 491 	 GT: happy 	 PT: happy 	 STATE: True 
+
+[2025-03-13 19:01:15,181 - tester - INFO] - ID: 492 	 GT: babanyonya 	 PT: babanyanger 	 STATE: False 
+
+[2025-03-13 19:01:15,186 - tester - INFO] - ID: 493 	 GT: pelecanns 	 PT: pelecanus 	 STATE: False 
+
+[2025-03-13 19:01:15,191 - tester - INFO] - ID: 494 	 GT: gyzg 	 PT: ayza 	 STATE: False 
+
+[2025-03-13 19:01:15,195 - tester - INFO] - ID: 495 	 GT: fantasticos 	 PT: fantasticos 	 STATE: True 
+
+[2025-03-13 19:01:15,200 - tester - INFO] - ID: 496 	 GT: bigben 	 PT: bigben 	 STATE: True 
+
+[2025-03-13 19:01:15,205 - tester - INFO] - ID: 497 	 GT: canadianragweed 	 PT: carbaarrkkve 	 STATE: False 
+
+[2025-03-13 19:01:15,210 - tester - INFO] - ID: 498 	 GT: piccoli 	 PT: piccoli 	 STATE: True 
+
+[2025-03-13 19:01:15,215 - tester - INFO] - ID: 499 	 GT: santiago 	 PT: santraoo 	 STATE: False 
+
+[2025-03-13 19:01:15,220 - tester - INFO] - ID: 500 	 GT: english 	 PT: english 	 STATE: True 
+
+[2025-03-13 19:01:15,225 - tester - INFO] - ID: 501 	 GT: wharf 	 PT: wharf 	 STATE: True 
+
+[2025-03-13 19:01:15,230 - tester - INFO] - ID: 502 	 GT: jcrew 	 PT: jcrew 	 STATE: True 
+
+[2025-03-13 19:01:15,234 - tester - INFO] - ID: 503 	 GT: mystyle 	 PT: myseyle 	 STATE: False 
+
+[2025-03-13 19:01:15,239 - tester - INFO] - ID: 504 	 GT: new 	 PT: new 	 STATE: True 
+
+[2025-03-13 19:01:15,244 - tester - INFO] - ID: 505 	 GT: pentakill 	 PT: pentikill 	 STATE: False 
+
+[2025-03-13 19:01:15,249 - tester - INFO] - ID: 506 	 GT: bouquet 	 PT: bouquet 	 STATE: True 
+
+[2025-03-13 19:01:15,253 - tester - INFO] - ID: 507 	 GT: 11 	 PT: 11 	 STATE: True 
+
+[2025-03-13 19:01:15,259 - tester - INFO] - ID: 508 	 GT: romance 	 PT: romanoe 	 STATE: False 
+
+[2025-03-13 19:01:15,263 - tester - INFO] - ID: 509 	 GT: fee 	 PT: ees 	 STATE: False 
+
+[2025-03-13 19:01:15,268 - tester - INFO] - ID: 510 	 GT: love 	 PT: love 	 STATE: True 
+
+[2025-03-13 19:01:15,273 - tester - INFO] - ID: 511 	 GT: tea 	 PT: tea 	 STATE: True 
+
+[2025-03-13 19:01:15,278 - tester - INFO] - ID: 512 	 GT: karaoke 	 PT: karaoks 	 STATE: False 
+
+[2025-03-13 19:01:15,283 - tester - INFO] - ID: 513 	 GT: subway 	 PT: subway 	 STATE: True 
+
+[2025-03-13 19:01:15,288 - tester - INFO] - ID: 514 	 GT: mysweetiepie 	 PT: aggresdhls 	 STATE: False 
+
+[2025-03-13 19:01:15,292 - tester - INFO] - ID: 515 	 GT: never 	 PT: hcver 	 STATE: False 
+
+[2025-03-13 19:01:15,297 - tester - INFO] - ID: 516 	 GT: fire 	 PT: fire 	 STATE: True 
+
+[2025-03-13 19:01:15,302 - tester - INFO] - ID: 517 	 GT: nightgowns 	 PT: nightgowns 	 STATE: True 
+
+[2025-03-13 19:01:15,307 - tester - INFO] - ID: 518 	 GT: gatorland 	 PT: gatorland 	 STATE: True 
+
+[2025-03-13 19:01:15,312 - tester - INFO] - ID: 519 	 GT: savage 	 PT: savage 	 STATE: True 
+
+[2025-03-13 19:01:15,316 - tester - INFO] - ID: 520 	 GT: perfection 	 PT: perfection 	 STATE: True 
+
+[2025-03-13 19:01:15,321 - tester - INFO] - ID: 521 	 GT: iexas 	 PT: lexos 	 STATE: False 
+
+[2025-03-13 19:01:15,326 - tester - INFO] - ID: 522 	 GT: comics 	 PT: comics 	 STATE: True 
+
+[2025-03-13 19:01:15,331 - tester - INFO] - ID: 523 	 GT: curl 	 PT: curl 	 STATE: True 
+
+[2025-03-13 19:01:15,336 - tester - INFO] - ID: 524 	 GT: fullynail 	 PT: jallynall 	 STATE: False 
+
+[2025-03-13 19:01:15,342 - tester - INFO] - ID: 525 	 GT: weimais 	 PT: weimaisi 	 STATE: False 
+
+[2025-03-13 19:01:15,348 - tester - INFO] - ID: 526 	 GT: astor 	 PT: astor 	 STATE: True 
+
+[2025-03-13 19:01:15,352 - tester - INFO] - ID: 527 	 GT: guey 	 PT: guey 	 STATE: True 
+
+[2025-03-13 19:01:15,357 - tester - INFO] - ID: 528 	 GT: hotdogs 	 PT: hotdogs 	 STATE: True 
+
+[2025-03-13 19:01:15,362 - tester - INFO] - ID: 529 	 GT: ice 	 PT: ice 	 STATE: True 
+
+[2025-03-13 19:01:15,366 - tester - INFO] - ID: 530 	 GT: odermin 	 PT: odermin 	 STATE: True 
+
+[2025-03-13 19:01:15,371 - tester - INFO] - ID: 531 	 GT: ride 	 PT: ride 	 STATE: True 
+
+[2025-03-13 19:01:15,376 - tester - INFO] - ID: 532 	 GT: tartabe 	 PT: tartare 	 STATE: False 
+
+[2025-03-13 19:01:15,380 - tester - INFO] - ID: 533 	 GT: globe 	 PT: blobe 	 STATE: False 
+
+[2025-03-13 19:01:15,385 - tester - INFO] - ID: 534 	 GT: pagoda 	 PT: pagoda 	 STATE: True 
+
+[2025-03-13 19:01:15,390 - tester - INFO] - ID: 535 	 GT: colorful 	 PT: colorrful 	 STATE: False 
+
+[2025-03-13 19:01:15,394 - tester - INFO] - ID: 536 	 GT: great 	 PT: grert 	 STATE: False 
+
+[2025-03-13 19:01:15,399 - tester - INFO] - ID: 537 	 GT: franziskaner 	 PT: franziskaner 	 STATE: True 
+
+[2025-03-13 19:01:15,404 - tester - INFO] - ID: 538 	 GT: draggin 	 PT: draggin 	 STATE: True 
+
+[2025-03-13 19:01:15,409 - tester - INFO] - ID: 539 	 GT: mechanics 	 PT: mechanics 	 STATE: True 
+
+[2025-03-13 19:01:15,413 - tester - INFO] - ID: 540 	 GT: free 	 PT: free 	 STATE: True 
+
+[2025-03-13 19:01:15,418 - tester - INFO] - ID: 541 	 GT: cheeses 	 PT: chieesss 	 STATE: False 
+
+[2025-03-13 19:01:15,422 - tester - INFO] - ID: 542 	 GT: soup 	 PT: soup 	 STATE: True 
+
+[2025-03-13 19:01:15,427 - tester - INFO] - ID: 543 	 GT: rou 	 PT: rou 	 STATE: True 
+
+[2025-03-13 19:01:15,432 - tester - INFO] - ID: 544 	 GT: love 	 PT: love 	 STATE: True 
+
+[2025-03-13 19:01:15,436 - tester - INFO] - ID: 545 	 GT: hore 	 PT: hore 	 STATE: True 
+
+[2025-03-13 19:01:15,441 - tester - INFO] - ID: 546 	 GT: derer 	 PT: derer 	 STATE: True 
+
+[2025-03-13 19:01:15,445 - tester - INFO] - ID: 547 	 GT: zum 	 PT: zum 	 STATE: True 
+
+[2025-03-13 19:01:15,450 - tester - INFO] - ID: 548 	 GT: babiku 	 PT: babiku 	 STATE: True 
+
+[2025-03-13 19:01:15,455 - tester - INFO] - ID: 549 	 GT: steve 	 PT: steve 	 STATE: True 
+
+[2025-03-13 19:01:15,459 - tester - INFO] - ID: 550 	 GT: me 	 PT: me 	 STATE: True 
+
+[2025-03-13 19:01:15,464 - tester - INFO] - ID: 551 	 GT: hop 	 PT: hopp 	 STATE: False 
+
+[2025-03-13 19:01:15,468 - tester - INFO] - ID: 552 	 GT: compy 	 PT: compy 	 STATE: True 
+
+[2025-03-13 19:01:15,473 - tester - INFO] - ID: 553 	 GT: taiwan 	 PT: taiwan 	 STATE: True 
+
+[2025-03-13 19:01:15,478 - tester - INFO] - ID: 554 	 GT: 59 	 PT: 59 	 STATE: True 
+
+[2025-03-13 19:01:15,484 - tester - INFO] - ID: 555 	 GT: trigliceridi 	 PT: trigliceridi 	 STATE: True 
+
+[2025-03-13 19:01:15,488 - tester - INFO] - ID: 556 	 GT: cola 	 PT: cola 	 STATE: True 
+
+[2025-03-13 19:01:15,493 - tester - INFO] - ID: 557 	 GT: feic 	 PT: flic 	 STATE: False 
+
+[2025-03-13 19:01:15,498 - tester - INFO] - ID: 558 	 GT: foodles 	 PT: foodles 	 STATE: True 
+
+[2025-03-13 19:01:15,502 - tester - INFO] - ID: 559 	 GT: softlan 	 PT: softlan 	 STATE: True 
+
+[2025-03-13 19:01:15,507 - tester - INFO] - ID: 560 	 GT: dron 	 PT: dron 	 STATE: True 
+
+[2025-03-13 19:01:15,512 - tester - INFO] - ID: 561 	 GT: laposada 	 PT: laposada 	 STATE: True 
+
+[2025-03-13 19:01:15,516 - tester - INFO] - ID: 562 	 GT: elephant 	 PT: elephant 	 STATE: True 
+
+[2025-03-13 19:01:15,521 - tester - INFO] - ID: 563 	 GT: antonic 	 PT: aptonic 	 STATE: False 
+
+[2025-03-13 19:01:15,526 - tester - INFO] - ID: 564 	 GT: the 	 PT: the 	 STATE: True 
+
+[2025-03-13 19:01:15,530 - tester - INFO] - ID: 565 	 GT: pepper 	 PT: pepper 	 STATE: True 
+
+[2025-03-13 19:01:15,535 - tester - INFO] - ID: 566 	 GT: broadway 	 PT: broadway 	 STATE: True 
+
+[2025-03-13 19:01:15,540 - tester - INFO] - ID: 567 	 GT: every 	 PT: every 	 STATE: True 
+
+[2025-03-13 19:01:15,544 - tester - INFO] - ID: 568 	 GT: red 	 PT: red 	 STATE: True 
+
+[2025-03-13 19:01:15,549 - tester - INFO] - ID: 569 	 GT: troika 	 PT: troika 	 STATE: True 
+
+[2025-03-13 19:01:15,554 - tester - INFO] - ID: 570 	 GT: doremi 	 PT: doremi 	 STATE: True 
+
+[2025-03-13 19:01:15,558 - tester - INFO] - ID: 571 	 GT: marshall 	 PT: marshall 	 STATE: True 
+
+[2025-03-13 19:01:15,563 - tester - INFO] - ID: 572 	 GT: sets 	 PT: sets 	 STATE: True 
+
+[2025-03-13 19:01:15,567 - tester - INFO] - ID: 573 	 GT: power 	 PT: power 	 STATE: True 
+
+[2025-03-13 19:01:15,572 - tester - INFO] - ID: 574 	 GT: sure 	 PT: sute 	 STATE: False 
+
+[2025-03-13 19:01:15,577 - tester - INFO] - ID: 575 	 GT: gotton 	 PT: gotton 	 STATE: True 
+
+[2025-03-13 19:01:15,581 - tester - INFO] - ID: 576 	 GT: nyk 	 PT: nyk 	 STATE: True 
+
+[2025-03-13 19:01:15,586 - tester - INFO] - ID: 577 	 GT: rospa 	 PT: rospa 	 STATE: True 
+
+[2025-03-13 19:01:15,591 - tester - INFO] - ID: 578 	 GT: nyc 	 PT: nyc 	 STATE: True 
+
+[2025-03-13 19:01:15,596 - tester - INFO] - ID: 579 	 GT: sir 	 PT: sir 	 STATE: True 
+
+[2025-03-13 19:01:15,600 - tester - INFO] - ID: 580 	 GT: libra18 	 PT: libra18 	 STATE: True 
+
+[2025-03-13 19:01:15,605 - tester - INFO] - ID: 581 	 GT: of 	 PT: of 	 STATE: True 
+
+[2025-03-13 19:01:15,610 - tester - INFO] - ID: 582 	 GT: cabos 	 PT: cabos 	 STATE: True 
+
+[2025-03-13 19:01:15,614 - tester - INFO] - ID: 583 	 GT: burrito 	 PT: burrito 	 STATE: True 
+
+[2025-03-13 19:01:15,619 - tester - INFO] - ID: 584 	 GT: otwer 	 PT: other 	 STATE: False 
+
+[2025-03-13 19:01:15,624 - tester - INFO] - ID: 585 	 GT: cocac 	 PT: cocac 	 STATE: True 
+
+[2025-03-13 19:01:15,628 - tester - INFO] - ID: 586 	 GT: franziskaner 	 PT: franstskaner 	 STATE: False 
+
+[2025-03-13 19:01:15,633 - tester - INFO] - ID: 587 	 GT: wendys 	 PT: wendys 	 STATE: True 
+
+[2025-03-13 19:01:15,638 - tester - INFO] - ID: 588 	 GT: thecookin 	 PT: thelookin 	 STATE: False 
+
+[2025-03-13 19:01:15,643 - tester - INFO] - ID: 589 	 GT: foam 	 PT: foam 	 STATE: True 
+
+[2025-03-13 19:01:15,647 - tester - INFO] - ID: 590 	 GT: nasello 	 PT: nasello 	 STATE: True 
+
+[2025-03-13 19:01:15,652 - tester - INFO] - ID: 591 	 GT: sanrio 	 PT: samrio 	 STATE: False 
+
+[2025-03-13 19:01:15,656 - tester - INFO] - ID: 592 	 GT: maiji 	 PT: maiji 	 STATE: True 
+
+[2025-03-13 19:01:15,661 - tester - INFO] - ID: 593 	 GT: 49 	 PT: 49 	 STATE: True 
+
+[2025-03-13 19:01:15,666 - tester - INFO] - ID: 594 	 GT: freiheit 	 PT: freiheit 	 STATE: True 
+
+[2025-03-13 19:01:15,670 - tester - INFO] - ID: 595 	 GT: first 	 PT: first 	 STATE: True 
+
+[2025-03-13 19:01:15,675 - tester - INFO] - ID: 596 	 GT: goat 	 PT: coat 	 STATE: False 
+
+[2025-03-13 19:01:15,680 - tester - INFO] - ID: 597 	 GT: mocmoc 	 PT: mocmoc 	 STATE: True 
+
+[2025-03-13 19:01:15,684 - tester - INFO] - ID: 598 	 GT: sea 	 PT: sea 	 STATE: True 
+
+[2025-03-13 19:01:15,689 - tester - INFO] - ID: 599 	 GT: bottle 	 PT: bottu 	 STATE: False 
+
+[2025-03-13 19:01:15,693 - tester - INFO] - ID: 600 	 GT: natural 	 PT: natural 	 STATE: True 
+
+[2025-03-13 19:01:15,698 - tester - INFO] - ID: 601 	 GT: listew 	 PT: listen 	 STATE: False 
+
+[2025-03-13 19:01:15,703 - tester - INFO] - ID: 602 	 GT: malaysia 	 PT: malayia 	 STATE: False 
+
+[2025-03-13 19:01:15,708 - tester - INFO] - ID: 603 	 GT: fenny 	 PT: jenny 	 STATE: False 
+
+[2025-03-13 19:01:15,712 - tester - INFO] - ID: 604 	 GT: permis 	 PT: permis 	 STATE: True 
+
+[2025-03-13 19:01:15,717 - tester - INFO] - ID: 605 	 GT: young 	 PT: young 	 STATE: True 
+
+[2025-03-13 19:01:15,722 - tester - INFO] - ID: 606 	 GT: philippe 	 PT: philipote 	 STATE: False 
+
+[2025-03-13 19:01:15,726 - tester - INFO] - ID: 607 	 GT: colours 	 PT: colours 	 STATE: True 
+
+[2025-03-13 19:01:15,731 - tester - INFO] - ID: 608 	 GT: piedibus 	 PT: piedibus 	 STATE: True 
+
+[2025-03-13 19:01:15,736 - tester - INFO] - ID: 609 	 GT: oldstyle 	 PT: uldstyle 	 STATE: False 
+
+[2025-03-13 19:01:15,740 - tester - INFO] - ID: 610 	 GT: jane 	 PT: pane 	 STATE: False 
+
+[2025-03-13 19:01:15,745 - tester - INFO] - ID: 611 	 GT: oishi 	 PT: oishi 	 STATE: True 
+
+[2025-03-13 19:01:15,750 - tester - INFO] - ID: 612 	 GT: johnsitu 	 PT: cohnsitu 	 STATE: False 
+
+[2025-03-13 19:01:15,754 - tester - INFO] - ID: 613 	 GT: restaurant 	 PT: restauram 	 STATE: False 
+
+[2025-03-13 19:01:15,759 - tester - INFO] - ID: 614 	 GT: disney 	 PT: disney 	 STATE: True 
+
+[2025-03-13 19:01:15,764 - tester - INFO] - ID: 615 	 GT: akershus 	 PT: akershus 	 STATE: True 
+
+[2025-03-13 19:01:15,768 - tester - INFO] - ID: 616 	 GT: barqs 	 PT: bargs 	 STATE: False 
+
+[2025-03-13 19:01:15,773 - tester - INFO] - ID: 617 	 GT: myworld 	 PT: myworld 	 STATE: True 
+
+[2025-03-13 19:01:15,778 - tester - INFO] - ID: 618 	 GT: california 	 PT: california 	 STATE: True 
+
+[2025-03-13 19:01:15,783 - tester - INFO] - ID: 619 	 GT: space 	 PT: space 	 STATE: True 
+
+[2025-03-13 19:01:15,787 - tester - INFO] - ID: 620 	 GT: uca 	 PT: uca 	 STATE: True 
+
+[2025-03-13 19:01:15,792 - tester - INFO] - ID: 621 	 GT: awesome 	 PT: awesome 	 STATE: True 
+
+[2025-03-13 19:01:15,796 - tester - INFO] - ID: 622 	 GT: maxim 	 PT: maxim 	 STATE: True 
+
+[2025-03-13 19:01:15,801 - tester - INFO] - ID: 623 	 GT: bters 	 PT: bers 	 STATE: False 
+
+[2025-03-13 19:01:15,806 - tester - INFO] - ID: 624 	 GT: target 	 PT: target 	 STATE: True 
+
+[2025-03-13 19:01:15,810 - tester - INFO] - ID: 625 	 GT: dugout 	 PT: dugout 	 STATE: True 
+
+[2025-03-13 19:01:15,815 - tester - INFO] - ID: 626 	 GT: shanba 	 PT: shanba 	 STATE: True 
+
+[2025-03-13 19:01:15,820 - tester - INFO] - ID: 627 	 GT: strs 	 PT: 5otro 	 STATE: False 
+
+[2025-03-13 19:01:15,824 - tester - INFO] - ID: 628 	 GT: mickey 	 PT: mickey 	 STATE: True 
+
+[2025-03-13 19:01:15,829 - tester - INFO] - ID: 629 	 GT: paris 	 PT: poris 	 STATE: False 
+
+[2025-03-13 19:01:15,834 - tester - INFO] - ID: 630 	 GT: rollingstone 	 PT: rollingstone 	 STATE: True 
+
+[2025-03-13 19:01:15,838 - tester - INFO] - ID: 631 	 GT: lnema 	 PT: inema 	 STATE: False 
+
+[2025-03-13 19:01:15,843 - tester - INFO] - ID: 632 	 GT: rice 	 PT: rice 	 STATE: True 
+
+[2025-03-13 19:01:15,848 - tester - INFO] - ID: 633 	 GT: lovely 	 PT: lovely 	 STATE: True 
+
+[2025-03-13 19:01:15,852 - tester - INFO] - ID: 634 	 GT: forget 	 PT: forget 	 STATE: True 
+
+[2025-03-13 19:01:15,857 - tester - INFO] - ID: 635 	 GT: hui 	 PT: hul 	 STATE: False 
+
+[2025-03-13 19:01:15,862 - tester - INFO] - ID: 636 	 GT: free 	 PT: free 	 STATE: True 
+
+[2025-03-13 19:01:15,866 - tester - INFO] - ID: 637 	 GT: ibm 	 PT: ibm 	 STATE: True 
+
+[2025-03-13 19:01:15,871 - tester - INFO] - ID: 638 	 GT: sneci 	 PT: snew 	 STATE: False 
+
+[2025-03-13 19:01:15,875 - tester - INFO] - ID: 639 	 GT: iimk 	 PT: iimk 	 STATE: True 
+
+[2025-03-13 19:01:15,880 - tester - INFO] - ID: 640 	 GT: los 	 PT: los 	 STATE: True 
+
+[2025-03-13 19:01:15,885 - tester - INFO] - ID: 641 	 GT: restaurant 	 PT: restaurant 	 STATE: True 
+
+[2025-03-13 19:01:15,889 - tester - INFO] - ID: 642 	 GT: le 	 PT: le 	 STATE: True 
+
+[2025-03-13 19:01:15,894 - tester - INFO] - ID: 643 	 GT: disco 	 PT: digco 	 STATE: False 
+
+[2025-03-13 19:01:15,899 - tester - INFO] - ID: 644 	 GT: humor 	 PT: nuttok 	 STATE: False 
+
+[2025-03-13 19:01:15,903 - tester - INFO] - ID: 645 	 GT: commodities 	 PT: commodities 	 STATE: True 
+
+[2025-03-13 19:01:15,908 - tester - INFO] - ID: 646 	 GT: steamed 	 PT: sreamed 	 STATE: False 
+
+[2025-03-13 19:01:15,913 - tester - INFO] - ID: 647 	 GT: abc 	 PT: abc 	 STATE: True 
+
+[2025-03-13 19:01:15,917 - tester - INFO] - ID: 648 	 GT: superx 	 PT: superx 	 STATE: True 
+
+[2025-03-13 19:01:15,922 - tester - INFO] - ID: 649 	 GT: wyg 	 PT: weg 	 STATE: False 
+
+[2025-03-13 19:01:15,927 - tester - INFO] - ID: 650 	 GT: party 	 PT: party 	 STATE: True 
+
+[2025-03-13 19:01:15,931 - tester - INFO] - ID: 651 	 GT: pizza 	 PT: pizza 	 STATE: True 
+
+[2025-03-13 19:01:15,936 - tester - INFO] - ID: 652 	 GT: sintex 	 PT: sintex 	 STATE: True 
+
+[2025-03-13 19:01:15,941 - tester - INFO] - ID: 653 	 GT: casa 	 PT: casa 	 STATE: True 
+
+[2025-03-13 19:01:15,945 - tester - INFO] - ID: 654 	 GT: caffebene 	 PT: caffebene 	 STATE: True 
+
+[2025-03-13 19:01:15,950 - tester - INFO] - ID: 655 	 GT: eoe 	 PT: eve 	 STATE: False 
+
+[2025-03-13 19:01:15,954 - tester - INFO] - ID: 656 	 GT: gogo 	 PT: cola 	 STATE: False 
+
+[2025-03-13 19:01:15,959 - tester - INFO] - ID: 657 	 GT: clck 	 PT: click 	 STATE: False 
+
+[2025-03-13 19:01:15,964 - tester - INFO] - ID: 658 	 GT: driver 	 PT: driver 	 STATE: True 
+
+[2025-03-13 19:01:15,969 - tester - INFO] - ID: 659 	 GT: scary 	 PT: scary 	 STATE: True 
+
+[2025-03-13 19:01:15,973 - tester - INFO] - ID: 660 	 GT: national 	 PT: national 	 STATE: True 
+
+[2025-03-13 19:01:15,978 - tester - INFO] - ID: 661 	 GT: chocolat 	 PT: chocolat 	 STATE: True 
+
+[2025-03-13 19:01:15,982 - tester - INFO] - ID: 662 	 GT: cakes 	 PT: cakes 	 STATE: True 
+
+[2025-03-13 19:01:15,987 - tester - INFO] - ID: 663 	 GT: hause 	 PT: house 	 STATE: False 
+
+[2025-03-13 19:01:15,992 - tester - INFO] - ID: 664 	 GT: maine 	 PT: maine 	 STATE: True 
+
+[2025-03-13 19:01:15,997 - tester - INFO] - ID: 665 	 GT: map 	 PT: map 	 STATE: True 
+
+[2025-03-13 19:01:16,002 - tester - INFO] - ID: 666 	 GT: ilove 	 PT: love 	 STATE: False 
+
+[2025-03-13 19:01:16,007 - tester - INFO] - ID: 667 	 GT: fruit 	 PT: fruit 	 STATE: True 
+
+[2025-03-13 19:01:16,012 - tester - INFO] - ID: 668 	 GT: cristan 	 PT: criston 	 STATE: False 
+
+[2025-03-13 19:01:16,016 - tester - INFO] - ID: 669 	 GT: fitti 	 PT: fitti 	 STATE: True 
+
+[2025-03-13 19:01:16,021 - tester - INFO] - ID: 670 	 GT: internetbar 	 PT: internetrar 	 STATE: False 
+
+[2025-03-13 19:01:16,026 - tester - INFO] - ID: 671 	 GT: santanas 	 PT: santanas 	 STATE: True 
+
+[2025-03-13 19:01:16,030 - tester - INFO] - ID: 672 	 GT: frightnight 	 PT: frighthight 	 STATE: False 
+
+[2025-03-13 19:01:16,035 - tester - INFO] - ID: 673 	 GT: lara 	 PT: lara 	 STATE: True 
+
+[2025-03-13 19:01:16,040 - tester - INFO] - ID: 674 	 GT: pizza 	 PT: pizza 	 STATE: True 
+
+[2025-03-13 19:01:16,044 - tester - INFO] - ID: 675 	 GT: party 	 PT: party 	 STATE: True 
+
+[2025-03-13 19:01:16,049 - tester - INFO] - ID: 676 	 GT: sport 	 PT: sport 	 STATE: True 
+
+[2025-03-13 19:01:16,054 - tester - INFO] - ID: 677 	 GT: poretti 	 PT: poretti 	 STATE: True 
+
+[2025-03-13 19:01:16,058 - tester - INFO] - ID: 678 	 GT: 11 	 PT: 11 	 STATE: True 
+
+[2025-03-13 19:01:16,063 - tester - INFO] - ID: 679 	 GT: theater 	 PT: theater 	 STATE: True 
+
+[2025-03-13 19:01:16,068 - tester - INFO] - ID: 680 	 GT: eomune 	 PT: comune 	 STATE: False 
+
+[2025-03-13 19:01:16,073 - tester - INFO] - ID: 681 	 GT: tea 	 PT: tea 	 STATE: True 
+
+[2025-03-13 19:01:16,077 - tester - INFO] - ID: 682 	 GT: king 	 PT: king 	 STATE: True 
+
+[2025-03-13 19:01:16,082 - tester - INFO] - ID: 683 	 GT: panther 	 PT: panther 	 STATE: True 
+
+[2025-03-13 19:01:16,087 - tester - INFO] - ID: 684 	 GT: vinpearl 	 PT: vinpeare 	 STATE: False 
+
+[2025-03-13 19:01:16,091 - tester - INFO] - ID: 685 	 GT: high 	 PT: high 	 STATE: True 
+
+[2025-03-13 19:01:16,096 - tester - INFO] - ID: 686 	 GT: tonghuabobi 	 PT: ponghumbobi 	 STATE: False 
+
+[2025-03-13 19:01:16,101 - tester - INFO] - ID: 687 	 GT: barbeque 	 PT: barreque 	 STATE: False 
+
+[2025-03-13 19:01:16,105 - tester - INFO] - ID: 688 	 GT: congelati 	 PT: congelati 	 STATE: True 
+
+[2025-03-13 19:01:16,110 - tester - INFO] - ID: 689 	 GT: ticket 	 PT: ticket 	 STATE: True 
+
+[2025-03-13 19:01:16,115 - tester - INFO] - ID: 690 	 GT: hero 	 PT: hero 	 STATE: True 
+
+[2025-03-13 19:01:16,119 - tester - INFO] - ID: 691 	 GT: marvins 	 PT: marvins 	 STATE: True 
+
+[2025-03-13 19:01:16,124 - tester - INFO] - ID: 692 	 GT: snail 	 PT: snail 	 STATE: True 
+
+[2025-03-13 19:01:16,128 - tester - INFO] - ID: 693 	 GT: adams 	 PT: adams 	 STATE: True 
+
+[2025-03-13 19:01:16,133 - tester - INFO] - ID: 694 	 GT: happy 	 PT: happy 	 STATE: True 
+
+[2025-03-13 19:01:16,138 - tester - INFO] - ID: 695 	 GT: panns 	 PT: ranns 	 STATE: False 
+
+[2025-03-13 19:01:16,142 - tester - INFO] - ID: 696 	 GT: 302 	 PT: a 	 STATE: False 
+
+[2025-03-13 19:01:16,147 - tester - INFO] - ID: 697 	 GT: lotto 	 PT: lofo 	 STATE: False 
+
+[2025-03-13 19:01:16,152 - tester - INFO] - ID: 698 	 GT: jns 	 PT: jns 	 STATE: True 
+
+[2025-03-13 19:01:16,156 - tester - INFO] - ID: 699 	 GT: bophen 	 PT: bophen 	 STATE: True 
+
+[2025-03-13 19:01:16,161 - tester - INFO] - ID: 700 	 GT: lv 	 PT: lv 	 STATE: True 
+
+[2025-03-13 19:01:16,166 - tester - INFO] - ID: 701 	 GT: teh 	 PT: teh 	 STATE: True 
+
+[2025-03-13 19:01:16,170 - tester - INFO] - ID: 702 	 GT: cradle 	 PT: cradle 	 STATE: True 
+
+[2025-03-13 19:01:16,175 - tester - INFO] - ID: 703 	 GT: angry 	 PT: angry 	 STATE: True 
+
+[2025-03-13 19:01:16,180 - tester - INFO] - ID: 704 	 GT: cnn 	 PT: cnn 	 STATE: True 
+
+[2025-03-13 19:01:16,184 - tester - INFO] - ID: 705 	 GT: eismohr 	 PT: eismohr 	 STATE: True 
+
+[2025-03-13 19:01:16,189 - tester - INFO] - ID: 706 	 GT: cheese 	 PT: cheese 	 STATE: True 
+
+[2025-03-13 19:01:16,193 - tester - INFO] - ID: 707 	 GT: the 	 PT: the 	 STATE: True 
+
+[2025-03-13 19:01:16,198 - tester - INFO] - ID: 708 	 GT: age 	 PT: age 	 STATE: True 
+
+[2025-03-13 19:01:16,203 - tester - INFO] - ID: 709 	 GT: cafe 	 PT: cafe 	 STATE: True 
+
+[2025-03-13 19:01:16,207 - tester - INFO] - ID: 710 	 GT: new 	 PT: new 	 STATE: True 
+
+[2025-03-13 19:01:16,213 - tester - INFO] - ID: 711 	 GT: cicc 	 PT: ckc 	 STATE: False 
+
+[2025-03-13 19:01:16,217 - tester - INFO] - ID: 712 	 GT: trading 	 PT: trading 	 STATE: True 
+
+[2025-03-13 19:01:16,222 - tester - INFO] - ID: 713 	 GT: skateboards 	 PT: skateboards 	 STATE: True 
+
+[2025-03-13 19:01:16,227 - tester - INFO] - ID: 714 	 GT: dalle 	 PT: dalle 	 STATE: True 
+
+[2025-03-13 19:01:16,232 - tester - INFO] - ID: 715 	 GT: oastery 	 PT: oastery 	 STATE: True 
+
+[2025-03-13 19:01:16,237 - tester - INFO] - ID: 716 	 GT: 998 	 PT: 9o3 	 STATE: False 
+
+[2025-03-13 19:01:16,242 - tester - INFO] - ID: 717 	 GT: jvincent 	 PT: jvincent 	 STATE: True 
+
+[2025-03-13 19:01:16,246 - tester - INFO] - ID: 718 	 GT: magc 	 PT: mogg 	 STATE: False 
+
+[2025-03-13 19:01:16,251 - tester - INFO] - ID: 719 	 GT: cycles 	 PT: cycles 	 STATE: True 
+
+[2025-03-13 19:01:16,256 - tester - INFO] - ID: 720 	 GT: summer 	 PT: summer 	 STATE: True 
+
+[2025-03-13 19:01:16,261 - tester - INFO] - ID: 721 	 GT: shopping 	 PT: shopping 	 STATE: True 
+
+[2025-03-13 19:01:16,266 - tester - INFO] - ID: 722 	 GT: live 	 PT: live 	 STATE: True 
+
+[2025-03-13 19:01:16,271 - tester - INFO] - ID: 723 	 GT: ff 	 PT: ff 	 STATE: True 
+
+[2025-03-13 19:01:16,276 - tester - INFO] - ID: 724 	 GT: toilet 	 PT: toilet 	 STATE: True 
+
+[2025-03-13 19:01:16,280 - tester - INFO] - ID: 725 	 GT: coffee 	 PT: coffee 	 STATE: True 
+
+[2025-03-13 19:01:16,285 - tester - INFO] - ID: 726 	 GT: mua2 	 PT: ma2 	 STATE: False 
+
+[2025-03-13 19:01:16,290 - tester - INFO] - ID: 727 	 GT: menegas 	 PT: menegas 	 STATE: True 
+
+[2025-03-13 19:01:16,295 - tester - INFO] - ID: 728 	 GT: everyone 	 PT: evekyone 	 STATE: False 
+
+[2025-03-13 19:01:16,300 - tester - INFO] - ID: 729 	 GT: ap 	 PT: op 	 STATE: False 
+
+[2025-03-13 19:01:16,304 - tester - INFO] - ID: 730 	 GT: clean 	 PT: clean 	 STATE: True 
+
+[2025-03-13 19:01:16,310 - tester - INFO] - ID: 731 	 GT: liscio 	 PT: liscio 	 STATE: True 
+
+[2025-03-13 19:01:16,315 - tester - INFO] - ID: 732 	 GT: singapore 	 PT: singapore 	 STATE: True 
+
+[2025-03-13 19:01:16,319 - tester - INFO] - ID: 733 	 GT: cardinals 	 PT: cardinals 	 STATE: True 
+
+[2025-03-13 19:01:16,324 - tester - INFO] - ID: 734 	 GT: beatnuts 	 PT: neathuts 	 STATE: False 
+
+[2025-03-13 19:01:16,329 - tester - INFO] - ID: 735 	 GT: raunchfangkehrer 	 PT: rauchfangkehrer 	 STATE: False 
+
+[2025-03-13 19:01:16,334 - tester - INFO] - ID: 736 	 GT: flowers 	 PT: flowers 	 STATE: True 
+
+[2025-03-13 19:01:16,339 - tester - INFO] - ID: 737 	 GT: time 	 PT: time 	 STATE: True 
+
+[2025-03-13 19:01:16,344 - tester - INFO] - ID: 738 	 GT: vinarna 	 PT: fortinnna 	 STATE: False 
+
+[2025-03-13 19:01:16,349 - tester - INFO] - ID: 739 	 GT: rebel 	 PT: hebel 	 STATE: False 
+
+[2025-03-13 19:01:16,354 - tester - INFO] - ID: 740 	 GT: mibang 	 PT: mibang 	 STATE: True 
+
+[2025-03-13 19:01:16,358 - tester - INFO] - ID: 741 	 GT: land 	 PT: land 	 STATE: True 
+
+[2025-03-13 19:01:16,363 - tester - INFO] - ID: 742 	 GT: aite 	 PT: arte 	 STATE: False 
+
+[2025-03-13 19:01:16,368 - tester - INFO] - ID: 743 	 GT: hillbilly 	 PT: hillbilly 	 STATE: True 
+
+[2025-03-13 19:01:16,373 - tester - INFO] - ID: 744 	 GT: engineering 	 PT: anginerrng 	 STATE: False 
+
+[2025-03-13 19:01:16,378 - tester - INFO] - ID: 745 	 GT: festival 	 PT: festival 	 STATE: True 
+
+[2025-03-13 19:01:16,383 - tester - INFO] - ID: 746 	 GT: frank 	 PT: frank 	 STATE: True 
+
+[2025-03-13 19:01:16,387 - tester - INFO] - ID: 747 	 GT: henrys 	 PT: henrys 	 STATE: True 
+
+[2025-03-13 19:01:16,392 - tester - INFO] - ID: 748 	 GT: storm 	 PT: storm 	 STATE: True 
+
+[2025-03-13 19:01:16,397 - tester - INFO] - ID: 749 	 GT: regalo 	 PT: regalo 	 STATE: True 
+
+[2025-03-13 19:01:16,402 - tester - INFO] - ID: 750 	 GT: nb 	 PT: nb 	 STATE: True 
+
+[2025-03-13 19:01:16,407 - tester - INFO] - ID: 751 	 GT: hotel 	 PT: hotel 	 STATE: True 
+
+[2025-03-13 19:01:16,412 - tester - INFO] - ID: 752 	 GT: darling 	 PT: darling 	 STATE: True 
+
+[2025-03-13 19:01:16,417 - tester - INFO] - ID: 753 	 GT: rainforest 	 PT: reinforest 	 STATE: False 
+
+[2025-03-13 19:01:16,422 - tester - INFO] - ID: 754 	 GT: games 	 PT: games 	 STATE: True 
+
+[2025-03-13 19:01:16,426 - tester - INFO] - ID: 755 	 GT: hotkee 	 PT: hotkee 	 STATE: True 
+
+[2025-03-13 19:01:16,431 - tester - INFO] - ID: 756 	 GT: wilberforce 	 PT: wilberforce 	 STATE: True 
+
+[2025-03-13 19:01:16,436 - tester - INFO] - ID: 757 	 GT: pipe 	 PT: pipe 	 STATE: True 
+
+[2025-03-13 19:01:16,441 - tester - INFO] - ID: 758 	 GT: ithaca 	 PT: ithaca 	 STATE: True 
+
+[2025-03-13 19:01:16,446 - tester - INFO] - ID: 759 	 GT: gilleys 	 PT: gilleys 	 STATE: True 
+
+[2025-03-13 19:01:16,451 - tester - INFO] - ID: 760 	 GT: furusi 	 PT: furusi 	 STATE: True 
+
+[2025-03-13 19:01:16,456 - tester - INFO] - ID: 761 	 GT: home 	 PT: home 	 STATE: True 
+
+[2025-03-13 19:01:16,461 - tester - INFO] - ID: 762 	 GT: twins 	 PT: twins 	 STATE: True 
+
+[2025-03-13 19:01:16,465 - tester - INFO] - ID: 763 	 GT: eas 	 PT: eas 	 STATE: True 
+
+[2025-03-13 19:01:16,470 - tester - INFO] - ID: 764 	 GT: own 	 PT: own 	 STATE: True 
+
+[2025-03-13 19:01:16,475 - tester - INFO] - ID: 765 	 GT: pirates 	 PT: pirates 	 STATE: True 
+
+[2025-03-13 19:01:16,480 - tester - INFO] - ID: 766 	 GT: zorba 	 PT: zorba 	 STATE: True 
+
+[2025-03-13 19:01:16,485 - tester - INFO] - ID: 767 	 GT: eating 	 PT: eafing 	 STATE: False 
+
+[2025-03-13 19:01:16,489 - tester - INFO] - ID: 768 	 GT: pipile 	 PT: pipilo 	 STATE: False 
+
+[2025-03-13 19:01:16,494 - tester - INFO] - ID: 769 	 GT: jungle 	 PT: jungue 	 STATE: False 
+
+[2025-03-13 19:01:16,499 - tester - INFO] - ID: 770 	 GT: c0 	 PT: clo 	 STATE: False 
+
+[2025-03-13 19:01:16,504 - tester - INFO] - ID: 771 	 GT: ibm 	 PT: ibm 	 STATE: True 
+
+[2025-03-13 19:01:16,508 - tester - INFO] - ID: 772 	 GT: bowl 	 PT: bowl 	 STATE: True 
+
+[2025-03-13 19:01:16,513 - tester - INFO] - ID: 773 	 GT: gaudy 	 PT: gaudy 	 STATE: True 
+
+[2025-03-13 19:01:16,518 - tester - INFO] - ID: 774 	 GT: pilsnerurquell 	 PT: pilsnerurquell 	 STATE: True 
+
+[2025-03-13 19:01:16,523 - tester - INFO] - ID: 775 	 GT: friendlys 	 PT: frieddys 	 STATE: False 
+
+[2025-03-13 19:01:16,528 - tester - INFO] - ID: 776 	 GT: tea 	 PT: t 	 STATE: False 
+
+[2025-03-13 19:01:16,533 - tester - INFO] - ID: 777 	 GT: spring 	 PT: spring 	 STATE: True 
+
+[2025-03-13 19:01:16,538 - tester - INFO] - ID: 778 	 GT: hello 	 PT: hello 	 STATE: True 
+
+[2025-03-13 19:01:16,542 - tester - INFO] - ID: 779 	 GT: parc 	 PT: parc 	 STATE: True 
+
+[2025-03-13 19:01:16,547 - tester - INFO] - ID: 780 	 GT: park 	 PT: park 	 STATE: True 
+
+[2025-03-13 19:01:16,552 - tester - INFO] - ID: 781 	 GT: jime 	 PT: time 	 STATE: False 
+
+[2025-03-13 19:01:16,557 - tester - INFO] - ID: 782 	 GT: panda 	 PT: panda 	 STATE: True 
+
+[2025-03-13 19:01:16,562 - tester - INFO] - ID: 783 	 GT: 9f 	 PT: 9f 	 STATE: True 
+
+[2025-03-13 19:01:16,566 - tester - INFO] - ID: 784 	 GT: beer 	 PT: beer 	 STATE: True 
+
+[2025-03-13 19:01:16,571 - tester - INFO] - ID: 785 	 GT: bomber 	 PT: comber 	 STATE: False 
+
+[2025-03-13 19:01:16,576 - tester - INFO] - ID: 786 	 GT: country 	 PT: country 	 STATE: True 
+
+[2025-03-13 19:01:16,581 - tester - INFO] - ID: 787 	 GT: prince 	 PT: prince 	 STATE: True 
+
+[2025-03-13 19:01:16,586 - tester - INFO] - ID: 788 	 GT: ncess 	 PT: ncess 	 STATE: True 
+
+[2025-03-13 19:01:16,591 - tester - INFO] - ID: 789 	 GT: dartmoutn 	 PT: dortmonnh 	 STATE: False 
+
+[2025-03-13 19:01:16,595 - tester - INFO] - ID: 790 	 GT: park 	 PT: parks 	 STATE: False 
+
+[2025-03-13 19:01:16,600 - tester - INFO] - ID: 791 	 GT: moving 	 PT: moving 	 STATE: True 
+
+[2025-03-13 19:01:16,605 - tester - INFO] - ID: 792 	 GT: fre 	 PT: dre 	 STATE: False 
+
+[2025-03-13 19:01:16,610 - tester - INFO] - ID: 793 	 GT: risorto 	 PT: risorto 	 STATE: True 
+
+[2025-03-13 19:01:16,615 - tester - INFO] - ID: 794 	 GT: not 	 PT: not 	 STATE: True 
+
+[2025-03-13 19:01:16,620 - tester - INFO] - ID: 795 	 GT: 199 	 PT: 199 	 STATE: True 
+
+[2025-03-13 19:01:16,624 - tester - INFO] - ID: 796 	 GT: tennessee 	 PT: tennessee 	 STATE: True 
+
+[2025-03-13 19:01:16,629 - tester - INFO] - ID: 797 	 GT: dad 	 PT: dad 	 STATE: True 
+
+[2025-03-13 19:01:16,634 - tester - INFO] - ID: 798 	 GT: pork 	 PT: pork 	 STATE: True 
+
+[2025-03-13 19:01:16,639 - tester - INFO] - ID: 799 	 GT: fbu 	 PT: bbl 	 STATE: False 
+
+[2025-03-13 19:01:16,644 - tester - INFO] - ID: 800 	 GT: berge 	 PT: berge 	 STATE: True 
+
+[2025-03-13 19:01:16,649 - tester - INFO] - ID: 801 	 GT: time 	 PT: time 	 STATE: True 
+
+[2025-03-13 19:01:16,654 - tester - INFO] - ID: 802 	 GT: tburger 	 PT: tburger 	 STATE: True 
+
+[2025-03-13 19:01:16,659 - tester - INFO] - ID: 803 	 GT: welcome 	 PT: welcome 	 STATE: True 
+
+[2025-03-13 19:01:16,664 - tester - INFO] - ID: 804 	 GT: play 	 PT: play 	 STATE: True 
+
+[2025-03-13 19:01:16,669 - tester - INFO] - ID: 805 	 GT: loto 	 PT: coto 	 STATE: False 
+
+[2025-03-13 19:01:16,673 - tester - INFO] - ID: 806 	 GT: foodcourt 	 PT: foodcourt 	 STATE: True 
+
+[2025-03-13 19:01:16,678 - tester - INFO] - ID: 807 	 GT: choserl 	 PT: choseal 	 STATE: False 
+
+[2025-03-13 19:01:16,683 - tester - INFO] - ID: 808 	 GT: gome 	 PT: florc 	 STATE: False 
+
+[2025-03-13 19:01:16,688 - tester - INFO] - ID: 809 	 GT: witches 	 PT: witches 	 STATE: True 
+
+[2025-03-13 19:01:16,693 - tester - INFO] - ID: 810 	 GT: concentrated 	 PT: concentrated 	 STATE: True 
+
+[2025-03-13 19:01:16,697 - tester - INFO] - ID: 811 	 GT: ilymart 	 PT: llymart 	 STATE: False 
+
+[2025-03-13 19:01:16,702 - tester - INFO] - ID: 812 	 GT: mars 	 PT: moree 	 STATE: False 
+
+[2025-03-13 19:01:16,707 - tester - INFO] - ID: 813 	 GT: fresh 	 PT: fresh 	 STATE: True 
+
+[2025-03-13 19:01:16,711 - tester - INFO] - ID: 814 	 GT: nocambridge 	 PT: nocambridge 	 STATE: True 
+
+[2025-03-13 19:01:16,716 - tester - INFO] - ID: 815 	 GT: 3 	 PT: 3 	 STATE: True 
+
+[2025-03-13 19:01:16,721 - tester - INFO] - ID: 816 	 GT: restaurant 	 PT: restaurant 	 STATE: True 
+
+[2025-03-13 19:01:16,725 - tester - INFO] - ID: 817 	 GT: park 	 PT: park 	 STATE: True 
+
+[2025-03-13 19:01:16,730 - tester - INFO] - ID: 818 	 GT: westmall 	 PT: westmalle 	 STATE: False 
+
+[2025-03-13 19:01:16,735 - tester - INFO] - ID: 819 	 GT: waltzer 	 PT: palter 	 STATE: False 
+
+[2025-03-13 19:01:16,740 - tester - INFO] - ID: 820 	 GT: ouch 	 PT: ouch 	 STATE: True 
+
+[2025-03-13 19:01:16,745 - tester - INFO] - ID: 821 	 GT: showtime 	 PT: showtime 	 STATE: True 
+
+[2025-03-13 19:01:16,749 - tester - INFO] - ID: 822 	 GT:  	 PT:  	 STATE: True 
+
+[2025-03-13 19:01:16,754 - tester - INFO] - ID: 823 	 GT: rex 	 PT: rex 	 STATE: True 
+
+[2025-03-13 19:01:16,759 - tester - INFO] - ID: 824 	 GT: shot 	 PT: shot 	 STATE: True 
+
+[2025-03-13 19:01:16,764 - tester - INFO] - ID: 825 	 GT: strong 	 PT: strong 	 STATE: True 
+
+[2025-03-13 19:01:16,768 - tester - INFO] - ID: 826 	 GT: fanta 	 PT: fanta 	 STATE: True 
+
+[2025-03-13 19:01:16,773 - tester - INFO] - ID: 827 	 GT: douglaw 	 PT: douglas 	 STATE: False 
+
+[2025-03-13 19:01:16,778 - tester - INFO] - ID: 828 	 GT: coffee 	 PT: coffee 	 STATE: True 
+
+[2025-03-13 19:01:16,782 - tester - INFO] - ID: 829 	 GT: cheffe 	 PT: cheffe 	 STATE: True 
+
+[2025-03-13 19:01:16,787 - tester - INFO] - ID: 830 	 GT: james 	 PT: james 	 STATE: True 
+
+[2025-03-13 19:01:16,792 - tester - INFO] - ID: 831 	 GT: efc 	 PT: efg 	 STATE: False 
+
+[2025-03-13 19:01:16,797 - tester - INFO] - ID: 832 	 GT: ilgirarrosto 	 PT: ilgirarrosto 	 STATE: True 
+
+[2025-03-13 19:01:16,802 - tester - INFO] - ID: 833 	 GT: whamm 	 PT: whamm 	 STATE: True 
+
+[2025-03-13 19:01:16,806 - tester - INFO] - ID: 834 	 GT: mr 	 PT: mr 	 STATE: True 
+
+[2025-03-13 19:01:16,811 - tester - INFO] - ID: 835 	 GT: la 	 PT: lo 	 STATE: False 
+
+[2025-03-13 19:01:16,816 - tester - INFO] - ID: 836 	 GT: boyi 	 PT: boyi 	 STATE: True 
+
+[2025-03-13 19:01:16,821 - tester - INFO] - ID: 837 	 GT: gindaco 	 PT: gindaco 	 STATE: True 
+
+[2025-03-13 19:01:16,825 - tester - INFO] - ID: 838 	 GT: 1991 	 PT: 1991 	 STATE: True 
+
+[2025-03-13 19:01:16,830 - tester - INFO] - ID: 839 	 GT: welhnachts 	 PT: movkracnns 	 STATE: False 
+
+[2025-03-13 19:01:16,835 - tester - INFO] - ID: 840 	 GT: jelly 	 PT: jelly 	 STATE: True 
+
+[2025-03-13 19:01:16,839 - tester - INFO] - ID: 841 	 GT: spianata 	 PT: spirnata 	 STATE: False 
+
+[2025-03-13 19:01:16,844 - tester - INFO] - ID: 842 	 GT: triple 	 PT: triple 	 STATE: True 
+
+[2025-03-13 19:01:16,849 - tester - INFO] - ID: 843 	 GT: arrdas 	 PT: arroas 	 STATE: False 
+
+[2025-03-13 19:01:16,853 - tester - INFO] - ID: 844 	 GT: aeop 	 PT: aeop 	 STATE: True 
+
+[2025-03-13 19:01:16,858 - tester - INFO] - ID: 845 	 GT: 48 	 PT: 48 	 STATE: True 
+
+[2025-03-13 19:01:16,863 - tester - INFO] - ID: 846 	 GT: toscana 	 PT: toscana 	 STATE: True 
+
+[2025-03-13 19:01:16,867 - tester - INFO] - ID: 847 	 GT: pizza 	 PT: pizza 	 STATE: True 
+
+[2025-03-13 19:01:16,872 - tester - INFO] - ID: 848 	 GT: original 	 PT: tatii 	 STATE: False 
+
+[2025-03-13 19:01:16,877 - tester - INFO] - ID: 849 	 GT: cialatta 	 PT: cialatta 	 STATE: True 
+
+[2025-03-13 19:01:16,881 - tester - INFO] - ID: 850 	 GT: boxtrolls 	 PT: boxtrolls 	 STATE: True 
+
+[2025-03-13 19:01:16,886 - tester - INFO] - ID: 851 	 GT: drink 	 PT: drink 	 STATE: True 
+
+[2025-03-13 19:01:16,891 - tester - INFO] - ID: 852 	 GT: thwap 	 PT: thwap 	 STATE: True 
+
+[2025-03-13 19:01:16,895 - tester - INFO] - ID: 853 	 GT: honest 	 PT: honest 	 STATE: True 
+
+[2025-03-13 19:01:16,900 - tester - INFO] - ID: 854 	 GT: fj 	 PT: 6 	 STATE: False 
+
+[2025-03-13 19:01:16,904 - tester - INFO] - ID: 855 	 GT: les 	 PT: lep 	 STATE: False 
+
+[2025-03-13 19:01:16,909 - tester - INFO] - ID: 856 	 GT: rogue 	 PT: rogue 	 STATE: True 
+
+[2025-03-13 19:01:16,914 - tester - INFO] - ID: 857 	 GT: all 	 PT: am 	 STATE: False 
+
+[2025-03-13 19:01:16,919 - tester - INFO] - ID: 858 	 GT: feac 	 PT: flac 	 STATE: False 
+
+[2025-03-13 19:01:16,923 - tester - INFO] - ID: 859 	 GT: caul 	 PT: saul 	 STATE: False 
+
+[2025-03-13 19:01:16,928 - tester - INFO] - ID: 860 	 GT: prabhuji 	 PT: frabhuji 	 STATE: False 
+
+[2025-03-13 19:01:16,933 - tester - INFO] - ID: 861 	 GT: santiago 	 PT: santiago 	 STATE: True 
+
+[2025-03-13 19:01:16,937 - tester - INFO] - ID: 862 	 GT: city 	 PT: city 	 STATE: True 
+
+[2025-03-13 19:01:16,942 - tester - INFO] - ID: 863 	 GT: abe 	 PT: acc 	 STATE: False 
+
+[2025-03-13 19:01:16,947 - tester - INFO] - ID: 864 	 GT: bells 	 PT: bells 	 STATE: True 
+
+[2025-03-13 19:01:16,952 - tester - INFO] - ID: 865 	 GT: shohoku 	 PT: shohoku 	 STATE: True 
+
+[2025-03-13 19:01:16,956 - tester - INFO] - ID: 866 	 GT: tellme 	 PT: tellme 	 STATE: True 
+
+[2025-03-13 19:01:16,961 - tester - INFO] - ID: 867 	 GT: zhouheiya 	 PT: zhouheya 	 STATE: False 
+
+[2025-03-13 19:01:16,966 - tester - INFO] - ID: 868 	 GT: warsteiner 	 PT: warsfetner 	 STATE: False 
+
+[2025-03-13 19:01:16,970 - tester - INFO] - ID: 869 	 GT: galcos 	 PT: galcos 	 STATE: True 
+
+[2025-03-13 19:01:16,975 - tester - INFO] - ID: 870 	 GT: pizzahut 	 PT: pizzahuu 	 STATE: False 
+
+[2025-03-13 19:01:16,979 - tester - INFO] - ID: 871 	 GT: maddogs 	 PT: maddogs 	 STATE: True 
+
+[2025-03-13 19:01:16,984 - tester - INFO] - ID: 872 	 GT: motor 	 PT: motor 	 STATE: True 
+
+[2025-03-13 19:01:16,989 - tester - INFO] - ID: 873 	 GT: business 	 PT: business 	 STATE: True 
+
+[2025-03-13 19:01:16,993 - tester - INFO] - ID: 874 	 GT: greetings 	 PT: greitings 	 STATE: False 
+
+[2025-03-13 19:01:16,998 - tester - INFO] - ID: 875 	 GT: jake 	 PT: jake 	 STATE: True 
+
+[2025-03-13 19:01:17,002 - tester - INFO] - ID: 876 	 GT: kickoff 	 PT: kickoff 	 STATE: True 
+
+[2025-03-13 19:01:17,007 - tester - INFO] - ID: 877 	 GT: jiao 	 PT: jiao 	 STATE: True 
+
+[2025-03-13 19:01:17,011 - tester - INFO] - ID: 878 	 GT: wistaria 	 PT: wistaria 	 STATE: True 
+
+[2025-03-13 19:01:17,016 - tester - INFO] - ID: 879 	 GT: lucky 	 PT: wokk 	 STATE: False 
+
+[2025-03-13 19:01:17,020 - tester - INFO] - ID: 880 	 GT: hope 	 PT: hope 	 STATE: True 
+
+[2025-03-13 19:01:17,024 - tester - INFO] - ID: 881 	 GT: ofnew 	 PT: ofnew 	 STATE: True 
+
+[2025-03-13 19:01:17,029 - tester - INFO] - ID: 882 	 GT: lotor 	 PT: lotor 	 STATE: True 
+
+[2025-03-13 19:01:17,033 - tester - INFO] - ID: 883 	 GT: body 	 PT: body 	 STATE: True 
+
+[2025-03-13 19:01:17,038 - tester - INFO] - ID: 884 	 GT: lady 	 PT: lady 	 STATE: True 
+
+[2025-03-13 19:01:17,042 - tester - INFO] - ID: 885 	 GT: the 	 PT: the 	 STATE: True 
+
+[2025-03-13 19:01:17,047 - tester - INFO] - ID: 886 	 GT: house 	 PT: house 	 STATE: True 
+
+[2025-03-13 19:01:17,051 - tester - INFO] - ID: 887 	 GT: high 	 PT: high 	 STATE: True 
+
+[2025-03-13 19:01:17,056 - tester - INFO] - ID: 888 	 GT: toysrus 	 PT: toysaus 	 STATE: False 
+
+[2025-03-13 19:01:17,060 - tester - INFO] - ID: 889 	 GT: small 	 PT: small 	 STATE: True 
+
+[2025-03-13 19:01:17,065 - tester - INFO] - ID: 890 	 GT: seabreeze 	 PT: ceabreeze 	 STATE: False 
+
+[2025-03-13 19:01:17,069 - tester - INFO] - ID: 891 	 GT: pizza2001 	 PT: pizza2001 	 STATE: True 
+
+[2025-03-13 19:01:17,073 - tester - INFO] - ID: 892 	 GT: perfect 	 PT: perfect 	 STATE: True 
+
+[2025-03-13 19:01:17,078 - tester - INFO] - ID: 893 	 GT: bng 	 PT: bng 	 STATE: True 
+
+[2025-03-13 19:01:17,082 - tester - INFO] - ID: 894 	 GT: electrics 	 PT: stect 	 STATE: False 
+
+[2025-03-13 19:01:17,086 - tester - INFO] - ID: 895 	 GT: fab 	 PT: fab 	 STATE: True 
+
+[2025-03-13 19:01:17,090 - tester - INFO] - ID: 896 	 GT: zododo 	 PT: ziiiii 	 STATE: False 
+
+[2025-03-13 19:01:17,095 - tester - INFO] - ID: 897 	 GT: telicaiano 	 PT: teliciiano 	 STATE: False 
+
+[2025-03-13 19:01:17,099 - tester - INFO] - ID: 898 	 GT: t62400 	 PT: t62400 	 STATE: True 
+
+[2025-03-13 19:01:17,103 - tester - INFO] - ID: 899 	 GT: mrmao 	 PT: himao 	 STATE: False 
+
+[2025-03-13 19:01:17,124 - test - INFO] - Word_acc: 0.688889 Word_acc_case_ins: 0.688889 Edit_distance_acc: 0.904555
+[2025-03-13 19:01:17,124 - test - INFO] - Testing end...
