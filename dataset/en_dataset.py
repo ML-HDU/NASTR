@@ -130,12 +130,6 @@ class LmdbDataset(Dataset):
                 except IOError:
                     print('Error Image for {}'.format(image_key))
 
-                # # rotate vertical images by measure the aspect ratio
-                # # 因为旋转 90 度的操作，对于 multi-oriented 和 general 的影响很大，所以需要不使用 rotate 再训练模型，测试一下，这样可以和Union 14M 论文中其他方法的 处理方式 对齐
-                # width, height = img.size
-                # if height > width:
-                #     img = img.transpose(Image.ROTATE_90)
-
                 if self.transform is not None:
                     img, width_ratio = self.transform(img)
 
